@@ -22,4 +22,25 @@ const longestPalindrome_func1 = (s) => {
   }
   return result
 }
-// console.log(longestPalindrome_func1('babad'))
+const longestPalindrome_func2 = (s) => {
+  let start = 0
+  let end = 0
+  let max = 0
+  for (let i = 0; i < s.length; i++) {
+    expandAroundCenter(i, i)
+    expandAroundCenter(i, i + 1)
+  }
+  function expandAroundCenter(left, right) {
+    while (left >= 0 && right < s.length && s[left] === s[right]) {
+      left--
+      right++
+    }
+    if (right - left - 1 > max) {
+      max = right - left - 1
+      start = left + 1
+      end = right
+    }
+  }
+  return s.substring(start, end)
+}
+console.log(longestPalindrome_func2('bb'))
