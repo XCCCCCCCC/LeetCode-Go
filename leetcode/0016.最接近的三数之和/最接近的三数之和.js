@@ -8,11 +8,11 @@ const threeSumClosest_func1 = (nums, target) => {
       const sum = nums[i] + nums[L] + nums[R]
       if (Math.abs(sum - target) < Math.abs(temp - target)) {
         temp = nums[i] + nums[L] + nums[R]
-      }
-      if (sum >= target) {
+        L++
         R--
-      }
-      if (sum < target) {
+      } else if (sum >= target) {
+        R--
+      } else if (sum < target) {
         L++
       }
     }
