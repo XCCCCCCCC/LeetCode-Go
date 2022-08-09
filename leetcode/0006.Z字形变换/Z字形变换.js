@@ -40,7 +40,7 @@ const convert_func2 = (s, numRows) => {
   let down = false
   for (let c of s) {
     rows[loc] += c
-    if (loc === numRows - 1 || !loc) {
+    if (loc === len - 1 || !loc) {
       down = !down
     }
     loc += down ? 1 : -1
