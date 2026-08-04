@@ -29,6 +29,3 @@ const search_func2 = (nums, target) => {
   }
   return left === right && target === nums[left] ? left : -1
 }
-
-let a = search_func2([4, 5, 6, 7, 0, 1, 2], 7)
-console.log(a)

@@ -1,3 +1,8 @@
+<!-- hot100-meta:start -->
+> Hot 100 · 二分查找 · 中等 · 已有代码与测试
+> [33. 搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/) · 标签：数组 / 二分查找
+<!-- hot100-meta:end -->
+
 # [搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/)
 
 整数数组 nums 按升序排列，数组中的值 互不相同 。
@@ -29,3 +34,21 @@
 ## 解题思路
 **思路1**：二分法，应时间复杂度要求，题目符合二分法的场景。两段区间必有一段是升序排列，收敛查找到该元素。
 通过升序区间去判断收敛。如果nums[left] <= nums[right]，则判断mid，若nums[left] <= target <= nums[mid]，则向前收敛(right = mid)，否则向后收敛(left = mid + 1)。
+
+<!-- hot100-training:start -->
+## 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：模型识别 / 不变量 / 边界条件 / 实现错误 / 复杂度 / 调试低效
+- 最小反例：
+- D+1：
+- D+3：
+- D+7：
+<!-- hot100-training:end -->

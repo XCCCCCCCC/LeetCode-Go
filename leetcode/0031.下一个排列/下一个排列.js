@@ -25,5 +25,3 @@ const nextPermutation_func1 = (nums) => {
 const nextPermutation_func2 = (nums) => {}
 // let a = nextPermutation_func1([1, 2, 3, 4, 8, 6, 5])
 // let a = nextPermutation_func1([8, 6, 5, 4, 3, 2, 1])
-let a = nextPermutation_func1([1, 2, 3, 4, 5])
-console.log(a)

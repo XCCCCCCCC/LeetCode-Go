@@ -34,5 +34,3 @@ const findSubstring_func1 = (s, words) => {
 }
 // const a = findSubstring_func1('wordgoodgoodgoodbestword', ['word', 'good', 'best', 'word'])
 // const a = findSubstring_func1('barfoothefoobarman', ['foo', 'bar'])
-const a = findSubstring_func1('barfoofoobarthefoobarman', ['bar', 'foo', 'the'])
-console.log(a)

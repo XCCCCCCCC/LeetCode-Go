@@ -21,5 +21,3 @@ const combinationSum_func1 = (candidates, target) => {
   backTrack(target, 0)
   return result
 }
-let a = combinationSum_func1([2, 3, 6, 7], 7)
-console.log(a)

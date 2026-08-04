@@ -13,5 +13,3 @@ const searchInsert_func1 = (nums, target) => {
   }
   return left
 }
-let a = searchInsert_func1([1, 3, 5, 6], 2)
-console.log(a)

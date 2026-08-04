@@ -16,5 +16,3 @@ const romanToInt_func1 = (s) => {
   }
   return temp
 }
-let a = romanToInt_func1('MCMXCIV')
-console.log(a)

@@ -36,5 +36,3 @@ const letterCombinations_func1 = (digits) => {
   pushLetters(map[digits[i]])
   return temp
 }
-let a = letterCombinations_func1('2356')
-console.log(a)

@@ -68,5 +68,3 @@ const searchRange_func2 = (nums, target) => {
   }
   return [searchFirst(), searchLast()]
 }
-let a = searchRange_func2([1, 8, 8, 8, 8, 8, 8, 9, 10, 11, 23], 8)
-console.log(a)

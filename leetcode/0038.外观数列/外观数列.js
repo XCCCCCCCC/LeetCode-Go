@@ -21,5 +21,3 @@ const countAndSay = (n) => {
   }
   return say
 }
-let a = countAndSay(5)
-console.log(a)

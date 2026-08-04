@@ -38,5 +38,3 @@ const fourSum_func1 = (nums, target) => {
   }
   return temp
 }
-let a = fourSum_func1([2, 2, 2, 2, 2], 8)
-console.log(a)

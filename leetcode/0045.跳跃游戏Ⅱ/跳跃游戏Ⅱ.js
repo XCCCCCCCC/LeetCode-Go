@@ -24,5 +24,3 @@ const jump_func1 = (nums) => {
   }
   return ans
 }
-let a = jump_func1([1, 2, 1, 3, 4, 6, 3])
-console.log(a)

@@ -22,5 +22,3 @@ const permuteUnique_func1 = (nums) => {
   backTrack()
   return result
 }
-let a = permuteUnique_func1([3, 3, 0, 3])
-console.log(a)

@@ -16,5 +16,3 @@ const firstMissingPositive_func2 = (nums) => {
   }
   return temp
 }
-let a = firstMissingPositive_func1([3, 4, -1, 1])
-console.log(a)

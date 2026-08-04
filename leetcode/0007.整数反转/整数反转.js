@@ -16,4 +16,3 @@ const reverse_func1 = (x) => {
   }
   return temp
 }
-reverse_func1(-123000)

@@ -43,4 +43,3 @@ const longestPalindrome_func2 = (s) => {
   }
   return s.substring(start, end)
 }
-console.log(longestPalindrome_func2('bb'))

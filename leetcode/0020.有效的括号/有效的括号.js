@@ -13,5 +13,3 @@ const isValid_func1 = (s) => {
   }
   return temp.length === 0
 }
-let a = isValid_func1('()]')
-console.log(a)

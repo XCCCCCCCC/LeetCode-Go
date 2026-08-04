@@ -16,5 +16,3 @@ const intToRoman_func1 = (num) => {
   }
   return temp
 }
-let a = intToRoman_func1(1003)
-console.log(a)

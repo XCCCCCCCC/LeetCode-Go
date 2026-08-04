@@ -18,5 +18,3 @@ const isPalindrome_func2 = (x) => {
   }
   return temp === x
 }
-const a = isPalindrome_func2(123)
-console.log(a)

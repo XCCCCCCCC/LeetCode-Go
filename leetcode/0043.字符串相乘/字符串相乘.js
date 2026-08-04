@@ -36,5 +36,3 @@ const multiply_func1 = (num1, num2) => {
   }
   return result.split('').reverse().join('')
 }
-let a = multiply_func1('123', '987')
-console.log(a)

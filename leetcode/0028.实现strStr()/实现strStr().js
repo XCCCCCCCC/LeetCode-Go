@@ -9,5 +9,3 @@ const strStr_func1 = (haystack, needle) => {
   }
   return -1
 }
-let a = strStr_func1('hello', 'll')
-console.log(a)

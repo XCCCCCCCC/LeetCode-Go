@@ -14,5 +14,3 @@ const divide_func1 = (dividend, divisor) => {
   }
   return sign ? -temp : temp
 }
-let a = divide_func1()
-console.log(a)

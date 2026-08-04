@@ -25,5 +25,3 @@ const maxArea_func2 = (height) => {
   }
   return temp
 }
-let a = maxArea_func2([1, 1])
-console.log(a)

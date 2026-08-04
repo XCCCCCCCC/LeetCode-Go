@@ -27,5 +27,3 @@ const twoSun_func3 = (nums, target) => {
     temp.set(nums[i], i)
   }
 }
-
-twoSun_func2([2, 7, 11, 15], 9)

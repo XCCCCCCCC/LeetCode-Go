@@ -21,5 +21,3 @@ const longestCommonPrefix = (strs) => {
   }
   return prefix
 }
-let a = longestCommonPrefix(['faf', 'fadadadada', 'fass'])
-console.log(a)

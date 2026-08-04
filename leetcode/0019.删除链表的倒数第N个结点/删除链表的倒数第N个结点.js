@@ -33,5 +33,3 @@ const removeNthFromEnd_func2 = (head, n) => {
   gun.next = gun.next.next
   return head
 }
-let a = removeNthFromEnd_func2([1, 2, 3, 4, 5], 2)
-console.log(a)

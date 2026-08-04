@@ -34,5 +34,3 @@ const myAtoi_func2 = (s) => {
   }
   return result * isMinus
 }
-let a = myAtoi_func2(' -42')
-console.log(a)

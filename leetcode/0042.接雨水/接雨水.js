@@ -17,5 +17,3 @@ const trap_func1 = (height) => {
   }
   return result
 }
-let a = trap_func1([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1])
-console.log(a)

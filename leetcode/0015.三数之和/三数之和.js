@@ -34,5 +34,3 @@ const threeSum_func1 = (nums) => {
   }
   return temp
 }
-let a = threeSum_func1([0])
-console.log(a)

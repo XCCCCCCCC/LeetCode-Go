@@ -51,4 +51,3 @@ const convert_func2 = (s, numRows) => {
   }
   return result
 }
-convert_func2('PAYPALISHIRING', 4)

@@ -35,5 +35,3 @@ const longestValidParentheses_func2 = (s) => {
   }
   return temp
 }
-let a = longestValidParentheses_func2('()()')
-console.log(a)

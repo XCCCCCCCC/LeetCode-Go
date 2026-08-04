@@ -19,5 +19,3 @@ const threeSumClosest_func1 = (nums, target) => {
   }
   return temp
 }
-let a = threeSumClosest_func1([1, 1, 1, 0], 100)
-console.log(a)

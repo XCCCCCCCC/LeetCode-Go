@@ -22,5 +22,3 @@ const removeDuplicates_func2 = (nums) => {
   }
   return slow
 }
-let a = removeDuplicates_func1([1, 2, 2, 3, 4, 5, 5, 7])
-console.log(a)

@@ -21,5 +21,3 @@ const permute_func1 = (nums) => {
   backTrack()
   return result
 }
-let a = permute_func1([1])
-console.log(a)

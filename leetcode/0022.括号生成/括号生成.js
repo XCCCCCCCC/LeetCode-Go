@@ -25,5 +25,3 @@ const generateParenthesis_func1 = (n) => {
   })
   return temp
 }
-let a = generateParenthesis_func1(8)
-console.log(a)
