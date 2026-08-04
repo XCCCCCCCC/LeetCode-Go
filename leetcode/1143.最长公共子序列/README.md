@@ -5,10 +5,6 @@
 
 # [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/)
 
-## 题意摘要
-
-> 用自己的话概括输入、输出和约束，不复制整段题面。
-
 ## 解题思路
 
 - 暴力解法：
@@ -17,7 +13,52 @@
 
 ## 边界条件
 
-- 
+-
+
+<!-- hot100-problem:start -->
+## 题目说明（本地训练版）
+
+求两个字符串的最长公共子序列长度。
+
+### 官方示例
+
+#### 示例 1
+
+```text
+text1 = "abcde"
+text2 = "ace"
+输出 = 3
+```
+
+#### 示例 2
+
+```text
+text1 = "abc"
+text2 = "abc"
+输出 = 3
+```
+
+#### 示例 3
+
+```text
+text1 = "abc"
+text2 = "def"
+输出 = 0
+```
+
+### 约束与训练提示
+
+- 1
+- text1 和 text2 仅由小写英文字符组成。
+- 子序列可以删除字符但不能改变顺序。
+- 字符相同时使用左上状态加一，否则取上方和左方较大值。
+
+### 本题测试
+
+```bash
+npm run test:problem -- 1143
+```
+<!-- hot100-problem:end -->
 
 <!-- hot100-training:start -->
 ## 训练复盘

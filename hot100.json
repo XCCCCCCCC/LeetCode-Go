@@ -17,7 +17,69 @@
       "directory": "leetcode/0001.两数之和",
       "solutionFile": "leetcode/0001.两数之和/两数之和.js",
       "testFile": "leetcode/0001.两数之和/两数之和.test.js",
-      "created": false
+      "created": false,
+      "entryName": "twoSun_func2",
+      "meta": {
+        "name": "twoSum",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          },
+          {
+            "name": "target",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "integer[]",
+          "size": 2
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              2,
+              7,
+              11,
+              15
+            ],
+            "target": 9
+          },
+          "expected": [
+            0,
+            1
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              3,
+              2,
+              4
+            ],
+            "target": 6
+          },
+          "expected": [
+            1,
+            2
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              3,
+              3
+            ],
+            "target": 6
+          },
+          "expected": [
+            0,
+            1
+          ]
+        }
+      ]
     },
     {
       "id": 49,
@@ -35,7 +97,73 @@
       "directory": "leetcode/0049.字母异位词分组",
       "solutionFile": "leetcode/0049.字母异位词分组/字母异位词分组.js",
       "testFile": "leetcode/0049.字母异位词分组/字母异位词分组.test.js",
-      "created": false
+      "created": false,
+      "entryName": "groupAnagrams2",
+      "meta": {
+        "name": "groupAnagrams",
+        "params": [
+          {
+            "name": "strs",
+            "type": "string[]"
+          }
+        ],
+        "return": {
+          "type": "list<list<string>>",
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "strs": [
+              "eat",
+              "tea",
+              "tan",
+              "ate",
+              "nat",
+              "bat"
+            ]
+          },
+          "expected": [
+            [
+              "bat"
+            ],
+            [
+              "nat",
+              "tan"
+            ],
+            [
+              "ate",
+              "eat",
+              "tea"
+            ]
+          ]
+        },
+        {
+          "input": {
+            "strs": [
+              ""
+            ]
+          },
+          "expected": [
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "input": {
+            "strs": [
+              "a"
+            ]
+          },
+          "expected": [
+            [
+              "a"
+            ]
+          ]
+        }
+      ]
     },
     {
       "id": 128,
@@ -52,7 +180,63 @@
       "directory": "leetcode/0128.最长连续序列",
       "solutionFile": "leetcode/0128.最长连续序列/最长连续序列.js",
       "testFile": "leetcode/0128.最长连续序列/最长连续序列.test.js",
-      "created": false
+      "created": false,
+      "entryName": "longestConsecutive",
+      "meta": {
+        "name": "longestConsecutive",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              100,
+              4,
+              200,
+              1,
+              3,
+              2
+            ]
+          },
+          "expected": 4
+        },
+        {
+          "input": {
+            "nums": [
+              0,
+              3,
+              7,
+              2,
+              5,
+              8,
+              4,
+              6,
+              0,
+              1
+            ]
+          },
+          "expected": 9
+        },
+        {
+          "input": {
+            "nums": [
+              1,
+              0,
+              1,
+              2
+            ]
+          },
+          "expected": 3
+        }
+      ]
     },
     {
       "id": 283,
@@ -68,7 +252,53 @@
       "directory": "leetcode/0283.移动零",
       "solutionFile": "leetcode/0283.移动零/移动零.js",
       "testFile": "leetcode/0283.移动零/移动零.test.js",
-      "created": false
+      "created": false,
+      "entryName": "moveZeroes",
+      "meta": {
+        "name": "moveZeroes",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "void"
+        },
+        "output": {
+          "paramindex": 0
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              0,
+              1,
+              0,
+              3,
+              12
+            ]
+          },
+          "expected": [
+            1,
+            3,
+            12,
+            0,
+            0
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              0
+            ]
+          },
+          "expected": [
+            0
+          ]
+        }
+      ]
     },
     {
       "id": 11,
@@ -85,7 +315,47 @@
       "directory": "leetcode/0011.盛最多水的容器",
       "solutionFile": "leetcode/0011.盛最多水的容器/盛最多水的容器.js",
       "testFile": "leetcode/0011.盛最多水的容器/盛最多水的容器.test.js",
-      "created": false
+      "created": false,
+      "entryName": "maxArea_func2",
+      "meta": {
+        "name": "maxArea",
+        "params": [
+          {
+            "name": "height",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "height": [
+              1,
+              8,
+              6,
+              2,
+              5,
+              4,
+              8,
+              3,
+              7
+            ]
+          },
+          "expected": 49
+        },
+        {
+          "input": {
+            "height": [
+              1,
+              1
+            ]
+          },
+          "expected": 1
+        }
+      ]
     },
     {
       "id": 15,
@@ -102,7 +372,74 @@
       "directory": "leetcode/0015.三数之和",
       "solutionFile": "leetcode/0015.三数之和/三数之和.js",
       "testFile": "leetcode/0015.三数之和/三数之和.test.js",
-      "created": false
+      "created": false,
+      "entryName": "threeSum_func1",
+      "meta": {
+        "name": "threeSum",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "list<list<integer>>",
+          "colsize": 3,
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              -1,
+              0,
+              1,
+              2,
+              -1,
+              -4
+            ]
+          },
+          "expected": [
+            [
+              -1,
+              -1,
+              2
+            ],
+            [
+              -1,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              0,
+              1,
+              1
+            ]
+          },
+          "expected": []
+        },
+        {
+          "input": {
+            "nums": [
+              0,
+              0,
+              0
+            ]
+          },
+          "expected": [
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
     },
     {
       "id": 42,
@@ -121,7 +458,54 @@
       "directory": "leetcode/0042.接雨水",
       "solutionFile": "leetcode/0042.接雨水/接雨水.js",
       "testFile": "leetcode/0042.接雨水/接雨水.test.js",
-      "created": false
+      "created": false,
+      "entryName": "trap_func1",
+      "meta": {
+        "name": "trap",
+        "params": [
+          {
+            "name": "height",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "height": [
+              0,
+              1,
+              0,
+              2,
+              1,
+              0,
+              1,
+              3,
+              2,
+              1,
+              2,
+              1
+            ]
+          },
+          "expected": 6
+        },
+        {
+          "input": {
+            "height": [
+              4,
+              2,
+              0,
+              3,
+              2,
+              5
+            ]
+          },
+          "expected": 9
+        }
+      ]
     },
     {
       "id": 3,
@@ -138,7 +522,40 @@
       "directory": "leetcode/0003.无重复字符的最长子串",
       "solutionFile": "leetcode/0003.无重复字符的最长子串/无重复字符的最长子串.js",
       "testFile": "leetcode/0003.无重复字符的最长子串/无重复字符的最长子串.test.js",
-      "created": false
+      "created": false,
+      "entryName": "lengthOfLongestSubString_func2",
+      "meta": {
+        "name": "lengthOfLongestSubstring",
+        "params": [
+          {
+            "name": "s",
+            "type": "string"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "s": "abcabcbb"
+          },
+          "expected": 3
+        },
+        {
+          "input": {
+            "s": "bbbbb"
+          },
+          "expected": 1
+        },
+        {
+          "input": {
+            "s": "pwwkew"
+          },
+          "expected": 3
+        }
+      ]
     },
     {
       "id": 438,
@@ -155,7 +572,47 @@
       "directory": "leetcode/0438.找到字符串中所有字母异位词",
       "solutionFile": "leetcode/0438.找到字符串中所有字母异位词/找到字符串中所有字母异位词.js",
       "testFile": "leetcode/0438.找到字符串中所有字母异位词/找到字符串中所有字母异位词.test.js",
-      "created": false
+      "created": false,
+      "entryName": "findAnagrams",
+      "meta": {
+        "name": "findAnagrams",
+        "params": [
+          {
+            "name": "s",
+            "type": "string"
+          },
+          {
+            "name": "p",
+            "type": "string"
+          }
+        ],
+        "return": {
+          "type": "list<integer>"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "s": "cbaebabacd",
+            "p": "abc"
+          },
+          "expected": [
+            0,
+            6
+          ]
+        },
+        {
+          "input": {
+            "s": "abab",
+            "p": "ab"
+          },
+          "expected": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
     },
     {
       "id": 560,
@@ -172,7 +629,48 @@
       "directory": "leetcode/0560.和为K的子数组",
       "solutionFile": "leetcode/0560.和为K的子数组/和为K的子数组.js",
       "testFile": "leetcode/0560.和为K的子数组/和为K的子数组.test.js",
-      "created": false
+      "created": false,
+      "entryName": "subarraySum",
+      "meta": {
+        "name": "subarraySum",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          },
+          {
+            "name": "k",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              1,
+              1,
+              1
+            ],
+            "k": 2
+          },
+          "expected": 2
+        },
+        {
+          "input": {
+            "nums": [
+              1,
+              2,
+              3
+            ],
+            "k": 3
+          },
+          "expected": 2
+        }
+      ]
     },
     {
       "id": 239,
@@ -192,7 +690,60 @@
       "directory": "leetcode/0239.滑动窗口最大值",
       "solutionFile": "leetcode/0239.滑动窗口最大值/滑动窗口最大值.js",
       "testFile": "leetcode/0239.滑动窗口最大值/滑动窗口最大值.test.js",
-      "created": false
+      "created": false,
+      "entryName": "maxSlidingWindow",
+      "meta": {
+        "name": "maxSlidingWindow",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          },
+          {
+            "name": "k",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "integer[]"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              1,
+              3,
+              -1,
+              -3,
+              5,
+              3,
+              6,
+              7
+            ],
+            "k": 3
+          },
+          "expected": [
+            3,
+            3,
+            5,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              1
+            ],
+            "k": 1
+          },
+          "expected": [
+            1
+          ]
+        }
+      ]
     },
     {
       "id": 76,
@@ -209,7 +760,47 @@
       "directory": "leetcode/0076.最小覆盖子串",
       "solutionFile": "leetcode/0076.最小覆盖子串/最小覆盖子串.js",
       "testFile": "leetcode/0076.最小覆盖子串/最小覆盖子串.test.js",
-      "created": false
+      "created": false,
+      "entryName": "minWindow",
+      "meta": {
+        "name": "minWindow",
+        "params": [
+          {
+            "name": "s",
+            "type": "string"
+          },
+          {
+            "name": "t",
+            "type": "string"
+          }
+        ],
+        "return": {
+          "type": "string"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "s": "ADOBECODEBANC",
+            "t": "ABC"
+          },
+          "expected": "BANC"
+        },
+        {
+          "input": {
+            "s": "a",
+            "t": "a"
+          },
+          "expected": "a"
+        },
+        {
+          "input": {
+            "s": "a",
+            "t": "aa"
+          },
+          "expected": ""
+        }
+      ]
     },
     {
       "id": 53,
@@ -226,7 +817,58 @@
       "directory": "leetcode/0053.最大子数组和",
       "solutionFile": "leetcode/0053.最大子数组和/最大子数组和.js",
       "testFile": "leetcode/0053.最大子数组和/最大子数组和.test.js",
-      "created": false
+      "created": false,
+      "entryName": "maxSubArray",
+      "meta": {
+        "name": "maxSubArray",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              -2,
+              1,
+              -3,
+              4,
+              -1,
+              2,
+              1,
+              -5,
+              4
+            ]
+          },
+          "expected": 6
+        },
+        {
+          "input": {
+            "nums": [
+              1
+            ]
+          },
+          "expected": 1
+        },
+        {
+          "input": {
+            "nums": [
+              5,
+              4,
+              -1,
+              7,
+              8
+            ]
+          },
+          "expected": 23
+        }
+      ]
     },
     {
       "id": 56,
@@ -243,7 +885,98 @@
       "directory": "leetcode/0056.合并区间",
       "solutionFile": "leetcode/0056.合并区间/合并区间.js",
       "testFile": "leetcode/0056.合并区间/合并区间.test.js",
-      "created": false
+      "created": false,
+      "entryName": "merge",
+      "meta": {
+        "name": "merge",
+        "params": [
+          {
+            "name": "intervals",
+            "type": "integer[][]"
+          }
+        ],
+        "return": {
+          "type": "integer[][]"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "intervals": [
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                8,
+                10
+              ],
+              [
+                15,
+                18
+              ]
+            ]
+          },
+          "expected": [
+            [
+              1,
+              6
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              15,
+              18
+            ]
+          ]
+        },
+        {
+          "input": {
+            "intervals": [
+              [
+                1,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ]
+          },
+          "expected": [
+            [
+              1,
+              5
+            ]
+          ]
+        },
+        {
+          "input": {
+            "intervals": [
+              [
+                4,
+                7
+              ],
+              [
+                1,
+                4
+              ]
+            ]
+          },
+          "expected": [
+            [
+              1,
+              7
+            ]
+          ]
+        }
+      ]
     },
     {
       "id": 189,
@@ -260,7 +993,69 @@
       "directory": "leetcode/0189.轮转数组",
       "solutionFile": "leetcode/0189.轮转数组/轮转数组.js",
       "testFile": "leetcode/0189.轮转数组/轮转数组.test.js",
-      "created": false
+      "created": false,
+      "entryName": "rotate",
+      "meta": {
+        "name": "rotate",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          },
+          {
+            "name": "k",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "void"
+        },
+        "output": {
+          "paramindex": 0
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "k": 3
+          },
+          "expected": [
+            5,
+            6,
+            7,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              -1,
+              -100,
+              3,
+              99
+            ],
+            "k": 2
+          },
+          "expected": [
+            3,
+            99,
+            -1,
+            -100
+          ]
+        }
+      ]
     },
     {
       "id": 238,
@@ -276,7 +1071,56 @@
       "directory": "leetcode/0238.除了自身以外数组的乘积",
       "solutionFile": "leetcode/0238.除了自身以外数组的乘积/除了自身以外数组的乘积.js",
       "testFile": "leetcode/0238.除了自身以外数组的乘积/除了自身以外数组的乘积.test.js",
-      "created": false
+      "created": false,
+      "entryName": "productExceptSelf",
+      "meta": {
+        "name": "productExceptSelf",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "integer[]"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          "expected": [
+            24,
+            12,
+            8,
+            6
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              -1,
+              1,
+              0,
+              -3,
+              3
+            ]
+          },
+          "expected": [
+            0,
+            0,
+            9,
+            0,
+            0
+          ]
+        }
+      ]
     },
     {
       "id": 41,
@@ -292,7 +1136,55 @@
       "directory": "leetcode/0041.缺失的第一个正数",
       "solutionFile": "leetcode/0041.缺失的第一个正数/缺失的第一个正数.js",
       "testFile": "leetcode/0041.缺失的第一个正数/缺失的第一个正数.test.js",
-      "created": false
+      "created": false,
+      "entryName": "firstMissingPositive_func2",
+      "meta": {
+        "name": "firstMissingPositive",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              1,
+              2,
+              0
+            ]
+          },
+          "expected": 3
+        },
+        {
+          "input": {
+            "nums": [
+              3,
+              4,
+              -1,
+              1
+            ]
+          },
+          "expected": 2
+        },
+        {
+          "input": {
+            "nums": [
+              7,
+              8,
+              9,
+              11,
+              12
+            ]
+          },
+          "expected": 1
+        }
+      ]
     },
     {
       "id": 73,
@@ -309,7 +1201,107 @@
       "directory": "leetcode/0073.矩阵置零",
       "solutionFile": "leetcode/0073.矩阵置零/矩阵置零.js",
       "testFile": "leetcode/0073.矩阵置零/矩阵置零.test.js",
-      "created": false
+      "created": false,
+      "entryName": "setZeroes",
+      "meta": {
+        "name": "setZeroes",
+        "params": [
+          {
+            "name": "matrix",
+            "type": "integer[][]"
+          }
+        ],
+        "return": {
+          "type": "void"
+        },
+        "output": {
+          "paramindex": 0
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "matrix": [
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                1,
+                0,
+                1
+              ],
+              [
+                1,
+                1,
+                1
+              ]
+            ]
+          },
+          "expected": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "input": {
+            "matrix": [
+              [
+                0,
+                1,
+                2,
+                0
+              ],
+              [
+                3,
+                4,
+                5,
+                2
+              ],
+              [
+                1,
+                3,
+                1,
+                5
+              ]
+            ]
+          },
+          "expected": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              5,
+              0
+            ],
+            [
+              0,
+              3,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
     },
     {
       "id": 54,
@@ -326,7 +1318,94 @@
       "directory": "leetcode/0054.螺旋矩阵",
       "solutionFile": "leetcode/0054.螺旋矩阵/螺旋矩阵.js",
       "testFile": "leetcode/0054.螺旋矩阵/螺旋矩阵.test.js",
-      "created": false
+      "created": false,
+      "entryName": "spiralOrder",
+      "meta": {
+        "name": "spiralOrder",
+        "params": [
+          {
+            "name": "matrix",
+            "type": "integer[][]"
+          }
+        ],
+        "return": {
+          "type": "list<integer>",
+          "size": "size_1 * col_size_1",
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "matrix": [
+              [
+                1,
+                2,
+                3
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                7,
+                8,
+                9
+              ]
+            ]
+          },
+          "expected": [
+            1,
+            2,
+            3,
+            6,
+            9,
+            8,
+            7,
+            4,
+            5
+          ]
+        },
+        {
+          "input": {
+            "matrix": [
+              [
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                5,
+                6,
+                7,
+                8
+              ],
+              [
+                9,
+                10,
+                11,
+                12
+              ]
+            ]
+          },
+          "expected": [
+            1,
+            2,
+            3,
+            4,
+            8,
+            12,
+            11,
+            10,
+            9,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
     },
     {
       "id": 48,
@@ -343,7 +1422,119 @@
       "directory": "leetcode/0048.旋转图像",
       "solutionFile": "leetcode/0048.旋转图像/旋转图像.js",
       "testFile": "leetcode/0048.旋转图像/旋转图像.test.js",
-      "created": false
+      "created": false,
+      "entryName": "rotate",
+      "meta": {
+        "name": "rotate",
+        "params": [
+          {
+            "name": "matrix",
+            "type": "integer[][]"
+          }
+        ],
+        "return": {
+          "type": "void"
+        },
+        "output": {
+          "paramindex": 0
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "matrix": [
+              [
+                1,
+                2,
+                3
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                7,
+                8,
+                9
+              ]
+            ]
+          },
+          "expected": [
+            [
+              7,
+              4,
+              1
+            ],
+            [
+              8,
+              5,
+              2
+            ],
+            [
+              9,
+              6,
+              3
+            ]
+          ]
+        },
+        {
+          "input": {
+            "matrix": [
+              [
+                5,
+                1,
+                9,
+                11
+              ],
+              [
+                2,
+                4,
+                8,
+                10
+              ],
+              [
+                13,
+                3,
+                6,
+                7
+              ],
+              [
+                15,
+                14,
+                12,
+                16
+              ]
+            ]
+          },
+          "expected": [
+            [
+              15,
+              13,
+              2,
+              5
+            ],
+            [
+              14,
+              3,
+              4,
+              1
+            ],
+            [
+              12,
+              6,
+              8,
+              9
+            ],
+            [
+              16,
+              7,
+              10,
+              11
+            ]
+          ]
+        }
+      ]
     },
     {
       "id": 240,
@@ -361,7 +1552,112 @@
       "directory": "leetcode/0240.搜索二维矩阵II",
       "solutionFile": "leetcode/0240.搜索二维矩阵II/搜索二维矩阵II.js",
       "testFile": "leetcode/0240.搜索二维矩阵II/搜索二维矩阵II.test.js",
-      "created": false
+      "created": false,
+      "entryName": "searchMatrix",
+      "meta": {
+        "name": "searchMatrix",
+        "params": [
+          {
+            "name": "matrix",
+            "type": "integer[][]"
+          },
+          {
+            "name": "target",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "boolean"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "matrix": [
+              [
+                1,
+                4,
+                7,
+                11,
+                15
+              ],
+              [
+                2,
+                5,
+                8,
+                12,
+                19
+              ],
+              [
+                3,
+                6,
+                9,
+                16,
+                22
+              ],
+              [
+                10,
+                13,
+                14,
+                17,
+                24
+              ],
+              [
+                18,
+                21,
+                23,
+                26,
+                30
+              ]
+            ],
+            "target": 5
+          },
+          "expected": true
+        },
+        {
+          "input": {
+            "matrix": [
+              [
+                1,
+                4,
+                7,
+                11,
+                15
+              ],
+              [
+                2,
+                5,
+                8,
+                12,
+                19
+              ],
+              [
+                3,
+                6,
+                9,
+                16,
+                22
+              ],
+              [
+                10,
+                13,
+                14,
+                17,
+                24
+              ],
+              [
+                18,
+                21,
+                23,
+                26,
+                30
+              ]
+            ],
+            "target": 20
+          },
+          "expected": false
+        }
+      ]
     },
     {
       "id": 160,
@@ -378,7 +1674,98 @@
       "directory": "leetcode/0160.相交链表",
       "solutionFile": "leetcode/0160.相交链表/相交链表.js",
       "testFile": "leetcode/0160.相交链表/相交链表.test.js",
-      "created": false
+      "created": false,
+      "entryName": "getIntersectionNode",
+      "meta": {
+        "name": "getIntersectionNode",
+        "params": [
+          {
+            "name": "intersectVal",
+            "type": "integer"
+          },
+          {
+            "name": "listA",
+            "type": "ListNode"
+          },
+          {
+            "name": "listB",
+            "type": "ListNode"
+          },
+          {
+            "name": "skipA",
+            "type": "integer"
+          },
+          {
+            "name": "skipB",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "ListNode"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "intersectVal": 8,
+            "listA": [
+              4,
+              1,
+              8,
+              4,
+              5
+            ],
+            "listB": [
+              5,
+              6,
+              1,
+              8,
+              4,
+              5
+            ],
+            "skipA": 2,
+            "skipB": 3
+          },
+          "expected": 8
+        },
+        {
+          "input": {
+            "intersectVal": 2,
+            "listA": [
+              1,
+              9,
+              1,
+              2,
+              4
+            ],
+            "listB": [
+              3,
+              2,
+              4
+            ],
+            "skipA": 3,
+            "skipB": 1
+          },
+          "expected": 2
+        },
+        {
+          "input": {
+            "intersectVal": 0,
+            "listA": [
+              2,
+              6,
+              4
+            ],
+            "listB": [
+              1,
+              5
+            ],
+            "skipA": 3,
+            "skipB": 2
+          },
+          "expected": null
+        }
+      ]
     },
     {
       "id": 206,
@@ -394,7 +1781,60 @@
       "directory": "leetcode/0206.反转链表",
       "solutionFile": "leetcode/0206.反转链表/反转链表.js",
       "testFile": "leetcode/0206.反转链表/反转链表.test.js",
-      "created": false
+      "created": false,
+      "entryName": "reverseList",
+      "meta": {
+        "name": "reverseList",
+        "params": [
+          {
+            "name": "head",
+            "type": "ListNode",
+            "dealloc": false
+          }
+        ],
+        "return": {
+          "type": "ListNode",
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "head": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          "expected": [
+            5,
+            4,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "input": {
+            "head": [
+              1,
+              2
+            ]
+          },
+          "expected": [
+            2,
+            1
+          ]
+        },
+        {
+          "input": {
+            "head": []
+          },
+          "expected": []
+        }
+      ]
     },
     {
       "id": 234,
@@ -412,7 +1852,42 @@
       "directory": "leetcode/0234.回文链表",
       "solutionFile": "leetcode/0234.回文链表/回文链表.js",
       "testFile": "leetcode/0234.回文链表/回文链表.test.js",
-      "created": false
+      "created": false,
+      "entryName": "isPalindrome",
+      "meta": {
+        "name": "isPalindrome",
+        "params": [
+          {
+            "name": "head",
+            "type": "ListNode"
+          }
+        ],
+        "return": {
+          "type": "boolean"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "head": [
+              1,
+              2,
+              2,
+              1
+            ]
+          },
+          "expected": true
+        },
+        {
+          "input": {
+            "head": [
+              1,
+              2
+            ]
+          },
+          "expected": false
+        }
+      ]
     },
     {
       "id": 141,
@@ -430,7 +1905,57 @@
       "directory": "leetcode/0141.环形链表",
       "solutionFile": "leetcode/0141.环形链表/环形链表.js",
       "testFile": "leetcode/0141.环形链表/环形链表.test.js",
-      "created": false
+      "created": false,
+      "entryName": "hasCycle",
+      "meta": {
+        "name": "hasCycle",
+        "params": [
+          {
+            "name": "head",
+            "type": "ListNode"
+          },
+          {
+            "name": "pos",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "boolean"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "head": [
+              3,
+              2,
+              0,
+              -4
+            ],
+            "pos": 1
+          },
+          "expected": true
+        },
+        {
+          "input": {
+            "head": [
+              1,
+              2
+            ],
+            "pos": 0
+          },
+          "expected": true
+        },
+        {
+          "input": {
+            "head": [
+              1
+            ],
+            "pos": -1
+          },
+          "expected": false
+        }
+      ]
     },
     {
       "id": 142,
@@ -448,7 +1973,57 @@
       "directory": "leetcode/0142.环形链表II",
       "solutionFile": "leetcode/0142.环形链表II/环形链表II.js",
       "testFile": "leetcode/0142.环形链表II/环形链表II.test.js",
-      "created": false
+      "created": false,
+      "entryName": "detectCycle",
+      "meta": {
+        "name": "detectCycle",
+        "params": [
+          {
+            "name": "head",
+            "type": "ListNode"
+          },
+          {
+            "name": "pos",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "ListNode"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "head": [
+              3,
+              2,
+              0,
+              -4
+            ],
+            "pos": 1
+          },
+          "expected": 1
+        },
+        {
+          "input": {
+            "head": [
+              1,
+              2
+            ],
+            "pos": 0
+          },
+          "expected": 0
+        },
+        {
+          "input": {
+            "head": [
+              1
+            ],
+            "pos": -1
+          },
+          "expected": null
+        }
+      ]
     },
     {
       "id": 21,
@@ -464,7 +2039,85 @@
       "directory": "leetcode/0021.合并两个有序链表",
       "solutionFile": "leetcode/0021.合并两个有序链表/合并两个有序列表.js",
       "testFile": "leetcode/0021.合并两个有序链表/合并两个有序列表.test.js",
-      "created": false
+      "created": false,
+      "entryName": "mergeTwoLists_func1",
+      "meta": {
+        "name": "mergeTwoLists",
+        "params": [
+          {
+            "name": "list1",
+            "type": "ListNode",
+            "dealloc": false
+          },
+          {
+            "name": "list2",
+            "type": "ListNode",
+            "dealloc": false
+          }
+        ],
+        "return": {
+          "type": "ListNode",
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "l1": [
+              1,
+              2,
+              4
+            ],
+            "l2": [
+              1,
+              3,
+              4
+            ],
+            "list1": [
+              1,
+              2,
+              4
+            ],
+            "list2": [
+              1,
+              3,
+              4
+            ]
+          },
+          "expected": [
+            1,
+            1,
+            2,
+            3,
+            4,
+            4
+          ]
+        },
+        {
+          "input": {
+            "l1": [],
+            "l2": [],
+            "list1": [],
+            "list2": []
+          },
+          "expected": []
+        },
+        {
+          "input": {
+            "l1": [],
+            "l2": [
+              0
+            ],
+            "list1": [],
+            "list2": [
+              0
+            ]
+          },
+          "expected": [
+            0
+          ]
+        }
+      ]
     },
     {
       "id": 2,
@@ -481,7 +2134,90 @@
       "directory": "leetcode/0002.两数相加",
       "solutionFile": "leetcode/0002.两数相加/两数相加.js",
       "testFile": "leetcode/0002.两数相加/两数相加.test.js",
-      "created": false
+      "created": false,
+      "entryName": "addTwoNumbers_func2",
+      "meta": {
+        "name": "addTwoNumbers",
+        "params": [
+          {
+            "name": "l1",
+            "type": "ListNode",
+            "dealloc": false
+          },
+          {
+            "name": "l2",
+            "type": "ListNode",
+            "dealloc": false
+          }
+        ],
+        "return": {
+          "type": "ListNode",
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "l1": [
+              2,
+              4,
+              3
+            ],
+            "l2": [
+              5,
+              6,
+              4
+            ]
+          },
+          "expected": [
+            7,
+            0,
+            8
+          ]
+        },
+        {
+          "input": {
+            "l1": [
+              0
+            ],
+            "l2": [
+              0
+            ]
+          },
+          "expected": [
+            0
+          ]
+        },
+        {
+          "input": {
+            "l1": [
+              9,
+              9,
+              9,
+              9,
+              9,
+              9,
+              9
+            ],
+            "l2": [
+              9,
+              9,
+              9,
+              9
+            ]
+          },
+          "expected": [
+            8,
+            9,
+            9,
+            9,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ]
     },
     {
       "id": 19,
@@ -497,7 +2233,67 @@
       "directory": "leetcode/0019.删除链表的倒数第N个结点",
       "solutionFile": "leetcode/0019.删除链表的倒数第N个结点/删除链表的倒数第N个结点.js",
       "testFile": "leetcode/0019.删除链表的倒数第N个结点/删除链表的倒数第N个结点.test.js",
-      "created": false
+      "created": false,
+      "entryName": "removeNthFromEnd_func1",
+      "meta": {
+        "name": "removeNthFromEnd",
+        "params": [
+          {
+            "name": "head",
+            "type": "ListNode",
+            "dealloc": false
+          },
+          {
+            "name": "n",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "ListNode",
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "head": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "n": 2
+          },
+          "expected": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "input": {
+            "head": [
+              1
+            ],
+            "n": 1
+          },
+          "expected": []
+        },
+        {
+          "input": {
+            "head": [
+              1,
+              2
+            ],
+            "n": 1
+          },
+          "expected": [
+            1
+          ]
+        }
+      ]
     },
     {
       "id": 24,
@@ -513,7 +2309,54 @@
       "directory": "leetcode/0024.两两交换链表中的节点",
       "solutionFile": "leetcode/0024.两两交换链表中的节点/两两交换链表中的节点.js",
       "testFile": "leetcode/0024.两两交换链表中的节点/两两交换链表中的节点.test.js",
-      "created": false
+      "created": false,
+      "entryName": "swapPairs_func1",
+      "meta": {
+        "name": "swapPairs",
+        "params": [
+          {
+            "name": "head",
+            "type": "ListNode"
+          }
+        ],
+        "return": {
+          "type": "ListNode"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "head": [
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          "expected": [
+            2,
+            1,
+            4,
+            3
+          ]
+        },
+        {
+          "input": {
+            "head": []
+          },
+          "expected": []
+        },
+        {
+          "input": {
+            "head": [
+              1
+            ]
+          },
+          "expected": [
+            1
+          ]
+        }
+      ]
     },
     {
       "id": 25,
@@ -529,7 +2372,64 @@
       "directory": "leetcode/0025.K个一组翻转链表",
       "solutionFile": "leetcode/0025.K个一组翻转链表/K个一组翻转链表.js",
       "testFile": "leetcode/0025.K个一组翻转链表/K个一组翻转链表.test.js",
-      "created": false
+      "created": false,
+      "entryName": "reverseKGroup",
+      "meta": {
+        "name": "reverseKGroup",
+        "params": [
+          {
+            "name": "head",
+            "type": "ListNode"
+          },
+          {
+            "name": "k",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "ListNode"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "head": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "k": 2
+          },
+          "expected": [
+            2,
+            1,
+            4,
+            3,
+            5
+          ]
+        },
+        {
+          "input": {
+            "head": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "k": 3
+          },
+          "expected": [
+            3,
+            2,
+            1,
+            4,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": 138,
@@ -545,7 +2445,126 @@
       "directory": "leetcode/0138.随机链表的复制",
       "solutionFile": "leetcode/0138.随机链表的复制/随机链表的复制.js",
       "testFile": "leetcode/0138.随机链表的复制/随机链表的复制.test.js",
-      "created": false
+      "created": false,
+      "entryName": "copyRandomList",
+      "meta": {
+        "name": "copyRandomList",
+        "params": [
+          {
+            "name": "head",
+            "type": "ListNode"
+          }
+        ],
+        "return": {
+          "type": "ListNode"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "head": [
+              [
+                7,
+                null
+              ],
+              [
+                13,
+                0
+              ],
+              [
+                11,
+                4
+              ],
+              [
+                10,
+                2
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          "expected": [
+            [
+              7,
+              null
+            ],
+            [
+              13,
+              0
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "input": {
+            "head": [
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ]
+            ]
+          },
+          "expected": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "input": {
+            "head": [
+              [
+                3,
+                null
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                3,
+                null
+              ]
+            ]
+          },
+          "expected": [
+            [
+              3,
+              null
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              null
+            ]
+          ]
+        }
+      ]
     },
     {
       "id": 148,
@@ -564,7 +2583,64 @@
       "directory": "leetcode/0148.排序链表",
       "solutionFile": "leetcode/0148.排序链表/排序链表.js",
       "testFile": "leetcode/0148.排序链表/排序链表.test.js",
-      "created": false
+      "created": false,
+      "entryName": "sortList",
+      "meta": {
+        "name": "sortList",
+        "params": [
+          {
+            "name": "head",
+            "type": "ListNode",
+            "dealloc": false
+          }
+        ],
+        "return": {
+          "type": "ListNode",
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "head": [
+              4,
+              2,
+              1,
+              3
+            ]
+          },
+          "expected": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "input": {
+            "head": [
+              -1,
+              5,
+              3,
+              4,
+              0
+            ]
+          },
+          "expected": [
+            -1,
+            0,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "input": {
+            "head": []
+          },
+          "expected": []
+        }
+      ]
     },
     {
       "id": 23,
@@ -583,7 +2659,68 @@
       "directory": "leetcode/0023.合并K个排序链表",
       "solutionFile": "leetcode/0023.合并K个排序链表/合并K个排序链表.js",
       "testFile": "leetcode/0023.合并K个排序链表/合并K个排序链表.test.js",
-      "created": false
+      "created": false,
+      "entryName": "mergeKLists",
+      "meta": {
+        "name": "mergeKLists",
+        "params": [
+          {
+            "name": "lists",
+            "type": "ListNode[]",
+            "dealloc": false
+          }
+        ],
+        "return": {
+          "type": "ListNode",
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "lists": [
+              [
+                1,
+                4,
+                5
+              ],
+              [
+                1,
+                3,
+                4
+              ],
+              [
+                2,
+                6
+              ]
+            ]
+          },
+          "expected": [
+            1,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "input": {
+            "lists": []
+          },
+          "expected": []
+        },
+        {
+          "input": {
+            "lists": [
+              []
+            ]
+          },
+          "expected": []
+        }
+      ]
     },
     {
       "id": 146,
@@ -601,7 +2738,120 @@
       "directory": "leetcode/0146.LRU缓存",
       "solutionFile": "leetcode/0146.LRU缓存/LRU缓存.js",
       "testFile": "leetcode/0146.LRU缓存/LRU缓存.test.js",
-      "created": false
+      "created": false,
+      "entryName": "LRUCache",
+      "meta": {
+        "classname": "LRUCache",
+        "constructor": {
+          "params": [
+            {
+              "type": "integer",
+              "name": "capacity"
+            }
+          ]
+        },
+        "methods": [
+          {
+            "name": "get",
+            "params": [
+              {
+                "type": "integer",
+                "name": "key"
+              }
+            ],
+            "return": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "put",
+            "params": [
+              {
+                "type": "integer",
+                "name": "key"
+              },
+              {
+                "type": "integer",
+                "name": "value"
+              }
+            ],
+            "return": {
+              "type": "void"
+            }
+          }
+        ],
+        "return": {
+          "type": "list<String>",
+          "dealloc": true
+        },
+        "systemdesign": true
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "operations": [
+              "LRUCache",
+              "put",
+              "put",
+              "get",
+              "put",
+              "get",
+              "put",
+              "get",
+              "get",
+              "get"
+            ],
+            "arguments": [
+              [
+                2
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                1
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                2
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                1
+              ],
+              [
+                3
+              ],
+              [
+                4
+              ]
+            ]
+          },
+          "expected": [
+            null,
+            null,
+            null,
+            1,
+            null,
+            -1,
+            null,
+            -1,
+            3,
+            4
+          ]
+        }
+      ]
     },
     {
       "id": 94,
@@ -619,7 +2869,54 @@
       "directory": "leetcode/0094.二叉树的中序遍历",
       "solutionFile": "leetcode/0094.二叉树的中序遍历/二叉树的中序遍历.js",
       "testFile": "leetcode/0094.二叉树的中序遍历/二叉树的中序遍历.test.js",
-      "created": false
+      "created": false,
+      "entryName": "inorderTraversal",
+      "meta": {
+        "name": "inorderTraversal",
+        "params": [
+          {
+            "name": "root",
+            "type": "TreeNode"
+          }
+        ],
+        "return": {
+          "type": "list<integer>",
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "root": [
+              1,
+              null,
+              2,
+              3
+            ]
+          },
+          "expected": [
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "input": {
+            "root": []
+          },
+          "expected": []
+        },
+        {
+          "input": {
+            "root": [
+              1
+            ]
+          },
+          "expected": [
+            1
+          ]
+        }
+      ]
     },
     {
       "id": 104,
@@ -637,7 +2934,46 @@
       "directory": "leetcode/0104.二叉树的最大深度",
       "solutionFile": "leetcode/0104.二叉树的最大深度/二叉树的最大深度.js",
       "testFile": "leetcode/0104.二叉树的最大深度/二叉树的最大深度.test.js",
-      "created": false
+      "created": false,
+      "entryName": "maxDepth",
+      "meta": {
+        "name": "maxDepth",
+        "params": [
+          {
+            "name": "root",
+            "type": "TreeNode"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "root": [
+              3,
+              9,
+              20,
+              null,
+              null,
+              15,
+              7
+            ]
+          },
+          "expected": 3
+        },
+        {
+          "input": {
+            "root": [
+              1,
+              null,
+              2
+            ]
+          },
+          "expected": 2
+        }
+      ]
     },
     {
       "id": 226,
@@ -655,7 +2991,64 @@
       "directory": "leetcode/0226.翻转二叉树",
       "solutionFile": "leetcode/0226.翻转二叉树/翻转二叉树.js",
       "testFile": "leetcode/0226.翻转二叉树/翻转二叉树.test.js",
-      "created": false
+      "created": false,
+      "entryName": "invertTree",
+      "meta": {
+        "name": "invertTree",
+        "params": [
+          {
+            "name": "root",
+            "type": "TreeNode"
+          }
+        ],
+        "return": {
+          "type": "TreeNode"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "root": [
+              4,
+              2,
+              7,
+              1,
+              3,
+              6,
+              9
+            ]
+          },
+          "expected": [
+            4,
+            7,
+            2,
+            9,
+            6,
+            3,
+            1
+          ]
+        },
+        {
+          "input": {
+            "root": [
+              2,
+              1,
+              3
+            ]
+          },
+          "expected": [
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "input": {
+            "root": []
+          },
+          "expected": []
+        }
+      ]
     },
     {
       "id": 101,
@@ -673,7 +3066,50 @@
       "directory": "leetcode/0101.对称二叉树",
       "solutionFile": "leetcode/0101.对称二叉树/对称二叉树.js",
       "testFile": "leetcode/0101.对称二叉树/对称二叉树.test.js",
-      "created": false
+      "created": false,
+      "entryName": "isSymmetric",
+      "meta": {
+        "name": "isSymmetric",
+        "params": [
+          {
+            "name": "root",
+            "type": "TreeNode"
+          }
+        ],
+        "return": {
+          "type": "boolean"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "root": [
+              1,
+              2,
+              2,
+              3,
+              4,
+              4,
+              3
+            ]
+          },
+          "expected": true
+        },
+        {
+          "input": {
+            "root": [
+              1,
+              2,
+              2,
+              null,
+              3,
+              null,
+              3
+            ]
+          },
+          "expected": false
+        }
+      ]
     },
     {
       "id": 543,
@@ -691,7 +3127,43 @@
       "directory": "leetcode/0543.二叉树的直径",
       "solutionFile": "leetcode/0543.二叉树的直径/二叉树的直径.js",
       "testFile": "leetcode/0543.二叉树的直径/二叉树的直径.test.js",
-      "created": false
+      "created": false,
+      "entryName": "diameterOfBinaryTree",
+      "meta": {
+        "name": "diameterOfBinaryTree",
+        "params": [
+          {
+            "name": "root",
+            "type": "TreeNode"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "root": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          "expected": 3
+        },
+        {
+          "input": {
+            "root": [
+              1,
+              2
+            ]
+          },
+          "expected": 1
+        }
+      ]
     },
     {
       "id": 102,
@@ -708,7 +3180,67 @@
       "directory": "leetcode/0102.二叉树的层序遍历",
       "solutionFile": "leetcode/0102.二叉树的层序遍历/二叉树的层序遍历.js",
       "testFile": "leetcode/0102.二叉树的层序遍历/二叉树的层序遍历.test.js",
-      "created": false
+      "created": false,
+      "entryName": "levelOrder",
+      "meta": {
+        "name": "levelOrder",
+        "params": [
+          {
+            "name": "root",
+            "type": "TreeNode"
+          }
+        ],
+        "return": {
+          "type": "list<list<integer>>",
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "root": [
+              3,
+              9,
+              20,
+              null,
+              null,
+              15,
+              7
+            ]
+          },
+          "expected": [
+            [
+              3
+            ],
+            [
+              9,
+              20
+            ],
+            [
+              15,
+              7
+            ]
+          ]
+        },
+        {
+          "input": {
+            "root": [
+              1
+            ]
+          },
+          "expected": [
+            [
+              1
+            ]
+          ]
+        },
+        {
+          "input": {
+            "root": []
+          },
+          "expected": []
+        }
+      ]
     },
     {
       "id": 108,
@@ -727,7 +3259,54 @@
       "directory": "leetcode/0108.将有序数组转换为二叉搜索树",
       "solutionFile": "leetcode/0108.将有序数组转换为二叉搜索树/将有序数组转换为二叉搜索树.js",
       "testFile": "leetcode/0108.将有序数组转换为二叉搜索树/将有序数组转换为二叉搜索树.test.js",
-      "created": false
+      "created": false,
+      "entryName": "sortedArrayToBST",
+      "meta": {
+        "name": "sortedArrayToBST",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "TreeNode",
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              -10,
+              -3,
+              0,
+              5,
+              9
+            ]
+          },
+          "expected": [
+            0,
+            -3,
+            9,
+            -10,
+            null,
+            5
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              1,
+              3
+            ]
+          },
+          "expected": [
+            3,
+            1
+          ]
+        }
+      ]
     },
     {
       "id": 98,
@@ -745,7 +3324,46 @@
       "directory": "leetcode/0098.验证二叉搜索树",
       "solutionFile": "leetcode/0098.验证二叉搜索树/验证二叉搜索树.js",
       "testFile": "leetcode/0098.验证二叉搜索树/验证二叉搜索树.test.js",
-      "created": false
+      "created": false,
+      "entryName": "isValidBST",
+      "meta": {
+        "name": "isValidBST",
+        "params": [
+          {
+            "name": "root",
+            "type": "TreeNode"
+          }
+        ],
+        "return": {
+          "type": "boolean"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "root": [
+              2,
+              1,
+              3
+            ]
+          },
+          "expected": true
+        },
+        {
+          "input": {
+            "root": [
+              5,
+              1,
+              4,
+              null,
+              null,
+              3,
+              6
+            ]
+          },
+          "expected": false
+        }
+      ]
     },
     {
       "id": 230,
@@ -763,7 +3381,55 @@
       "directory": "leetcode/0230.二叉搜索树中第K小的元素",
       "solutionFile": "leetcode/0230.二叉搜索树中第K小的元素/二叉搜索树中第K小的元素.js",
       "testFile": "leetcode/0230.二叉搜索树中第K小的元素/二叉搜索树中第K小的元素.test.js",
-      "created": false
+      "created": false,
+      "entryName": "kthSmallest",
+      "meta": {
+        "name": "kthSmallest",
+        "params": [
+          {
+            "name": "root",
+            "type": "TreeNode"
+          },
+          {
+            "name": "k",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "root": [
+              3,
+              1,
+              4,
+              null,
+              2
+            ],
+            "k": 1
+          },
+          "expected": 1
+        },
+        {
+          "input": {
+            "root": [
+              5,
+              3,
+              6,
+              2,
+              4,
+              null,
+              null,
+              1
+            ],
+            "k": 3
+          },
+          "expected": 3
+        }
+      ]
     },
     {
       "id": 199,
@@ -781,7 +3447,80 @@
       "directory": "leetcode/0199.二叉树的右视图",
       "solutionFile": "leetcode/0199.二叉树的右视图/二叉树的右视图.js",
       "testFile": "leetcode/0199.二叉树的右视图/二叉树的右视图.test.js",
-      "created": false
+      "created": false,
+      "entryName": "rightSideView",
+      "meta": {
+        "name": "rightSideView",
+        "params": [
+          {
+            "name": "root",
+            "type": "TreeNode"
+          }
+        ],
+        "return": {
+          "type": "list<integer>",
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "root": [
+              1,
+              2,
+              3,
+              null,
+              5,
+              null,
+              4
+            ]
+          },
+          "expected": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "input": {
+            "root": [
+              1,
+              2,
+              3,
+              4,
+              null,
+              null,
+              null,
+              5
+            ]
+          },
+          "expected": [
+            1,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "input": {
+            "root": [
+              1,
+              null,
+              3
+            ]
+          },
+          "expected": [
+            1,
+            3
+          ]
+        },
+        {
+          "input": {
+            "root": []
+          },
+          "expected": []
+        }
+      ]
     },
     {
       "id": 114,
@@ -800,7 +3539,67 @@
       "directory": "leetcode/0114.二叉树展开为链表",
       "solutionFile": "leetcode/0114.二叉树展开为链表/二叉树展开为链表.js",
       "testFile": "leetcode/0114.二叉树展开为链表/二叉树展开为链表.test.js",
-      "created": false
+      "created": false,
+      "entryName": "flatten",
+      "meta": {
+        "name": "flatten",
+        "params": [
+          {
+            "name": "root",
+            "type": "TreeNode"
+          }
+        ],
+        "return": {
+          "type": "void"
+        },
+        "output": {
+          "paramindex": 0
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "root": [
+              1,
+              2,
+              5,
+              3,
+              4,
+              null,
+              6
+            ]
+          },
+          "expected": [
+            1,
+            null,
+            2,
+            null,
+            3,
+            null,
+            4,
+            null,
+            5,
+            null,
+            6
+          ]
+        },
+        {
+          "input": {
+            "root": []
+          },
+          "expected": []
+        },
+        {
+          "input": {
+            "root": [
+              0
+            ]
+          },
+          "expected": [
+            0
+          ]
+        }
+      ]
     },
     {
       "id": 105,
@@ -819,7 +3618,67 @@
       "directory": "leetcode/0105.从前序与中序遍历序列构造二叉树",
       "solutionFile": "leetcode/0105.从前序与中序遍历序列构造二叉树/从前序与中序遍历序列构造二叉树.js",
       "testFile": "leetcode/0105.从前序与中序遍历序列构造二叉树/从前序与中序遍历序列构造二叉树.test.js",
-      "created": false
+      "created": false,
+      "entryName": "buildTree",
+      "meta": {
+        "name": "buildTree",
+        "params": [
+          {
+            "name": "preorder",
+            "type": "integer[]"
+          },
+          {
+            "name": "inorder",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "TreeNode",
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "preorder": [
+              3,
+              9,
+              20,
+              15,
+              7
+            ],
+            "inorder": [
+              9,
+              3,
+              15,
+              20,
+              7
+            ]
+          },
+          "expected": [
+            3,
+            9,
+            20,
+            null,
+            null,
+            15,
+            7
+          ]
+        },
+        {
+          "input": {
+            "preorder": [
+              -1
+            ],
+            "inorder": [
+              -1
+            ]
+          },
+          "expected": [
+            -1
+          ]
+        }
+      ]
     },
     {
       "id": 437,
@@ -836,7 +3695,66 @@
       "directory": "leetcode/0437.路径总和III",
       "solutionFile": "leetcode/0437.路径总和III/路径总和III.js",
       "testFile": "leetcode/0437.路径总和III/路径总和III.test.js",
-      "created": false
+      "created": false,
+      "entryName": "pathSum",
+      "meta": {
+        "name": "pathSum",
+        "params": [
+          {
+            "name": "root",
+            "type": "TreeNode"
+          },
+          {
+            "name": "targetSum",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "root": [
+              10,
+              5,
+              -3,
+              3,
+              2,
+              null,
+              11,
+              3,
+              -2,
+              null,
+              1
+            ],
+            "targetSum": 8
+          },
+          "expected": 3
+        },
+        {
+          "input": {
+            "root": [
+              5,
+              4,
+              8,
+              11,
+              null,
+              13,
+              4,
+              7,
+              2,
+              null,
+              null,
+              5,
+              1
+            ],
+            "targetSum": 22
+          },
+          "expected": 3
+        }
+      ]
     },
     {
       "id": 236,
@@ -855,7 +3773,81 @@
       "directory": "leetcode/0236.二叉树的最近公共祖先",
       "solutionFile": "leetcode/0236.二叉树的最近公共祖先/二叉树的最近公共祖先.js",
       "testFile": "leetcode/0236.二叉树的最近公共祖先/二叉树的最近公共祖先.test.js",
-      "created": false
+      "created": false,
+      "entryName": "lowestCommonAncestor",
+      "meta": {
+        "name": "lowestCommonAncestor",
+        "params": [
+          {
+            "name": "root",
+            "type": "TreeNode"
+          },
+          {
+            "name": "p",
+            "type": "integer"
+          },
+          {
+            "name": "q",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "TreeNode"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "root": [
+              3,
+              5,
+              1,
+              6,
+              2,
+              0,
+              8,
+              null,
+              null,
+              7,
+              4
+            ],
+            "p": 5,
+            "q": 1
+          },
+          "expected": 3
+        },
+        {
+          "input": {
+            "root": [
+              3,
+              5,
+              1,
+              6,
+              2,
+              0,
+              8,
+              null,
+              null,
+              7,
+              4
+            ],
+            "p": 5,
+            "q": 4
+          },
+          "expected": 5
+        },
+        {
+          "input": {
+            "root": [
+              1,
+              2
+            ],
+            "p": 1,
+            "q": 2
+          },
+          "expected": 1
+        }
+      ]
     },
     {
       "id": 124,
@@ -874,7 +3866,46 @@
       "directory": "leetcode/0124.二叉树中的最大路径和",
       "solutionFile": "leetcode/0124.二叉树中的最大路径和/二叉树中的最大路径和.js",
       "testFile": "leetcode/0124.二叉树中的最大路径和/二叉树中的最大路径和.test.js",
-      "created": false
+      "created": false,
+      "entryName": "maxPathSum",
+      "meta": {
+        "name": "maxPathSum",
+        "params": [
+          {
+            "name": "root",
+            "type": "TreeNode"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "root": [
+              1,
+              2,
+              3
+            ]
+          },
+          "expected": 6
+        },
+        {
+          "input": {
+            "root": [
+              -10,
+              9,
+              20,
+              null,
+              null,
+              15,
+              7
+            ]
+          },
+          "expected": 42
+        }
+      ]
     },
     {
       "id": 200,
@@ -893,7 +3924,92 @@
       "directory": "leetcode/0200.岛屿数量",
       "solutionFile": "leetcode/0200.岛屿数量/岛屿数量.js",
       "testFile": "leetcode/0200.岛屿数量/岛屿数量.test.js",
-      "created": false
+      "created": false,
+      "entryName": "numIslands",
+      "meta": {
+        "name": "numIslands",
+        "params": [
+          {
+            "name": "grid",
+            "type": "character[][]"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "grid": [
+              [
+                "1",
+                "1",
+                "1",
+                "1",
+                "0"
+              ],
+              [
+                "1",
+                "1",
+                "0",
+                "1",
+                "0"
+              ],
+              [
+                "1",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          "expected": 1
+        },
+        {
+          "input": {
+            "grid": [
+              [
+                "1",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "1",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "1",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "1",
+                "1"
+              ]
+            ]
+          },
+          "expected": 3
+        }
+      ]
     },
     {
       "id": 994,
@@ -910,7 +4026,77 @@
       "directory": "leetcode/0994.腐烂的橘子",
       "solutionFile": "leetcode/0994.腐烂的橘子/腐烂的橘子.js",
       "testFile": "leetcode/0994.腐烂的橘子/腐烂的橘子.test.js",
-      "created": false
+      "created": false,
+      "entryName": "orangesRotting",
+      "meta": {
+        "name": "orangesRotting",
+        "params": [
+          {
+            "name": "grid",
+            "type": "integer[][]"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "grid": [
+              [
+                2,
+                1,
+                1
+              ],
+              [
+                1,
+                1,
+                0
+              ],
+              [
+                0,
+                1,
+                1
+              ]
+            ]
+          },
+          "expected": 4
+        },
+        {
+          "input": {
+            "grid": [
+              [
+                2,
+                1,
+                1
+              ],
+              [
+                0,
+                1,
+                1
+              ],
+              [
+                1,
+                0,
+                1
+              ]
+            ]
+          },
+          "expected": -1
+        },
+        {
+          "input": {
+            "grid": [
+              [
+                0,
+                2
+              ]
+            ]
+          },
+          "expected": 0
+        }
+      ]
     },
     {
       "id": 207,
@@ -929,7 +4115,54 @@
       "directory": "leetcode/0207.课程表",
       "solutionFile": "leetcode/0207.课程表/课程表.js",
       "testFile": "leetcode/0207.课程表/课程表.test.js",
-      "created": false
+      "created": false,
+      "entryName": "canFinish",
+      "meta": {
+        "name": "canFinish",
+        "params": [
+          {
+            "name": "numCourses",
+            "type": "integer"
+          },
+          {
+            "name": "prerequisites",
+            "type": "integer[][]"
+          }
+        ],
+        "return": {
+          "type": "boolean"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "numCourses": 2,
+            "prerequisites": [
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          "expected": true
+        },
+        {
+          "input": {
+            "numCourses": 2,
+            "prerequisites": [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          },
+          "expected": false
+        }
+      ]
     },
     {
       "id": 208,
@@ -947,7 +4180,101 @@
       "directory": "leetcode/0208.实现Trie(前缀树)",
       "solutionFile": "leetcode/0208.实现Trie(前缀树)/实现Trie(前缀树).js",
       "testFile": "leetcode/0208.实现Trie(前缀树)/实现Trie(前缀树).test.js",
-      "created": false
+      "created": false,
+      "entryName": "Trie",
+      "meta": {
+        "classname": "Trie",
+        "constructor": {
+          "params": []
+        },
+        "methods": [
+          {
+            "params": [
+              {
+                "type": "string",
+                "name": "word"
+              }
+            ],
+            "name": "insert",
+            "return": {
+              "type": "void"
+            }
+          },
+          {
+            "params": [
+              {
+                "type": "string",
+                "name": "word"
+              }
+            ],
+            "name": "search",
+            "return": {
+              "type": "boolean"
+            }
+          },
+          {
+            "params": [
+              {
+                "type": "string",
+                "name": "prefix"
+              }
+            ],
+            "name": "startsWith",
+            "return": {
+              "type": "boolean"
+            }
+          }
+        ],
+        "return": {
+          "type": "boolean"
+        },
+        "systemdesign": true
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "operations": [
+              "Trie",
+              "insert",
+              "search",
+              "search",
+              "startsWith",
+              "insert",
+              "search"
+            ],
+            "arguments": [
+              [],
+              [
+                "apple"
+              ],
+              [
+                "apple"
+              ],
+              [
+                "app"
+              ],
+              [
+                "app"
+              ],
+              [
+                "app"
+              ],
+              [
+                "app"
+              ]
+            ]
+          },
+          "expected": [
+            null,
+            null,
+            true,
+            false,
+            true,
+            null,
+            true
+          ]
+        }
+      ]
     },
     {
       "id": 46,
@@ -963,7 +4290,95 @@
       "directory": "leetcode/0046.全排列",
       "solutionFile": "leetcode/0046.全排列/全排列.js",
       "testFile": "leetcode/0046.全排列/全排列.test.js",
-      "created": false
+      "created": false,
+      "entryName": "permute_func1",
+      "meta": {
+        "name": "permute",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "list<list<integer>>",
+          "colsize": "size_1",
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              1,
+              2,
+              3
+            ]
+          },
+          "expected": [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              3,
+              2
+            ],
+            [
+              2,
+              1,
+              3
+            ],
+            [
+              2,
+              3,
+              1
+            ],
+            [
+              3,
+              1,
+              2
+            ],
+            [
+              3,
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              0,
+              1
+            ]
+          },
+          "expected": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              1
+            ]
+          },
+          "expected": [
+            [
+              1
+            ]
+          ]
+        }
+      ]
     },
     {
       "id": 78,
@@ -980,7 +4395,74 @@
       "directory": "leetcode/0078.子集",
       "solutionFile": "leetcode/0078.子集/子集.js",
       "testFile": "leetcode/0078.子集/子集.test.js",
-      "created": false
+      "created": false,
+      "entryName": "subsets",
+      "meta": {
+        "name": "subsets",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "list<list<integer>>",
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              1,
+              2,
+              3
+            ]
+          },
+          "expected": [
+            [],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              0
+            ]
+          },
+          "expected": [
+            [],
+            [
+              0
+            ]
+          ]
+        }
+      ]
     },
     {
       "id": 17,
@@ -997,7 +4479,48 @@
       "directory": "leetcode/0017.电话号码的字母组合",
       "solutionFile": "leetcode/0017.电话号码的字母组合/电话号码的字母组合.js",
       "testFile": "leetcode/0017.电话号码的字母组合/电话号码的字母组合.test.js",
-      "created": false
+      "created": false,
+      "entryName": "letterCombinations_func1",
+      "meta": {
+        "name": "letterCombinations",
+        "params": [
+          {
+            "name": "digits",
+            "type": "string"
+          }
+        ],
+        "return": {
+          "type": "list<string>"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "digits": "23"
+          },
+          "expected": [
+            "ad",
+            "ae",
+            "af",
+            "bd",
+            "be",
+            "bf",
+            "cd",
+            "ce",
+            "cf"
+          ]
+        },
+        {
+          "input": {
+            "digits": "2"
+          },
+          "expected": [
+            "a",
+            "b",
+            "c"
+          ]
+        }
+      ]
     },
     {
       "id": 39,
@@ -1013,7 +4536,84 @@
       "directory": "leetcode/0039.组合总和",
       "solutionFile": "leetcode/0039.组合总和/组合总和.js",
       "testFile": "leetcode/0039.组合总和/组合总和.test.js",
-      "created": false
+      "created": false,
+      "entryName": "combinationSum_func1",
+      "meta": {
+        "name": "combinationSum",
+        "params": [
+          {
+            "name": "candidates",
+            "type": "integer[]"
+          },
+          {
+            "name": "target",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "list<list<integer>>",
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "candidates": [
+              2,
+              3,
+              6,
+              7
+            ],
+            "target": 7
+          },
+          "expected": [
+            [
+              2,
+              2,
+              3
+            ],
+            [
+              7
+            ]
+          ]
+        },
+        {
+          "input": {
+            "candidates": [
+              2,
+              3,
+              5
+            ],
+            "target": 8
+          },
+          "expected": [
+            [
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              2,
+              3,
+              3
+            ],
+            [
+              3,
+              5
+            ]
+          ]
+        },
+        {
+          "input": {
+            "candidates": [
+              2
+            ],
+            "target": 1
+          },
+          "expected": []
+        }
+      ]
     },
     {
       "id": 22,
@@ -1031,7 +4631,42 @@
       "directory": "leetcode/0022.括号生成",
       "solutionFile": "leetcode/0022.括号生成/括号生成.js",
       "testFile": "leetcode/0022.括号生成/括号生成.test.js",
-      "created": false
+      "created": false,
+      "entryName": "generateParenthesis_func1",
+      "meta": {
+        "name": "generateParenthesis",
+        "params": [
+          {
+            "name": "n",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "list<string>"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "n": 3
+          },
+          "expected": [
+            "((()))",
+            "(()())",
+            "(())()",
+            "()(())",
+            "()()()"
+          ]
+        },
+        {
+          "input": {
+            "n": 1
+          },
+          "expected": [
+            "()"
+          ]
+        }
+      ]
     },
     {
       "id": 79,
@@ -1050,7 +4685,104 @@
       "directory": "leetcode/0079.单词搜索",
       "solutionFile": "leetcode/0079.单词搜索/单词搜索.js",
       "testFile": "leetcode/0079.单词搜索/单词搜索.test.js",
-      "created": false
+      "created": false,
+      "entryName": "exist",
+      "meta": {
+        "name": "exist",
+        "params": [
+          {
+            "name": "board",
+            "type": "character[][]"
+          },
+          {
+            "name": "word",
+            "type": "string"
+          }
+        ],
+        "return": {
+          "type": "boolean"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "board": [
+              [
+                "A",
+                "B",
+                "C",
+                "E"
+              ],
+              [
+                "S",
+                "F",
+                "C",
+                "S"
+              ],
+              [
+                "A",
+                "D",
+                "E",
+                "E"
+              ]
+            ],
+            "word": "ABCCED"
+          },
+          "expected": true
+        },
+        {
+          "input": {
+            "board": [
+              [
+                "A",
+                "B",
+                "C",
+                "E"
+              ],
+              [
+                "S",
+                "F",
+                "C",
+                "S"
+              ],
+              [
+                "A",
+                "D",
+                "E",
+                "E"
+              ]
+            ],
+            "word": "SEE"
+          },
+          "expected": true
+        },
+        {
+          "input": {
+            "board": [
+              [
+                "A",
+                "B",
+                "C",
+                "E"
+              ],
+              [
+                "S",
+                "F",
+                "C",
+                "S"
+              ],
+              [
+                "A",
+                "D",
+                "E",
+                "E"
+              ]
+            ],
+            "word": "ABCB"
+          },
+          "expected": false
+        }
+      ]
     },
     {
       "id": 131,
@@ -1067,7 +4799,49 @@
       "directory": "leetcode/0131.分割回文串",
       "solutionFile": "leetcode/0131.分割回文串/分割回文串.js",
       "testFile": "leetcode/0131.分割回文串/分割回文串.test.js",
-      "created": false
+      "created": false,
+      "entryName": "partition",
+      "meta": {
+        "name": "partition",
+        "params": [
+          {
+            "name": "s",
+            "type": "string"
+          }
+        ],
+        "return": {
+          "type": "list<list<string>>",
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "s": "aab"
+          },
+          "expected": [
+            [
+              "a",
+              "a",
+              "b"
+            ],
+            [
+              "aa",
+              "b"
+            ]
+          ]
+        },
+        {
+          "input": {
+            "s": "a"
+          },
+          "expected": [
+            [
+              "a"
+            ]
+          ]
+        }
+      ]
     },
     {
       "id": 51,
@@ -1084,7 +4858,53 @@
       "directory": "leetcode/0051.N皇后",
       "solutionFile": "leetcode/0051.N皇后/N皇后.js",
       "testFile": "leetcode/0051.N皇后/N皇后.test.js",
-      "created": false
+      "created": false,
+      "entryName": "solveNQueens",
+      "meta": {
+        "name": "solveNQueens",
+        "params": [
+          {
+            "name": "n",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "list<list<string>>",
+          "colsize": "param_1",
+          "dealloc": true
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "n": 4
+          },
+          "expected": [
+            [
+              ".Q..",
+              "...Q",
+              "Q...",
+              "..Q."
+            ],
+            [
+              "..Q.",
+              "Q...",
+              "...Q",
+              ".Q.."
+            ]
+          ]
+        },
+        {
+          "input": {
+            "n": 1
+          },
+          "expected": [
+            [
+              "Q"
+            ]
+          ]
+        }
+      ]
     },
     {
       "id": 35,
@@ -1100,7 +4920,62 @@
       "directory": "leetcode/0035.搜索插入位置",
       "solutionFile": "leetcode/0035.搜索插入位置/搜索插入位置.js",
       "testFile": "leetcode/0035.搜索插入位置/搜索插入位置.test.js",
-      "created": false
+      "created": false,
+      "entryName": "searchInsert_func1",
+      "meta": {
+        "name": "searchInsert",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          },
+          {
+            "name": "target",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              1,
+              3,
+              5,
+              6
+            ],
+            "target": 5
+          },
+          "expected": 2
+        },
+        {
+          "input": {
+            "nums": [
+              1,
+              3,
+              5,
+              6
+            ],
+            "target": 2
+          },
+          "expected": 1
+        },
+        {
+          "input": {
+            "nums": [
+              1,
+              3,
+              5,
+              6
+            ],
+            "target": 7
+          },
+          "expected": 4
+        }
+      ]
     },
     {
       "id": 74,
@@ -1117,7 +4992,78 @@
       "directory": "leetcode/0074.搜索二维矩阵",
       "solutionFile": "leetcode/0074.搜索二维矩阵/搜索二维矩阵.js",
       "testFile": "leetcode/0074.搜索二维矩阵/搜索二维矩阵.test.js",
-      "created": false
+      "created": false,
+      "entryName": "searchMatrix",
+      "meta": {
+        "name": "searchMatrix",
+        "params": [
+          {
+            "name": "matrix",
+            "type": "integer[][]"
+          },
+          {
+            "name": "target",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "boolean"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "matrix": [
+              [
+                1,
+                3,
+                5,
+                7
+              ],
+              [
+                10,
+                11,
+                16,
+                20
+              ],
+              [
+                23,
+                30,
+                34,
+                60
+              ]
+            ],
+            "target": 3
+          },
+          "expected": true
+        },
+        {
+          "input": {
+            "matrix": [
+              [
+                1,
+                3,
+                5,
+                7
+              ],
+              [
+                10,
+                11,
+                16,
+                20
+              ],
+              [
+                23,
+                30,
+                34,
+                60
+              ]
+            ],
+            "target": 13
+          },
+          "expected": false
+        }
+      ]
     },
     {
       "id": 34,
@@ -1133,7 +5079,70 @@
       "directory": "leetcode/0034.在排序数组中查找元素的第一个和最后一个位置",
       "solutionFile": "leetcode/0034.在排序数组中查找元素的第一个和最后一个位置/在排序数组中查找元素的第一个和最后一个位置.js",
       "testFile": "leetcode/0034.在排序数组中查找元素的第一个和最后一个位置/在排序数组中查找元素的第一个和最后一个位置.test.js",
-      "created": false
+      "created": false,
+      "entryName": "searchRange_func2",
+      "meta": {
+        "name": "searchRange",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          },
+          {
+            "name": "target",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "integer[]"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              5,
+              7,
+              7,
+              8,
+              8,
+              10
+            ],
+            "target": 8
+          },
+          "expected": [
+            3,
+            4
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              5,
+              7,
+              7,
+              8,
+              8,
+              10
+            ],
+            "target": 6
+          },
+          "expected": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "input": {
+            "nums": [],
+            "target": 0
+          },
+          "expected": [
+            -1,
+            -1
+          ]
+        }
+      ]
     },
     {
       "id": 33,
@@ -1149,7 +5158,65 @@
       "directory": "leetcode/0033.搜索旋转排序数组",
       "solutionFile": "leetcode/0033.搜索旋转排序数组/搜索旋转排序数组.js",
       "testFile": "leetcode/0033.搜索旋转排序数组/搜索旋转排序数组.test.js",
-      "created": false
+      "created": false,
+      "entryName": "search_func2",
+      "meta": {
+        "name": "search",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          },
+          {
+            "name": "target",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              4,
+              5,
+              6,
+              7,
+              0,
+              1,
+              2
+            ],
+            "target": 0
+          },
+          "expected": 4
+        },
+        {
+          "input": {
+            "nums": [
+              4,
+              5,
+              6,
+              7,
+              0,
+              1,
+              2
+            ],
+            "target": 3
+          },
+          "expected": -1
+        },
+        {
+          "input": {
+            "nums": [
+              1
+            ],
+            "target": 0
+          },
+          "expected": -1
+        }
+      ]
     },
     {
       "id": 153,
@@ -1165,7 +5232,59 @@
       "directory": "leetcode/0153.寻找旋转排序数组中的最小值",
       "solutionFile": "leetcode/0153.寻找旋转排序数组中的最小值/寻找旋转排序数组中的最小值.js",
       "testFile": "leetcode/0153.寻找旋转排序数组中的最小值/寻找旋转排序数组中的最小值.test.js",
-      "created": false
+      "created": false,
+      "entryName": "findMin",
+      "meta": {
+        "name": "findMin",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              3,
+              4,
+              5,
+              1,
+              2
+            ]
+          },
+          "expected": 1
+        },
+        {
+          "input": {
+            "nums": [
+              4,
+              5,
+              6,
+              7,
+              0,
+              1,
+              2
+            ]
+          },
+          "expected": 0
+        },
+        {
+          "input": {
+            "nums": [
+              11,
+              13,
+              15,
+              17
+            ]
+          },
+          "expected": 11
+        }
+      ]
     },
     {
       "id": 4,
@@ -1182,7 +5301,51 @@
       "directory": "leetcode/0004.寻找两个正序数组的中位数",
       "solutionFile": "leetcode/0004.寻找两个正序数组的中位数/寻找两个正序数组的中位数.js",
       "testFile": "leetcode/0004.寻找两个正序数组的中位数/寻找两个正序数组的中位数.test.js",
-      "created": false
+      "created": false,
+      "entryName": "findMedianSortedArrays_func1",
+      "meta": {
+        "name": "findMedianSortedArrays",
+        "params": [
+          {
+            "name": "nums1",
+            "type": "integer[]"
+          },
+          {
+            "name": "nums2",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "double"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums1": [
+              1,
+              3
+            ],
+            "nums2": [
+              2
+            ]
+          },
+          "expected": 2
+        },
+        {
+          "input": {
+            "nums1": [
+              1,
+              2
+            ],
+            "nums2": [
+              3,
+              4
+            ]
+          },
+          "expected": 2.5
+        }
+      ]
     },
     {
       "id": 20,
@@ -1199,7 +5362,52 @@
       "directory": "leetcode/0020.有效的括号",
       "solutionFile": "leetcode/0020.有效的括号/有效的括号.js",
       "testFile": "leetcode/0020.有效的括号/有效的括号.test.js",
-      "created": false
+      "created": false,
+      "entryName": "isValid_func1",
+      "meta": {
+        "name": "isValid",
+        "params": [
+          {
+            "name": "s",
+            "type": "string"
+          }
+        ],
+        "return": {
+          "type": "boolean"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "s": "()"
+          },
+          "expected": true
+        },
+        {
+          "input": {
+            "s": "()[]{}"
+          },
+          "expected": true
+        },
+        {
+          "input": {
+            "s": "(]"
+          },
+          "expected": false
+        },
+        {
+          "input": {
+            "s": "([])"
+          },
+          "expected": true
+        },
+        {
+          "input": {
+            "s": "([)]"
+          },
+          "expected": false
+        }
+      ]
     },
     {
       "id": 155,
@@ -1215,7 +5423,95 @@
       "directory": "leetcode/0155.最小栈",
       "solutionFile": "leetcode/0155.最小栈/最小栈.js",
       "testFile": "leetcode/0155.最小栈/最小栈.test.js",
-      "created": false
+      "created": false,
+      "entryName": "MinStack",
+      "meta": {
+        "classname": "MinStack",
+        "constructor": {
+          "params": []
+        },
+        "methods": [
+          {
+            "params": [
+              {
+                "type": "integer",
+                "name": "value"
+              }
+            ],
+            "return": {
+              "type": "void"
+            },
+            "name": "push"
+          },
+          {
+            "params": [],
+            "return": {
+              "type": "void"
+            },
+            "name": "pop"
+          },
+          {
+            "params": [],
+            "return": {
+              "type": "integer"
+            },
+            "name": "top"
+          },
+          {
+            "params": [],
+            "return": {
+              "type": "integer"
+            },
+            "name": "getMin"
+          }
+        ],
+        "return": {
+          "type": "boolean"
+        },
+        "systemdesign": true
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "operations": [
+              "MinStack",
+              "push",
+              "push",
+              "push",
+              "getMin",
+              "pop",
+              "top",
+              "getMin"
+            ],
+            "arguments": [
+              [],
+              [
+                -2
+              ],
+              [
+                0
+              ],
+              [
+                -3
+              ],
+              [],
+              [],
+              [],
+              []
+            ]
+          },
+          "expected": [
+            null,
+            null,
+            null,
+            null,
+            -3,
+            null,
+            0,
+            -2
+          ]
+        }
+      ]
     },
     {
       "id": 394,
@@ -1232,7 +5528,46 @@
       "directory": "leetcode/0394.字符串解码",
       "solutionFile": "leetcode/0394.字符串解码/字符串解码.js",
       "testFile": "leetcode/0394.字符串解码/字符串解码.test.js",
-      "created": false
+      "created": false,
+      "entryName": "decodeString",
+      "meta": {
+        "name": "decodeString",
+        "params": [
+          {
+            "name": "s",
+            "type": "string"
+          }
+        ],
+        "return": {
+          "type": "string"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "s": "3[a]2[bc]"
+          },
+          "expected": "aaabcbc"
+        },
+        {
+          "input": {
+            "s": "3[a2[c]]"
+          },
+          "expected": "accaccacc"
+        },
+        {
+          "input": {
+            "s": "2[abc]3[cd]ef"
+          },
+          "expected": "abcabccdcdcdef"
+        },
+        {
+          "input": {
+            "s": "abc3[cd]xyz"
+          },
+          "expected": "abccdcdcdxyz"
+        }
+      ]
     },
     {
       "id": 739,
@@ -1249,7 +5584,76 @@
       "directory": "leetcode/0739.每日温度",
       "solutionFile": "leetcode/0739.每日温度/每日温度.js",
       "testFile": "leetcode/0739.每日温度/每日温度.test.js",
-      "created": false
+      "created": false,
+      "entryName": "dailyTemperatures",
+      "meta": {
+        "name": "dailyTemperatures",
+        "params": [
+          {
+            "name": "temperatures",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "integer[]"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "temperatures": [
+              73,
+              74,
+              75,
+              71,
+              69,
+              72,
+              76,
+              73
+            ]
+          },
+          "expected": [
+            1,
+            1,
+            4,
+            2,
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "input": {
+            "temperatures": [
+              30,
+              40,
+              50,
+              60
+            ]
+          },
+          "expected": [
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "input": {
+            "temperatures": [
+              30,
+              60,
+              90
+            ]
+          },
+          "expected": [
+            1,
+            1,
+            0
+          ]
+        }
+      ]
     },
     {
       "id": 84,
@@ -1267,7 +5671,44 @@
       "directory": "leetcode/0084.柱状图中最大的矩形",
       "solutionFile": "leetcode/0084.柱状图中最大的矩形/柱状图中最大的矩形.js",
       "testFile": "leetcode/0084.柱状图中最大的矩形/柱状图中最大的矩形.test.js",
-      "created": false
+      "created": false,
+      "entryName": "largestRectangleArea",
+      "meta": {
+        "name": "largestRectangleArea",
+        "params": [
+          {
+            "name": "heights",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "heights": [
+              2,
+              1,
+              5,
+              6,
+              2,
+              3
+            ]
+          },
+          "expected": 10
+        },
+        {
+          "input": {
+            "heights": [
+              2,
+              4
+            ]
+          },
+          "expected": 4
+        }
+      ]
     },
     {
       "id": 215,
@@ -1286,7 +5727,57 @@
       "directory": "leetcode/0215.数组中的第K个最大元素",
       "solutionFile": "leetcode/0215.数组中的第K个最大元素/数组中的第K个最大元素.js",
       "testFile": "leetcode/0215.数组中的第K个最大元素/数组中的第K个最大元素.test.js",
-      "created": false
+      "created": false,
+      "entryName": "findKthLargest",
+      "meta": {
+        "name": "findKthLargest",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          },
+          {
+            "name": "k",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "k": 2,
+            "nums": [
+              3,
+              2,
+              1,
+              5,
+              6,
+              4
+            ]
+          },
+          "expected": 5
+        },
+        {
+          "input": {
+            "k": 4,
+            "nums": [
+              3,
+              2,
+              3,
+              1,
+              2,
+              4,
+              5,
+              5,
+              6
+            ]
+          },
+          "expected": 4
+        }
+      ]
     },
     {
       "id": 347,
@@ -1308,7 +5799,75 @@
       "directory": "leetcode/0347.前K个高频元素",
       "solutionFile": "leetcode/0347.前K个高频元素/前K个高频元素.js",
       "testFile": "leetcode/0347.前K个高频元素/前K个高频元素.test.js",
-      "created": false
+      "created": false,
+      "entryName": "topKFrequent",
+      "meta": {
+        "name": "topKFrequent",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          },
+          {
+            "name": "k",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "integer[]"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              1,
+              1,
+              1,
+              2,
+              2,
+              3
+            ],
+            "k": 2
+          },
+          "expected": [
+            1,
+            2
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              1
+            ],
+            "k": 1
+          },
+          "expected": [
+            1
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              1,
+              2,
+              1,
+              2,
+              1,
+              2,
+              3,
+              1,
+              3,
+              2
+            ],
+            "k": 2
+          },
+          "expected": [
+            1,
+            2
+          ]
+        }
+      ]
     },
     {
       "id": 295,
@@ -1327,7 +5886,75 @@
       "directory": "leetcode/0295.数据流的中位数",
       "solutionFile": "leetcode/0295.数据流的中位数/数据流的中位数.js",
       "testFile": "leetcode/0295.数据流的中位数/数据流的中位数.test.js",
-      "created": false
+      "created": false,
+      "entryName": "MedianFinder",
+      "meta": {
+        "classname": "MedianFinder",
+        "constructor": {
+          "params": []
+        },
+        "methods": [
+          {
+            "params": [
+              {
+                "type": "integer",
+                "name": "num"
+              }
+            ],
+            "name": "addNum",
+            "return": {
+              "type": "void"
+            }
+          },
+          {
+            "params": [],
+            "name": "findMedian",
+            "return": {
+              "type": "double"
+            }
+          }
+        ],
+        "return": {
+          "type": "boolean"
+        },
+        "systemdesign": true
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "operations": [
+              "MedianFinder",
+              "addNum",
+              "addNum",
+              "findMedian",
+              "addNum",
+              "findMedian"
+            ],
+            "arguments": [
+              [],
+              [
+                1
+              ],
+              [
+                2
+              ],
+              [],
+              [
+                3
+              ],
+              []
+            ]
+          },
+          "expected": [
+            null,
+            null,
+            null,
+            1.5,
+            null,
+            2
+          ]
+        }
+      ]
     },
     {
       "id": 121,
@@ -1343,7 +5970,47 @@
       "directory": "leetcode/0121.买卖股票的最佳时机",
       "solutionFile": "leetcode/0121.买卖股票的最佳时机/买卖股票的最佳时机.js",
       "testFile": "leetcode/0121.买卖股票的最佳时机/买卖股票的最佳时机.test.js",
-      "created": false
+      "created": false,
+      "entryName": "maxProfit",
+      "meta": {
+        "name": "maxProfit",
+        "params": [
+          {
+            "name": "prices",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "prices": [
+              7,
+              1,
+              5,
+              3,
+              6,
+              4
+            ]
+          },
+          "expected": 5
+        },
+        {
+          "input": {
+            "prices": [
+              7,
+              6,
+              4,
+              3,
+              1
+            ]
+          },
+          "expected": 0
+        }
+      ]
     },
     {
       "id": 55,
@@ -1360,7 +6027,46 @@
       "directory": "leetcode/0055.跳跃游戏",
       "solutionFile": "leetcode/0055.跳跃游戏/跳跃游戏.js",
       "testFile": "leetcode/0055.跳跃游戏/跳跃游戏.test.js",
-      "created": false
+      "created": false,
+      "entryName": "canJump",
+      "meta": {
+        "name": "canJump",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "boolean"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              2,
+              3,
+              1,
+              1,
+              4
+            ]
+          },
+          "expected": true
+        },
+        {
+          "input": {
+            "nums": [
+              3,
+              2,
+              1,
+              0,
+              4
+            ]
+          },
+          "expected": false
+        }
+      ]
     },
     {
       "id": 45,
@@ -1377,7 +6083,46 @@
       "directory": "leetcode/0045.跳跃游戏Ⅱ",
       "solutionFile": "leetcode/0045.跳跃游戏Ⅱ/跳跃游戏Ⅱ.js",
       "testFile": "leetcode/0045.跳跃游戏Ⅱ/跳跃游戏Ⅱ.test.js",
-      "created": false
+      "created": false,
+      "entryName": "jump_func1",
+      "meta": {
+        "name": "jump",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              2,
+              3,
+              1,
+              1,
+              4
+            ]
+          },
+          "expected": 2
+        },
+        {
+          "input": {
+            "nums": [
+              2,
+              3,
+              0,
+              1,
+              4
+            ]
+          },
+          "expected": 2
+        }
+      ]
     },
     {
       "id": 763,
@@ -1395,7 +6140,40 @@
       "directory": "leetcode/0763.划分字母区间",
       "solutionFile": "leetcode/0763.划分字母区间/划分字母区间.js",
       "testFile": "leetcode/0763.划分字母区间/划分字母区间.test.js",
-      "created": false
+      "created": false,
+      "entryName": "partitionLabels",
+      "meta": {
+        "name": "partitionLabels",
+        "params": [
+          {
+            "name": "s",
+            "type": "string"
+          }
+        ],
+        "return": {
+          "type": "list<integer>"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "s": "ababcbacadefegdehijhklij"
+          },
+          "expected": [
+            9,
+            7,
+            8
+          ]
+        },
+        {
+          "input": {
+            "s": "eccbbbbdec"
+          },
+          "expected": [
+            10
+          ]
+        }
+      ]
     },
     {
       "id": 70,
@@ -1412,7 +6190,34 @@
       "directory": "leetcode/0070.爬楼梯",
       "solutionFile": "leetcode/0070.爬楼梯/爬楼梯.js",
       "testFile": "leetcode/0070.爬楼梯/爬楼梯.test.js",
-      "created": false
+      "created": false,
+      "entryName": "climbStairs",
+      "meta": {
+        "name": "climbStairs",
+        "params": [
+          {
+            "name": "n",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "n": 2
+          },
+          "expected": 2
+        },
+        {
+          "input": {
+            "n": 3
+          },
+          "expected": 3
+        }
+      ]
     },
     {
       "id": 118,
@@ -1428,7 +6233,66 @@
       "directory": "leetcode/0118.杨辉三角",
       "solutionFile": "leetcode/0118.杨辉三角/杨辉三角.js",
       "testFile": "leetcode/0118.杨辉三角/杨辉三角.test.js",
-      "created": false
+      "created": false,
+      "entryName": "generate",
+      "meta": {
+        "name": "generate",
+        "params": [
+          {
+            "name": "numRows",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "list<list<integer>>",
+          "dealloc": true,
+          "rowsize": "param_1"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "numRows": 5
+          },
+          "expected": [
+            [
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              3,
+              3,
+              1
+            ],
+            [
+              1,
+              4,
+              6,
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "input": {
+            "numRows": 1
+          },
+          "expected": [
+            [
+              1
+            ]
+          ]
+        }
+      ]
     },
     {
       "id": 198,
@@ -1444,7 +6308,45 @@
       "directory": "leetcode/0198.打家劫舍",
       "solutionFile": "leetcode/0198.打家劫舍/打家劫舍.js",
       "testFile": "leetcode/0198.打家劫舍/打家劫舍.test.js",
-      "created": false
+      "created": false,
+      "entryName": "rob",
+      "meta": {
+        "name": "rob",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              1,
+              2,
+              3,
+              1
+            ]
+          },
+          "expected": 4
+        },
+        {
+          "input": {
+            "nums": [
+              2,
+              7,
+              9,
+              3,
+              1
+            ]
+          },
+          "expected": 12
+        }
+      ]
     },
     {
       "id": 279,
@@ -1463,7 +6365,34 @@
       "directory": "leetcode/0279.完全平方数",
       "solutionFile": "leetcode/0279.完全平方数/完全平方数.js",
       "testFile": "leetcode/0279.完全平方数/完全平方数.test.js",
-      "created": false
+      "created": false,
+      "entryName": "numSquares",
+      "meta": {
+        "name": "numSquares",
+        "params": [
+          {
+            "name": "n",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "n": 12
+          },
+          "expected": 3
+        },
+        {
+          "input": {
+            "n": 13
+          },
+          "expected": 2
+        }
+      ]
     },
     {
       "id": 322,
@@ -1482,7 +6411,55 @@
       "directory": "leetcode/0322.零钱兑换",
       "solutionFile": "leetcode/0322.零钱兑换/零钱兑换.js",
       "testFile": "leetcode/0322.零钱兑换/零钱兑换.test.js",
-      "created": false
+      "created": false,
+      "entryName": "coinChange",
+      "meta": {
+        "name": "coinChange",
+        "params": [
+          {
+            "name": "coins",
+            "type": "integer[]"
+          },
+          {
+            "name": "amount",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "coins": [
+              1,
+              2,
+              5
+            ],
+            "amount": 11
+          },
+          "expected": 3
+        },
+        {
+          "input": {
+            "coins": [
+              2
+            ],
+            "amount": 3
+          },
+          "expected": -1
+        },
+        {
+          "input": {
+            "coins": [
+              1
+            ],
+            "amount": 0
+          },
+          "expected": 0
+        }
+      ]
     },
     {
       "id": 139,
@@ -1503,7 +6480,59 @@
       "directory": "leetcode/0139.单词拆分",
       "solutionFile": "leetcode/0139.单词拆分/单词拆分.js",
       "testFile": "leetcode/0139.单词拆分/单词拆分.test.js",
-      "created": false
+      "created": false,
+      "entryName": "wordBreak",
+      "meta": {
+        "name": "wordBreak",
+        "params": [
+          {
+            "name": "s",
+            "type": "string"
+          },
+          {
+            "name": "wordDict",
+            "type": "list<string>"
+          }
+        ],
+        "return": {
+          "type": "boolean"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "s": "leetcode",
+            "wordDict": [
+              "leet",
+              "code"
+            ]
+          },
+          "expected": true
+        },
+        {
+          "input": {
+            "s": "applepenapple",
+            "wordDict": [
+              "apple",
+              "pen"
+            ]
+          },
+          "expected": true
+        },
+        {
+          "input": {
+            "s": "catsandog",
+            "wordDict": [
+              "cats",
+              "dog",
+              "sand",
+              "and",
+              "cat"
+            ]
+          },
+          "expected": false
+        }
+      ]
     },
     {
       "id": 300,
@@ -1521,7 +6550,64 @@
       "directory": "leetcode/0300.最长递增子序列",
       "solutionFile": "leetcode/0300.最长递增子序列/最长递增子序列.js",
       "testFile": "leetcode/0300.最长递增子序列/最长递增子序列.test.js",
-      "created": false
+      "created": false,
+      "entryName": "lengthOfLIS",
+      "meta": {
+        "name": "lengthOfLIS",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              10,
+              9,
+              2,
+              5,
+              3,
+              7,
+              101,
+              18
+            ]
+          },
+          "expected": 4
+        },
+        {
+          "input": {
+            "nums": [
+              0,
+              1,
+              0,
+              3,
+              2,
+              3
+            ]
+          },
+          "expected": 4
+        },
+        {
+          "input": {
+            "nums": [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ]
+          },
+          "expected": 1
+        }
+      ]
     },
     {
       "id": 152,
@@ -1537,7 +6623,43 @@
       "directory": "leetcode/0152.乘积最大子数组",
       "solutionFile": "leetcode/0152.乘积最大子数组/乘积最大子数组.js",
       "testFile": "leetcode/0152.乘积最大子数组/乘积最大子数组.test.js",
-      "created": false
+      "created": false,
+      "entryName": "maxProduct",
+      "meta": {
+        "name": "maxProduct",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              2,
+              3,
+              -2,
+              4
+            ]
+          },
+          "expected": 6
+        },
+        {
+          "input": {
+            "nums": [
+              -2,
+              0,
+              -1
+            ]
+          },
+          "expected": 0
+        }
+      ]
     },
     {
       "id": 416,
@@ -1555,7 +6677,44 @@
       "directory": "leetcode/0416.分割等和子集",
       "solutionFile": "leetcode/0416.分割等和子集/分割等和子集.js",
       "testFile": "leetcode/0416.分割等和子集/分割等和子集.test.js",
-      "created": false
+      "created": false,
+      "entryName": "canPartition",
+      "meta": {
+        "name": "canPartition",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "boolean"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              1,
+              5,
+              11,
+              5
+            ]
+          },
+          "expected": true
+        },
+        {
+          "input": {
+            "nums": [
+              1,
+              2,
+              3,
+              5
+            ]
+          },
+          "expected": false
+        }
+      ]
     },
     {
       "id": 32,
@@ -1573,7 +6732,40 @@
       "directory": "leetcode/0032.最长的有效括号",
       "solutionFile": "leetcode/0032.最长的有效括号/最长有效括号.js",
       "testFile": "leetcode/0032.最长的有效括号/最长有效括号.test.js",
-      "created": false
+      "created": false,
+      "entryName": "longestValidParentheses_func2",
+      "meta": {
+        "name": "longestValidParentheses",
+        "params": [
+          {
+            "name": "s",
+            "type": "string"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "s": "(()"
+          },
+          "expected": 2
+        },
+        {
+          "input": {
+            "s": ")()())"
+          },
+          "expected": 4
+        },
+        {
+          "input": {
+            "s": ""
+          },
+          "expected": 0
+        }
+      ]
     },
     {
       "id": 62,
@@ -1590,7 +6782,54 @@
       "directory": "leetcode/0062.不同路径",
       "solutionFile": "leetcode/0062.不同路径/不同路径.js",
       "testFile": "leetcode/0062.不同路径/不同路径.test.js",
-      "created": false
+      "created": false,
+      "entryName": "uniquePaths",
+      "meta": {
+        "name": "uniquePaths",
+        "params": [
+          {
+            "name": "m",
+            "type": "integer"
+          },
+          {
+            "name": "n",
+            "type": "integer"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "m": 3,
+            "n": 7
+          },
+          "expected": 28
+        },
+        {
+          "input": {
+            "m": 3,
+            "n": 2
+          },
+          "expected": 3
+        },
+        {
+          "input": {
+            "m": 7,
+            "n": 3
+          },
+          "expected": 28
+        },
+        {
+          "input": {
+            "m": 3,
+            "n": 3
+          },
+          "expected": 6
+        }
+      ]
     },
     {
       "id": 64,
@@ -1607,7 +6846,61 @@
       "directory": "leetcode/0064.最小路径和",
       "solutionFile": "leetcode/0064.最小路径和/最小路径和.js",
       "testFile": "leetcode/0064.最小路径和/最小路径和.test.js",
-      "created": false
+      "created": false,
+      "entryName": "minPathSum",
+      "meta": {
+        "name": "minPathSum",
+        "params": [
+          {
+            "name": "grid",
+            "type": "integer[][]"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "grid": [
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                1,
+                5,
+                1
+              ],
+              [
+                4,
+                2,
+                1
+              ]
+            ]
+          },
+          "expected": 7
+        },
+        {
+          "input": {
+            "grid": [
+              [
+                1,
+                2,
+                3
+              ],
+              [
+                4,
+                5,
+                6
+              ]
+            ]
+          },
+          "expected": 12
+        }
+      ]
     },
     {
       "id": 5,
@@ -1625,7 +6918,34 @@
       "directory": "leetcode/0005.最长回文子串",
       "solutionFile": "leetcode/0005.最长回文子串/最长回文子串.js",
       "testFile": "leetcode/0005.最长回文子串/最长回文子串.test.js",
-      "created": false
+      "created": false,
+      "entryName": "longestPalindrome_func2",
+      "meta": {
+        "name": "longestPalindrome",
+        "params": [
+          {
+            "name": "s",
+            "type": "string"
+          }
+        ],
+        "return": {
+          "type": "string"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "s": "babad"
+          },
+          "expected": "bab"
+        },
+        {
+          "input": {
+            "s": "cbbd"
+          },
+          "expected": "bb"
+        }
+      ]
     },
     {
       "id": 1143,
@@ -1642,7 +6962,47 @@
       "directory": "leetcode/1143.最长公共子序列",
       "solutionFile": "leetcode/1143.最长公共子序列/最长公共子序列.js",
       "testFile": "leetcode/1143.最长公共子序列/最长公共子序列.test.js",
-      "created": false
+      "created": false,
+      "entryName": "longestCommonSubsequence",
+      "meta": {
+        "name": "longestCommonSubsequence",
+        "params": [
+          {
+            "name": "text1",
+            "type": "string"
+          },
+          {
+            "type": "string",
+            "name": "text2"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "text1": "abcde",
+            "text2": "ace"
+          },
+          "expected": 3
+        },
+        {
+          "input": {
+            "text1": "abc",
+            "text2": "abc"
+          },
+          "expected": 3
+        },
+        {
+          "input": {
+            "text1": "abc",
+            "text2": "def"
+          },
+          "expected": 0
+        }
+      ]
     },
     {
       "id": 72,
@@ -1658,7 +7018,40 @@
       "directory": "leetcode/0072.编辑距离",
       "solutionFile": "leetcode/0072.编辑距离/编辑距离.js",
       "testFile": "leetcode/0072.编辑距离/编辑距离.test.js",
-      "created": false
+      "created": false,
+      "entryName": "minDistance",
+      "meta": {
+        "name": "minDistance",
+        "params": [
+          {
+            "name": "word1",
+            "type": "string"
+          },
+          {
+            "name": "word2",
+            "type": "string"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "word1": "horse",
+            "word2": "ros"
+          },
+          "expected": 3
+        },
+        {
+          "input": {
+            "word1": "intention",
+            "word2": "execution"
+          },
+          "expected": 5
+        }
+      ]
     },
     {
       "id": 136,
@@ -1674,7 +7067,52 @@
       "directory": "leetcode/0136.只出现一次的数字",
       "solutionFile": "leetcode/0136.只出现一次的数字/只出现一次的数字.js",
       "testFile": "leetcode/0136.只出现一次的数字/只出现一次的数字.test.js",
-      "created": false
+      "created": false,
+      "entryName": "singleNumber",
+      "meta": {
+        "name": "singleNumber",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              2,
+              2,
+              1
+            ]
+          },
+          "expected": 1
+        },
+        {
+          "input": {
+            "nums": [
+              4,
+              1,
+              2,
+              1,
+              2
+            ]
+          },
+          "expected": 4
+        },
+        {
+          "input": {
+            "nums": [
+              1
+            ]
+          },
+          "expected": 1
+        }
+      ]
     },
     {
       "id": 169,
@@ -1694,7 +7132,46 @@
       "directory": "leetcode/0169.多数元素",
       "solutionFile": "leetcode/0169.多数元素/多数元素.js",
       "testFile": "leetcode/0169.多数元素/多数元素.test.js",
-      "created": false
+      "created": false,
+      "entryName": "majorityElement",
+      "meta": {
+        "name": "majorityElement",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              3,
+              2,
+              3
+            ]
+          },
+          "expected": 3
+        },
+        {
+          "input": {
+            "nums": [
+              2,
+              2,
+              1,
+              1,
+              1,
+              2,
+              2
+            ]
+          },
+          "expected": 2
+        }
+      ]
     },
     {
       "id": 75,
@@ -1713,7 +7190,59 @@
       "directory": "leetcode/0075.颜色分类",
       "solutionFile": "leetcode/0075.颜色分类/颜色分类.js",
       "testFile": "leetcode/0075.颜色分类/颜色分类.test.js",
-      "created": false
+      "created": false,
+      "entryName": "sortColors",
+      "meta": {
+        "name": "sortColors",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "void"
+        },
+        "output": {
+          "paramindex": 0
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              2,
+              0,
+              2,
+              1,
+              1,
+              0
+            ]
+          },
+          "expected": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              2,
+              0,
+              1
+            ]
+          },
+          "expected": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
     },
     {
       "id": 31,
@@ -1729,7 +7258,67 @@
       "directory": "leetcode/0031.下一个排列",
       "solutionFile": "leetcode/0031.下一个排列/下一个排列.js",
       "testFile": "leetcode/0031.下一个排列/下一个排列.test.js",
-      "created": false
+      "created": false,
+      "entryName": "nextPermutation_func1",
+      "meta": {
+        "name": "nextPermutation",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "void"
+        },
+        "output": {
+          "paramindex": 0
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              1,
+              2,
+              3
+            ]
+          },
+          "expected": [
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              3,
+              2,
+              1
+            ]
+          },
+          "expected": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "input": {
+            "nums": [
+              1,
+              1,
+              5
+            ]
+          },
+          "expected": [
+            1,
+            5,
+            1
+          ]
+        }
+      ]
     },
     {
       "id": 287,
@@ -1749,7 +7338,59 @@
       "directory": "leetcode/0287.寻找重复数",
       "solutionFile": "leetcode/0287.寻找重复数/寻找重复数.js",
       "testFile": "leetcode/0287.寻找重复数/寻找重复数.test.js",
-      "created": false
+      "created": false,
+      "entryName": "findDuplicate",
+      "meta": {
+        "name": "findDuplicate",
+        "params": [
+          {
+            "name": "nums",
+            "type": "integer[]"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      "officialExamples": [
+        {
+          "input": {
+            "nums": [
+              1,
+              3,
+              4,
+              2,
+              2
+            ]
+          },
+          "expected": 2
+        },
+        {
+          "input": {
+            "nums": [
+              3,
+              1,
+              3,
+              4,
+              2
+            ]
+          },
+          "expected": 3
+        },
+        {
+          "input": {
+            "nums": [
+              3,
+              3,
+              3,
+              3,
+              3
+            ]
+          },
+          "expected": 3
+        }
+      ]
     }
-  ]
+  ],
+  "examplesSyncedAt": "2026-08-04T07:22:54.029Z"
 }

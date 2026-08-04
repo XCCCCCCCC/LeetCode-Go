@@ -20,15 +20,18 @@ if (!directoryName) {
 }
 
 const directory = path.join(leetcodeDir, directoryName)
-const testFile = fs.readdirSync(directory).find((name) => name.endsWith('.test.js'))
+const testFiles = fs.readdirSync(directory)
+  .filter((name) => name.endsWith('.test.js'))
+  .sort((a, b) => a.localeCompare(b, 'zh-CN'))
 
-if (!testFile) {
+if (!testFiles.length) {
   console.error(`未找到测试文件：${directoryName}`)
   process.exit(1)
 }
 
-console.log(`运行：${directoryName}/${testFile}`)
-const result = spawnSync(process.execPath, ['--test', path.join(directory, testFile)], {
+console.log(`运行 ${directoryName} 下的 ${testFiles.length} 个测试文件：`)
+for (const testFile of testFiles) console.log(`- ${testFile}`)
+const result = spawnSync(process.execPath, ['--test', ...testFiles.map((name) => path.join(directory, name))], {
   cwd: root,
   env: {
     ...process.env,

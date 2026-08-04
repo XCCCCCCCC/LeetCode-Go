@@ -25,3 +25,18 @@ const maxArea_func2 = (height) => {
   }
   return temp
 }
+
+const maxArea_func3 = (height) => {
+  let l = 0
+  let r = height.length - 1
+  let temp = 0
+  while (l < r) {
+    temp = Math.max(temp, Math.min(height[l], height[r]) * (r - l))
+    if (height[l] < height[r]) {
+      l++
+    } else {
+      r--
+    }
+  }
+  return temp
+}

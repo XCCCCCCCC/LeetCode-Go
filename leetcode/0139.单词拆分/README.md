@@ -5,10 +5,6 @@
 
 # [139. 单词拆分](https://leetcode.cn/problems/word-break/)
 
-## 题意摘要
-
-> 用自己的话概括输入、输出和约束，不复制整段题面。
-
 ## 解题思路
 
 - 暴力解法：
@@ -17,7 +13,55 @@
 
 ## 边界条件
 
-- 
+-
+
+<!-- hot100-problem:start -->
+## 题目说明（本地训练版）
+
+判断字符串能否由字典中的单词拼接而成，单词可重复使用。
+
+### 官方示例
+
+#### 示例 1
+
+```text
+s = "leetcode"
+wordDict = ["leet","code"]
+输出 = true
+```
+
+#### 示例 2
+
+```text
+s = "applepenapple"
+wordDict = ["apple","pen"]
+输出 = true
+```
+
+#### 示例 3
+
+```text
+s = "catsandog"
+wordDict = ["cats","dog","sand","and","cat"]
+输出 = false
+```
+
+### 约束与训练提示
+
+- 1 <= s.length <= 300
+- 1 <= wordDict.length <= 1000
+- 1 <= wordDict[i].length <= 20
+- s 和 wordDict[i] 仅由小写英文字母组成
+- wordDict 中的所有字符串 互不相同
+- 状态可表示前 i 个字符是否可被拆分。
+- 需枚举最后一个单词的开始位置。
+
+### 本题测试
+
+```bash
+npm run test:problem -- 139
+```
+<!-- hot100-problem:end -->
 
 <!-- hot100-training:start -->
 ## 训练复盘

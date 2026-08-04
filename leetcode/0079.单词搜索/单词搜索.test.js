@@ -26,21 +26,78 @@ defineOfficialTests({
   examples: [
     {
       "input": {
-        "board": "[['A','B','C','E'],['S','F','C','S'],['A','D','E','E']]",
+        "board": [
+          [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          [
+            "S",
+            "F",
+            "C",
+            "S"
+          ],
+          [
+            "A",
+            "D",
+            "E",
+            "E"
+          ]
+        ],
         "word": "ABCCED"
       },
       "expected": true
     },
     {
       "input": {
-        "board": "[['A','B','C','E'],['S','F','C','S'],['A','D','E','E']]",
+        "board": [
+          [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          [
+            "S",
+            "F",
+            "C",
+            "S"
+          ],
+          [
+            "A",
+            "D",
+            "E",
+            "E"
+          ]
+        ],
         "word": "SEE"
       },
       "expected": true
     },
     {
       "input": {
-        "board": "[['A','B','C','E'],['S','F','C','S'],['A','D','E','E']]",
+        "board": [
+          [
+            "A",
+            "B",
+            "C",
+            "E"
+          ],
+          [
+            "S",
+            "F",
+            "C",
+            "S"
+          ],
+          [
+            "A",
+            "D",
+            "E",
+            "E"
+          ]
+        ],
         "word": "ABCB"
       },
       "expected": false

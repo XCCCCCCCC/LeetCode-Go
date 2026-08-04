@@ -281,6 +281,18 @@ function prepareCase(problemId, meta, example) {
 }
 
 function compareOfficialResult(problemId, meta, example, actual, prepared) {
+  if (problemId === 1) {
+    const actualIndexes = toPlain(actual)
+    assert.equal(Array.isArray(actualIndexes), true)
+    assert.equal(actualIndexes.length, 2)
+    assert.notEqual(actualIndexes[0], actualIndexes[1])
+    assert.equal(
+      example.input.nums[actualIndexes[0]] + example.input.nums[actualIndexes[1]],
+      example.input.target,
+    )
+    return
+  }
+
   if (problemId === 5) {
     assert.equal(typeof actual, 'string')
     assert.equal(actual.length, example.expected.length)
@@ -318,7 +330,7 @@ function compareOfficialResult(problemId, meta, example, actual, prepared) {
     comparable = serializeValue(meta.return.type, actual)
   }
 
-  if ([49, 39, 78].includes(problemId)) {
+  if ([15, 39, 49, 78].includes(problemId)) {
     assert.deepEqual(normalizeGroups(comparable), normalizeGroups(example.expected))
     return
   }
@@ -330,6 +342,11 @@ function compareOfficialResult(problemId, meta, example, actual, prepared) {
 
   if (problemId === 347) {
     assert.deepEqual([...comparable].sort((a, b) => a - b), [...example.expected].sort((a, b) => a - b))
+    return
+  }
+
+  if ([17, 22].includes(problemId)) {
+    assert.deepEqual([...comparable].sort(), [...example.expected].sort())
     return
   }
 

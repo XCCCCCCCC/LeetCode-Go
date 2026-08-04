@@ -5,10 +5,6 @@
 
 # [105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
-## 题意摘要
-
-> 用自己的话概括输入、输出和约束，不复制整段题面。
-
 ## 解题思路
 
 - 暴力解法：
@@ -17,7 +13,49 @@
 
 ## 边界条件
 
-- 
+-
+
+<!-- hot100-problem:start -->
+## 题目说明（本地训练版）
+
+根据二叉树的前序遍历和中序遍历重建原树。
+
+### 官方示例
+
+#### 示例 1
+
+```text
+preorder = [3,9,20,15,7]
+inorder = [9,3,15,20,7]
+输出 = [3,9,20,null,null,15,7]
+```
+
+#### 示例 2
+
+```text
+preorder = [-1]
+inorder = [-1]
+输出 = [-1]
+```
+
+### 约束与训练提示
+
+- 1 <= preorder.length <= 3000
+- inorder.length == preorder.length
+- -3000 <= preorder[i], inorder[i] <= 3000
+- preorder 和 inorder 均 无重复 元素
+- inorder 均出现在 preorder
+- preorder 保证 为二叉树的前序遍历序列
+- inorder 保证 为二叉树的中序遍历序列
+- 前序序列的首元素是当前子树根节点。
+- 中序序列可用来划分左右子树范围。
+
+### 本题测试
+
+```bash
+npm run test:problem -- 105
+```
+<!-- hot100-problem:end -->
 
 <!-- hot100-training:start -->
 ## 训练复盘

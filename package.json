@@ -6,7 +6,7 @@
     "sync:tests": "node scripts/sync-hot100-tests.js",
     "test": "node --test",
     "test:problem": "node scripts/run-problem-tests.js",
-    "test:49": "node --test \"leetcode/0049.字母异位词分组/字母异位词分组.test.js\"",
+    "test:49": "node scripts/run-problem-tests.js 49",
     "test:watch": "node --test --watch"
   }
 }

@@ -5,6 +5,9 @@ const ROOT = path.resolve(__dirname, '..')
 const GRAPHQL_URL = 'https://leetcode.cn/graphql/'
 const GENERATED_MARKER = '// official-examples: generated from leetcode.cn'
 const TODO_MARKER = '// TODO(hot100): 完成解法后删除本行。'
+const PROBLEM_START = '<!-- hot100-problem:start -->'
+const PROBLEM_END = '<!-- hot100-problem:end -->'
+const guides = require('../hot100-guides')
 
 const fallbackExamples = {
   49: [
@@ -40,13 +43,15 @@ const fallbackExamples = {
 function decodeHtml(text) {
   return text
     .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<sup[^>]*>/gi, '^')
+    .replace(/<sub[^>]*>/gi, '_')
+    .replace(/<[^>]+>/g, '')
     .replace(/&nbsp;|&#160;/g, ' ')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"')
     .replace(/&#39;|&apos;/g, "'")
     .replace(/&amp;/g, '&')
-    .replace(/<[^>]+>/g, '')
     .replace(/\r/g, '')
 }
 
@@ -92,6 +97,12 @@ function parseValue(text) {
   try {
     return JSON.parse(value)
   } catch {
+    try {
+      const jsonWithDoubleQuotes = value.replace(/'([^'\\]*(?:\\.[^'\\]*)*)'/g, (_, inner) => {
+        return JSON.stringify(inner.replace(/\\'/g, "'").replace(/\\\\/g, '\\'))
+      })
+      return JSON.parse(jsonWithDoubleQuotes)
+    } catch {}
     if (/^-?\d+(\.\d+)?$/.test(value)) return Number(value)
     if (value === 'true') return true
     if (value === 'false') return false
@@ -103,22 +114,35 @@ function parseValue(text) {
 function parseAssignments(text, meta) {
   const input = {}
   const unnamed = []
+  const valuesInOrder = []
   for (const part of splitTopLevel(text)) {
     const equalIndex = part.indexOf('=')
     if (equalIndex === -1) {
-      unnamed.push(parseValue(part))
+      const value = parseValue(part)
+      unnamed.push(value)
+      valuesInOrder.push(value)
       continue
     }
     const name = part.slice(0, equalIndex).trim()
     const value = part.slice(equalIndex + 1)
-    input[name] = parseValue(value)
+    const parsed = parseValue(value)
+    input[name] = parsed
+    valuesInOrder.push(parsed)
   }
 
-  for (const param of meta.params) {
+  meta.params.forEach((param, index) => {
     if (!(param.name in input) && unnamed.length) {
       input[param.name] = unnamed.shift()
+    } else if (
+      !(param.name in input)
+      && valuesInOrder.length === meta.params.length
+      && index < valuesInOrder.length
+    ) {
+      // Some official examples still use historical names such as l1/l2 while
+      // metadata has already changed to list1/list2. Parameter order is stable.
+      input[param.name] = valuesInOrder[index]
     }
-  }
+  })
   return input
 }
 
@@ -172,9 +196,22 @@ function parseExpected(problemId, text) {
 
 function parseExamples(problemId, content, meta) {
   const result = []
+  const blocks = [...content.matchAll(/<pre[^>]*>([\s\S]*?)<\/pre>/gi)].map((match) => match[1])
 
-  for (const match of content.matchAll(/<pre[^>]*>([\s\S]*?)<\/pre>/gi)) {
-    const text = decodeHtml(match[1]).trim()
+  if (!blocks.length) {
+    const plain = content
+      .replace(/<\/(?:p|li|div|ul|ol|h\d)>/gi, '\n')
+      .replace(/<br\s*\/?>/gi, '\n')
+    const exampleSections = plain.split(/(?=<[^>]*strong[^>]*>\s*(?:示例|Example)\s*\d*\s*[:：]?\s*<\/strong>)/i)
+    for (const section of exampleSections) {
+      if (/(?:输入|Input)\s*[:：]/i.test(decodeHtml(section)) && /(?:输出|Output)\s*[:：]/i.test(decodeHtml(section))) {
+        blocks.push(section)
+      }
+    }
+  }
+
+  for (const block of blocks) {
+    const text = decodeHtml(block).trim()
     const inputIndex = text.search(/(?:输入|Input)\s*[:：]?/i)
     const outputIndex = text.search(/(?:输出|Output)\s*[:：]?/i)
     if (inputIndex < 0 || outputIndex < 0 || outputIndex <= inputIndex) continue
@@ -194,6 +231,78 @@ function parseExamples(problemId, content, meta) {
   }
 
   return result.length ? result : fallbackExamples[problemId] || []
+}
+
+function extractConstraints(content) {
+  const promptIndex = content.search(/<strong[^>]*>\s*(?:提示|Constraints)\s*[:：]?\s*<\/strong>/i)
+  if (promptIndex === -1) return []
+  const tail = content.slice(promptIndex)
+  return [...tail.matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)]
+    .map((match) => decodeHtml(match[1]).replace(/\s+/g, ' ').trim())
+    .filter(Boolean)
+}
+
+function formatValue(value) {
+  return JSON.stringify(value)
+}
+
+function createProblemBlock(problem, examples, constraints) {
+  const [summary, tips = []] = guides[problem.id] || [
+    `完成「${problem.title}」所要求的计算并返回结果。`,
+    [],
+  ]
+  const lines = [
+    PROBLEM_START,
+    '## 题目说明（本地训练版）',
+    '',
+    summary,
+    '',
+    '### 官方示例',
+    '',
+  ]
+
+  examples.forEach((example, index) => {
+    lines.push(`#### 示例 ${index + 1}`, '', '```text')
+    if (example.input.operations) {
+      lines.push(`operations = ${formatValue(example.input.operations)}`)
+      lines.push(`arguments = ${formatValue(example.input.arguments)}`)
+    } else {
+      for (const [name, value] of Object.entries(example.input)) {
+        lines.push(`${name} = ${formatValue(value)}`)
+      }
+    }
+    lines.push(`输出 = ${formatValue(example.expected)}`, '```', '')
+  })
+
+  lines.push('### 约束与训练提示', '')
+  for (const constraint of constraints) lines.push(`- ${constraint}`)
+  for (const tip of tips) lines.push(`- ${tip}`)
+  lines.push('', '### 本题测试', '', '```bash', `npm run test:problem -- ${problem.id}`, '```')
+  lines.push(PROBLEM_END)
+  return lines.join('\n')
+}
+
+function replaceOrInsertProblemBlock(readme, block) {
+  readme = readme.replace(
+    /\n## 题意摘要\s*\n+> 用自己的话概括输入、输出和约束，不复制整段题面。\s*\n?/,
+    '\n',
+  )
+  const start = readme.indexOf(PROBLEM_START)
+  const end = readme.indexOf(PROBLEM_END)
+  if (start !== -1 && end > start) {
+    return `${readme.slice(0, start)}${block}${readme.slice(end + PROBLEM_END.length)}`
+  }
+
+  const training = readme.indexOf('<!-- hot100-training:start -->')
+  if (training !== -1) {
+    return `${readme.slice(0, training).trimEnd()}\n\n${block}\n\n${readme.slice(training)}`
+  }
+  return `${readme.trimEnd()}\n\n${block}\n`
+}
+
+function findExistingEntryName(testSource, officialEntryName) {
+  const match = testSource.match(/loadSolution\([\s\S]*?,\s*\[\s*['"]([A-Za-z_$][\w$]*)['"]/)
+  return match?.[1] || officialEntryName
 }
 
 async function fetchDetails(problems) {
@@ -259,6 +368,8 @@ function validateExamples(problem, meta, examples) {
       continue
     }
 
+    if (problem.id === 160) continue
+
     for (const param of meta.params) {
       if (!(param.name in example.input)) {
         throw new Error(`官方示例缺少参数 ${param.name}：${problem.id} 示例 ${index + 1}`)
@@ -293,20 +404,38 @@ async function main() {
   for (const problem of manifest.problems) {
     const solutionFile = path.join(ROOT, problem.solutionFile)
     const testFile = path.join(ROOT, problem.testFile)
+    const officialTestFile = testFile.replace(/\.test\.js$/, '.official.test.js')
+    const readmeFile = path.join(path.dirname(solutionFile), 'README.md')
     const source = await fs.readFile(solutionFile, 'utf8')
     const oldTest = await fs.readFile(testFile, 'utf8')
 
-    if (!source.includes(TODO_MARKER) && !oldTest.includes(GENERATED_MARKER)) {
-      continue
-    }
-
     const detail = details.get(problem.id)
-    const entryName = detail.meta.name || detail.meta.classname
+    const officialEntryName = detail.meta.name || detail.meta.classname
+    const entryName = source.includes(TODO_MARKER)
+      ? officialEntryName
+      : findExistingEntryName(oldTest, officialEntryName)
     const examples = parseExamples(problem.id, detail.content, detail.meta)
     if (!examples.length) {
       throw new Error(`未解析到官方示例：${problem.id} ${problem.title}`)
     }
     validateExamples(problem, detail.meta, examples)
+
+    problem.entryName = entryName
+    problem.meta = simplifyMeta(detail.meta)
+    problem.officialExamples = examples
+
+    const readme = await fs.readFile(readmeFile, 'utf8')
+    const problemBlock = createProblemBlock(problem, examples, extractConstraints(detail.content))
+    await fs.writeFile(readmeFile, replaceOrInsertProblemBlock(readme, problemBlock))
+
+    if (!source.includes(TODO_MARKER) && !oldTest.includes(GENERATED_MARKER)) {
+      await fs.writeFile(
+        officialTestFile,
+        createTestFile(problem, path.basename(solutionFile), entryName, detail.meta, examples),
+      )
+      updated++
+      continue
+    }
 
     await fs.writeFile(
       testFile,
@@ -314,6 +443,9 @@ async function main() {
     )
     updated++
   }
+
+  manifest.examplesSyncedAt = new Date().toISOString()
+  await fs.writeFile(path.join(ROOT, 'hot100.json'), `${JSON.stringify(manifest, null, 2)}\n`)
 
   console.log(`官方示例测试同步完成：更新 ${updated} 个测试文件。`)
 }
