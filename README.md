@@ -5,6 +5,7 @@
 ## Hot 100 入口
 
 - [Hot 100 训练索引](HOT100.md)
+- [时间复杂度与空间复杂度小白课件](COMPLEXITY.md)
 - 官方源：[LeetCode 热题 100](https://leetcode.cn/studyplan/top-100-liked/)
 - 本地题单数据：`hot100.json`
 

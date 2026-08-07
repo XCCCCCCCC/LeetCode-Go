@@ -6,9 +6,9 @@ defineOfficialTests({
   id: 128,
   title: "最长连续序列",
   solutionFile: path.join(__dirname, "最长连续序列.js"),
-  entryName: "longestConsecutive",
+  entryName: "longestConsecutive2",
   meta: {
-    "name": "longestConsecutive",
+    "name": "longestConsecutive2",
     "params": [
       {
         "name": "nums",

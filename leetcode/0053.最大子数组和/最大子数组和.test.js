@@ -6,9 +6,9 @@ defineOfficialTests({
   id: 53,
   title: "最大子数组和",
   solutionFile: path.join(__dirname, "最大子数组和.js"),
-  entryName: "maxSubArray",
+  entryName: "maxSubArray_func2",
   meta: {
-    "name": "maxSubArray",
+    "name": "maxSubArray_func2",
     "params": [
       {
         "name": "nums",

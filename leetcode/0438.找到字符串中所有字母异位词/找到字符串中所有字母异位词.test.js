@@ -6,9 +6,9 @@ defineOfficialTests({
   id: 438,
   title: "找到字符串中所有字母异位词",
   solutionFile: path.join(__dirname, "找到字符串中所有字母异位词.js"),
-  entryName: "findAnagrams",
+  entryName: "findAnagrams_func2",
   meta: {
-    "name": "findAnagrams",
+    "name": "findAnagrams_func2",
     "params": [
       {
         "name": "s",

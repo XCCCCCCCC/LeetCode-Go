@@ -6,7 +6,7 @@ defineOfficialTests({
   id: 15,
   title: "三数之和",
   solutionFile: path.join(__dirname, "三数之和.js"),
-  entryName: "threeSum_func1",
+  entryName: "threeSum_func3",
   meta: {
     "name": "threeSum",
     "params": [
