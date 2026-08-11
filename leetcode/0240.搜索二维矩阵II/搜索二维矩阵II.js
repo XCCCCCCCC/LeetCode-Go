@@ -4,6 +4,18 @@
  * @param {number} target
  * @return {boolean}
  */
-var searchMatrix = function(matrix, target) {
-    
+var searchMatrix = function (matrix, target) {
+  let rows = matrix.length
+  let row = 0
+  let column = matrix[0].length - 1
+  while (row < rows && column >= 0) {
+    if (target === matrix[row][column]) {
+      return true
+    } else if (target > matrix[row][column]) {
+      row++
+    } else {
+      column--
+    }
+  }
+  return false
 };

@@ -6,9 +6,9 @@ defineOfficialTests({
   id: 48,
   title: "旋转图像",
   solutionFile: path.join(__dirname, "旋转图像.js"),
-  entryName: "rotate",
+  entryName: "rotate_func2",
   meta: {
-    "name": "rotate",
+    "name": "rotate_func2",
     "params": [
       {
         "name": "matrix",
