@@ -33,3 +33,27 @@ const removeNthFromEnd_func2 = (head, n) => {
   gun.next = gun.next.next
   return head
 }
+var removeNthFromEnd_func3 = function (head, n) {
+  let temp = head
+  let count = 0
+  while (temp !== null) {
+    temp = temp.next
+    count++
+  }
+
+  let target = count - n
+  if (target <= 0) {
+    return head.next
+  }
+  temp = head
+  count = 1
+  while (temp !== null) {
+    if (count === target) {
+      temp.next = temp.next ? temp.next.next : null
+      return head
+    }
+    count++
+    temp = temp.next
+  }
+  return head
+};

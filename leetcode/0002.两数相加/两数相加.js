@@ -48,3 +48,38 @@ const addTwoNumbers_func2 = (l1, l2) => {
   }
   return result.next
 }
+
+var addTwoNumbers_func3 = function (l1, l2) {
+  let result = null
+  let temp = null
+  if (l1 === null) {
+    return l2
+  }
+  if (l2 === null) {
+    return l1
+  }
+  let last = 0
+  while (l1 || l2) {
+    let sum = (l1 === null ? 0 : l1.val) + (l2 === null ? 0 : l2.val) + last
+    last = Math.floor(sum / 10)
+    let cur = sum % 10
+    if (!result) {
+      result = temp = new ListNode(cur)
+    } else {
+      temp.next = new ListNode(cur)
+      temp = temp.next
+    }
+    if (l1) {
+      l1 = l1.next
+    }
+    if (l2) {
+      l2 = l2.next
+    }
+
+  }
+  if (last) {
+    temp.next = new ListNode(last)
+  }
+
+  return result
+};

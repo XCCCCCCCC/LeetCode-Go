@@ -11,6 +11,14 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var detectCycle = function(head) {
-    
+var detectCycle = function (head) {
+  let temp = new Set()
+  while (head !== null) {
+    if (temp.has(head)) {
+      return head
+    }
+    temp.add(head)
+    head = head.next
+  }
+  return null
 };

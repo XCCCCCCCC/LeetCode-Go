@@ -22,3 +22,19 @@ const swapPairs_func2 = (head) => {
   temp.next = head
   return temp
 }
+const swapPairs_func3 = (head) => {
+  let doy = new ListNode(-1)
+  doy.next = head
+  let prev = doy
+  let cur = head
+  while (cur !== null && cur.next !== null) {
+    let temp = cur.next.next
+    let next = cur.next
+    prev.next = next
+    next.next = cur
+    cur.next = temp
+    prev = cur
+    cur = temp
+  }
+  return doy.next
+}
