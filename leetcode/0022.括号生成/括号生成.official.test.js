@@ -6,7 +6,7 @@ defineOfficialTests({
   id: 22,
   title: "括号生成",
   solutionFile: path.join(__dirname, "括号生成.js"),
-  entryName: "generateParenthesis_func1",
+  entryName: "generateParenthesis_func2",
   meta: {
     "name": "generateParenthesis",
     "params": [

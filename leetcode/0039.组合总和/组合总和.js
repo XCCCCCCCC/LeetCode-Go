@@ -21,3 +21,23 @@ const combinationSum_func1 = (candidates, target) => {
   backTrack(target, 0)
   return result
 }
+const combinationSum_func2 = (candidates, target) => {
+  let result = []
+  let temp = []
+  function backTrack(start) {
+    let sum = temp.reduce((item, prev) => prev += item, 0)
+    if (sum === target) {
+      result.push([...temp])
+      return
+    } else if (sum > target) {
+      return
+    }
+    for (let i = start; i < candidates.length; i++) {
+      temp.push(candidates[i])
+      backTrack(i)
+      temp.pop()
+    }
+  }
+  backTrack(0)
+  return result
+}

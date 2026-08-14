@@ -25,3 +25,38 @@ const generateParenthesis_func1 = (n) => {
   })
   return temp
 }
+function generateParenthesis_func2(n) {
+  const rule = ['(', ')']
+  const result = []
+  const temp = []
+
+  function backTrack() {
+    if (temp.length === n * 2) {
+      if (check(temp)) {
+        result.push(temp.join(''))
+      }
+      return
+    }
+
+    for (let i = 0; i < rule.length; i++) {
+      temp.push(rule[i])
+      backTrack()
+      temp.pop()
+    }
+  }
+
+  function check(arr) {
+    let balance = 0
+
+    for (let i = 0; i < arr.length; i++) {
+      balance += arr[i] === '(' ? 1 : -1
+      if (balance < 0) {
+        return false
+      }
+    }
+    return balance === 0
+  }
+
+  backTrack()
+  return result
+}
