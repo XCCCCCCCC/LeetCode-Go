@@ -1,6 +1,8 @@
 <!-- hot100-meta:start -->
+
 > Hot 100 · 贪心算法 · 简单 · 未开始
 > [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/) · 标签：数组 / 动态规划
+
 <!-- hot100-meta:end -->
 
 # [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/)
@@ -10,12 +12,14 @@
 - 暴力解法：
 - 优化方向：
 - 核心不变量：
+  看了提示后，大致理解贪心的大致方向，仅保存当前值以前的最小值，就能判断出max
 
 ## 边界条件
 
 -
 
 <!-- hot100-problem:start -->
+
 ## 题目说明（本地训练版）
 
 只允许一次买入和一次之后的卖出，求可获得的最大利润。
@@ -48,9 +52,11 @@ prices = [7,6,4,3,1]
 ```bash
 npm run test:problem -- 121
 ```
+
 <!-- hot100-problem:end -->
 
 <!-- hot100-training:start -->
+
 ## 训练复盘
 
 - 训练日期：

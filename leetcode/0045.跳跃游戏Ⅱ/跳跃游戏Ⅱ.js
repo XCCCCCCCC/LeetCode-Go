@@ -24,3 +24,31 @@ const jump_func1 = (nums) => {
   }
   return ans
 }
+const jump_func2 = (nums) => {
+  let step = 0
+  if (nums.length === 1) {
+    return step
+  }
+  function recur(index) {
+    if (index === nums.length - 1) {
+      return
+    }
+    if (index + nums[index] >= nums.length - 1) {
+      step++
+      return
+    }
+    let count = 0
+    let next = 0
+    const end = Math.min(index + nums[index], nums.length - 1)
+    for (let i = index + 1; i <= end; i++) {
+      if (i + nums[i] > count) {
+        next = i
+        count = i + nums[i]
+      }
+    }
+    step++
+    recur(next)
+  }
+  recur(0)
+  return step
+}
