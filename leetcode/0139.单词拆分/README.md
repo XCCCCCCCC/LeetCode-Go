@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 一维动态规划 · 中等 · 已有代码
+> [139. 单词拆分](https://leetcode.cn/problems/word-break/) · 标签：字典树 / 记忆化 / 数组 / 哈希表 / 字符串 / 动态规划 / Brute-Force Search
+<!-- top150-meta:end -->
+
 <!-- hot100-meta:start -->
 > Hot 100 · 动态规划 · 中等 · 独立完成并通过
 > [139. 单词拆分](https://leetcode.cn/problems/word-break/) · 标签：字典树 / 记忆化 / 数组 / 哈希表 / 字符串 / 动态规划 / Brute-Force Search
@@ -170,3 +175,18 @@ npm run test:problem -- 139
 - D+3：
 - D+7：
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

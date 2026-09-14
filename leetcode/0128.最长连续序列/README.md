@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 哈希表 · 中等 · 已有代码
+> [128. 最长连续序列](https://leetcode.cn/problems/longest-consecutive-sequence/) · 标签：并查集 / 数组 / 哈希表
+<!-- top150-meta:end -->
+
 <!-- hot100-meta:start -->
 > Hot 100 · 哈希 · 中等 · 未开始
 > [128. 最长连续序列](https://leetcode.cn/problems/longest-consecutive-sequence/) · 标签：并查集 / 数组 / 哈希表
@@ -103,3 +108,18 @@ npm run test:problem -- 128
 - D+3：2026-08-08
 - D+7：2026-08-12，闭卷说明“只从序列起点扫描”如何避免重复扫描
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

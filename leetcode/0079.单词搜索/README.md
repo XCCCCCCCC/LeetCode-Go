@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 回溯 · 中等 · 已有代码
+> [79. 单词搜索](https://leetcode.cn/problems/word-search/) · 标签：深度优先搜索 / 数组 / 字符串 / 回溯 / 矩阵
+<!-- top150-meta:end -->
+
 <!-- hot100-meta:start -->
 > Hot 100 · 回溯 · 中等 · 未开始
 > [79. 单词搜索](https://leetcode.cn/problems/word-search/) · 标签：深度优先搜索 / 数组 / 字符串 / 回溯 / 矩阵
@@ -436,3 +441,18 @@ npm run test:problem -- 79
 - D+3：2026-08-19，闭卷写出 `(row, col, index)` 与四方向版本
 - D+7：2026-08-23，口述 79 与 46/78 的撤销状态差异
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

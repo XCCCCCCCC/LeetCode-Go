@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 二分查找 · 中等 · 已有代码
+> [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) · 标签：数组 / 二分查找
+<!-- top150-meta:end -->
+
 <!-- hot100-meta:start -->
 > Hot 100 · 二分查找 · 中等 · 已有代码与测试
 > [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) · 标签：数组 / 二分查找
@@ -376,3 +381,18 @@ npm run test:problem -- 34
 - D+3：2026-08-20，口述等于 target 时两个函数为什么继续向不同方向
 - D+7：2026-08-24，尝试用统一 lowerBound 模板重写
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

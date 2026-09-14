@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "sync:hot100": "node scripts/sync-hot100.js",
+    "sync:top150": "node scripts/sync-top-interview-150.js",
     "sync:tests": "node scripts/sync-hot100-tests.js",
     "test": "node --test",
     "test:problem": "node scripts/run-problem-tests.js",

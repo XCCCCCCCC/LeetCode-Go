@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 二分查找 · 困难 · 已有代码
+> [4. 寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/) · 标签：数组 / 二分查找 / 分治
+<!-- top150-meta:end -->
+
 <!-- hot100-meta:start -->
 > Hot 100 · 二分查找 · 困难 · 已有代码与测试
 > [4. 寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/) · 标签：数组 / 二分查找 / 分治
@@ -84,3 +89,18 @@ npm run test:problem -- 4
 - D+3：
 - D+7：
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

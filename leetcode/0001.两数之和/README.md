@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 哈希表 · 简单 · 已有代码
+> [1. 两数之和](https://leetcode.cn/problems/two-sum/) · 标签：数组 / 哈希表
+<!-- top150-meta:end -->
+
 <!-- hot100-meta:start -->
 > Hot 100 · 哈希 · 简单 · 已有代码与测试
 > [1. 两数之和](https://leetcode.cn/problems/two-sum/) · 标签：数组 / 哈希表
@@ -99,3 +104,18 @@ npm run test:problem -- 1
 - D+3：
 - D+7：
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

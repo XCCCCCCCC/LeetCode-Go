@@ -9,6 +9,20 @@
 - 官方源：[LeetCode 热题 100](https://leetcode.cn/studyplan/top-100-liked/)
 - 本地题单数据：`hot100.json`
 
+## 经典面试 150 入口
+
+- [经典面试 150 训练索引](TOP_INTERVIEW_150.md)
+- 官方源：[LeetCode 经典面试 150 题](https://leetcode.cn/studyplan/top-interview-150/)
+- 本地题单数据：`top-interview-150.json`
+
+重新从力扣官方同步经典面试 150 题单并补齐缺失目录：
+
+```bash
+npm run sync:top150
+```
+
+同步会复用已有题目目录；已有解法和测试不会被覆盖，新题只创建练习骨架。
+
 重新从力扣官方同步题单并补齐缺失目录：
 
 ```bash

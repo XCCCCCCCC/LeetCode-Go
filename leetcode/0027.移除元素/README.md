@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 数组 / 字符串 · 简单 · 已有代码
+> [27. 移除元素](https://leetcode.cn/problems/remove-element/) · 标签：数组 / 双指针
+<!-- top150-meta:end -->
+
 # [移除元素](https://leetcode.cn/problems/remove-element/)
 
 给你一个数组 nums 和一个值 val，你需要 原地 移除所有数值等于 val 的元素，并返回移除后数组的新长度。
@@ -58,3 +63,18 @@ for (int i = 0; i < len; i++) {
 - D+3：
 - D+7：
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

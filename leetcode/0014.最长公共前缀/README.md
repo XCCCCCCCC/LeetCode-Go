@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 数组 / 字符串 · 简单 · 已有代码
+> [14. 最长公共前缀](https://leetcode.cn/problems/longest-common-prefix/) · 标签：字典树 / 数组 / 字符串
+<!-- top150-meta:end -->
+
 # [最长公共前缀](https://leetcode.cn/problems/longest-common-prefix/)
 
 编写一个函数来查找字符串数组中的最长公共前缀。
@@ -36,3 +41,18 @@
 - D+3：
 - D+7：
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

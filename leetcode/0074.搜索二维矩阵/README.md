@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 二分查找 · 中等 · 已有代码
+> [74. 搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix/) · 标签：数组 / 二分查找 / 矩阵
+<!-- top150-meta:end -->
+
 <!-- hot100-meta:start -->
 > Hot 100 · 二分查找 · 中等 · 未开始
 > [74. 搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix/) · 标签：数组 / 二分查找 / 矩阵
@@ -247,3 +252,18 @@ npm run test:problem -- 74
 - D+3：2026-08-20，闭卷写出虚拟一维下标映射
 - D+7：2026-08-24，对比两段二分与一次二分的区间含义
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

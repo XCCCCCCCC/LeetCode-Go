@@ -1,0 +1,2440 @@
+{
+  "source": "https://leetcode.cn/studyplan/top-interview-150/",
+  "syncedAt": "2026-09-14T02:53:57.142Z",
+  "title": "经典面试 150 题",
+  "slug": "top-interview-150",
+  "problems": [
+    {
+      "id": 88,
+      "title": "合并两个有序数组",
+      "titleSlug": "merge-sorted-array",
+      "difficulty": "EASY",
+      "category": "数组 / 字符串",
+      "tags": [
+        "数组",
+        "双指针",
+        "排序"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0088.合并两个有序数组",
+      "solutionFile": "leetcode/0088.合并两个有序数组/合并两个有序数组.js",
+      "testFile": "leetcode/0088.合并两个有序数组/合并两个有序数组.test.js"
+    },
+    {
+      "id": 27,
+      "title": "移除元素",
+      "titleSlug": "remove-element",
+      "difficulty": "EASY",
+      "category": "数组 / 字符串",
+      "tags": [
+        "数组",
+        "双指针"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0027.移除元素",
+      "solutionFile": "leetcode/0027.移除元素/移除元素.js",
+      "testFile": "leetcode/0027.移除元素/移除元素.test.js"
+    },
+    {
+      "id": 26,
+      "title": "删除有序数组中的重复项",
+      "titleSlug": "remove-duplicates-from-sorted-array",
+      "difficulty": "EASY",
+      "category": "数组 / 字符串",
+      "tags": [
+        "数组",
+        "双指针"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0026.删除有序数组中的重复项",
+      "solutionFile": "leetcode/0026.删除有序数组中的重复项/删除有序数组中的重复项.js",
+      "testFile": "leetcode/0026.删除有序数组中的重复项/删除有序数组中的重复项.test.js"
+    },
+    {
+      "id": 80,
+      "title": "删除有序数组中的重复项 II",
+      "titleSlug": "remove-duplicates-from-sorted-array-ii",
+      "difficulty": "MEDIUM",
+      "category": "数组 / 字符串",
+      "tags": [
+        "数组",
+        "双指针"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0080.删除有序数组中的重复项II",
+      "solutionFile": "leetcode/0080.删除有序数组中的重复项II/删除有序数组中的重复项II.js",
+      "testFile": "leetcode/0080.删除有序数组中的重复项II/删除有序数组中的重复项II.test.js"
+    },
+    {
+      "id": 169,
+      "title": "多数元素",
+      "titleSlug": "majority-element",
+      "difficulty": "EASY",
+      "category": "数组 / 字符串",
+      "tags": [
+        "数组",
+        "哈希表",
+        "分治",
+        "计数",
+        "排序",
+        "摩尔投票算法"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0169.多数元素",
+      "solutionFile": "leetcode/0169.多数元素/多数元素.js",
+      "testFile": "leetcode/0169.多数元素/多数元素.test.js"
+    },
+    {
+      "id": 189,
+      "title": "轮转数组",
+      "titleSlug": "rotate-array",
+      "difficulty": "MEDIUM",
+      "category": "数组 / 字符串",
+      "tags": [
+        "数组",
+        "数学",
+        "双指针"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0189.轮转数组",
+      "solutionFile": "leetcode/0189.轮转数组/轮转数组.js",
+      "testFile": "leetcode/0189.轮转数组/轮转数组.test.js"
+    },
+    {
+      "id": 121,
+      "title": "买卖股票的最佳时机",
+      "titleSlug": "best-time-to-buy-and-sell-stock",
+      "difficulty": "EASY",
+      "category": "数组 / 字符串",
+      "tags": [
+        "数组",
+        "动态规划"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0121.买卖股票的最佳时机",
+      "solutionFile": "leetcode/0121.买卖股票的最佳时机/买卖股票的最佳时机.js",
+      "testFile": "leetcode/0121.买卖股票的最佳时机/买卖股票的最佳时机.test.js"
+    },
+    {
+      "id": 122,
+      "title": "买卖股票的最佳时机 II",
+      "titleSlug": "best-time-to-buy-and-sell-stock-ii",
+      "difficulty": "MEDIUM",
+      "category": "数组 / 字符串",
+      "tags": [
+        "贪心",
+        "数组",
+        "动态规划"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0122.买卖股票的最佳时机II",
+      "solutionFile": "leetcode/0122.买卖股票的最佳时机II/买卖股票的最佳时机II.js",
+      "testFile": "leetcode/0122.买卖股票的最佳时机II/买卖股票的最佳时机II.test.js"
+    },
+    {
+      "id": 55,
+      "title": "跳跃游戏",
+      "titleSlug": "jump-game",
+      "difficulty": "MEDIUM",
+      "category": "数组 / 字符串",
+      "tags": [
+        "贪心",
+        "数组",
+        "动态规划"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0055.跳跃游戏",
+      "solutionFile": "leetcode/0055.跳跃游戏/跳跃游戏.js",
+      "testFile": "leetcode/0055.跳跃游戏/跳跃游戏.test.js"
+    },
+    {
+      "id": 45,
+      "title": "跳跃游戏 II",
+      "titleSlug": "jump-game-ii",
+      "difficulty": "MEDIUM",
+      "category": "数组 / 字符串",
+      "tags": [
+        "贪心",
+        "数组",
+        "动态规划"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0045.跳跃游戏Ⅱ",
+      "solutionFile": "leetcode/0045.跳跃游戏Ⅱ/跳跃游戏Ⅱ.js",
+      "testFile": "leetcode/0045.跳跃游戏Ⅱ/跳跃游戏Ⅱ.test.js"
+    },
+    {
+      "id": 274,
+      "title": "H 指数",
+      "titleSlug": "h-index",
+      "difficulty": "MEDIUM",
+      "category": "数组 / 字符串",
+      "tags": [
+        "数组",
+        "计数排序",
+        "排序"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0274.H指数",
+      "solutionFile": "leetcode/0274.H指数/H指数.js",
+      "testFile": "leetcode/0274.H指数/H指数.test.js"
+    },
+    {
+      "id": 380,
+      "title": "O(1) 时间插入、删除和获取随机元素",
+      "titleSlug": "insert-delete-getrandom-o1",
+      "difficulty": "MEDIUM",
+      "category": "数组 / 字符串",
+      "tags": [
+        "设计",
+        "数组",
+        "哈希表",
+        "数学",
+        "随机化"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0380.O(1)时间插入、删除和获取随机元素",
+      "solutionFile": "leetcode/0380.O(1)时间插入、删除和获取随机元素/O(1)时间插入、删除和获取随机元素.js",
+      "testFile": "leetcode/0380.O(1)时间插入、删除和获取随机元素/O(1)时间插入、删除和获取随机元素.test.js"
+    },
+    {
+      "id": 238,
+      "title": "除了自身以外数组的乘积",
+      "titleSlug": "product-of-array-except-self",
+      "difficulty": "MEDIUM",
+      "category": "数组 / 字符串",
+      "tags": [
+        "数组",
+        "前缀和"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0238.除了自身以外数组的乘积",
+      "solutionFile": "leetcode/0238.除了自身以外数组的乘积/除了自身以外数组的乘积.js",
+      "testFile": "leetcode/0238.除了自身以外数组的乘积/除了自身以外数组的乘积.test.js"
+    },
+    {
+      "id": 134,
+      "title": "加油站",
+      "titleSlug": "gas-station",
+      "difficulty": "MEDIUM",
+      "category": "数组 / 字符串",
+      "tags": [
+        "贪心",
+        "数组"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0134.加油站",
+      "solutionFile": "leetcode/0134.加油站/加油站.js",
+      "testFile": "leetcode/0134.加油站/加油站.test.js"
+    },
+    {
+      "id": 135,
+      "title": "分发糖果",
+      "titleSlug": "candy",
+      "difficulty": "HARD",
+      "category": "数组 / 字符串",
+      "tags": [
+        "贪心",
+        "数组"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0135.分发糖果",
+      "solutionFile": "leetcode/0135.分发糖果/分发糖果.js",
+      "testFile": "leetcode/0135.分发糖果/分发糖果.test.js"
+    },
+    {
+      "id": 42,
+      "title": "接雨水",
+      "titleSlug": "trapping-rain-water",
+      "difficulty": "HARD",
+      "category": "数组 / 字符串",
+      "tags": [
+        "栈",
+        "数组",
+        "双指针",
+        "动态规划",
+        "单调栈"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0042.接雨水",
+      "solutionFile": "leetcode/0042.接雨水/接雨水.js",
+      "testFile": "leetcode/0042.接雨水/接雨水.test.js"
+    },
+    {
+      "id": 13,
+      "title": "罗马数字转整数",
+      "titleSlug": "roman-to-integer",
+      "difficulty": "EASY",
+      "category": "数组 / 字符串",
+      "tags": [
+        "哈希表",
+        "数学",
+        "字符串"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0013.罗马数字转整数",
+      "solutionFile": "leetcode/0013.罗马数字转整数/罗马数字转整数.js",
+      "testFile": "leetcode/0013.罗马数字转整数/罗马数字转整数.test.js"
+    },
+    {
+      "id": 12,
+      "title": "整数转罗马数字",
+      "titleSlug": "integer-to-roman",
+      "difficulty": "MEDIUM",
+      "category": "数组 / 字符串",
+      "tags": [
+        "哈希表",
+        "数学",
+        "字符串"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0012.整数转罗马数字",
+      "solutionFile": "leetcode/0012.整数转罗马数字/整数转罗马数字.js",
+      "testFile": "leetcode/0012.整数转罗马数字/整数转罗马数字.test.js"
+    },
+    {
+      "id": 58,
+      "title": "最后一个单词的长度",
+      "titleSlug": "length-of-last-word",
+      "difficulty": "EASY",
+      "category": "数组 / 字符串",
+      "tags": [
+        "字符串"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0058.最后一个单词的长度",
+      "solutionFile": "leetcode/0058.最后一个单词的长度/最后一个单词的长度.js",
+      "testFile": "leetcode/0058.最后一个单词的长度/最后一个单词的长度.test.js"
+    },
+    {
+      "id": 14,
+      "title": "最长公共前缀",
+      "titleSlug": "longest-common-prefix",
+      "difficulty": "EASY",
+      "category": "数组 / 字符串",
+      "tags": [
+        "字典树",
+        "数组",
+        "字符串"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0014.最长公共前缀",
+      "solutionFile": "leetcode/0014.最长公共前缀/最长公共前缀.js",
+      "testFile": "leetcode/0014.最长公共前缀/最长公共前缀.test.js"
+    },
+    {
+      "id": 151,
+      "title": "反转字符串中的单词",
+      "titleSlug": "reverse-words-in-a-string",
+      "difficulty": "MEDIUM",
+      "category": "数组 / 字符串",
+      "tags": [
+        "双指针",
+        "字符串"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0151.反转字符串中的单词",
+      "solutionFile": "leetcode/0151.反转字符串中的单词/反转字符串中的单词.js",
+      "testFile": "leetcode/0151.反转字符串中的单词/反转字符串中的单词.test.js"
+    },
+    {
+      "id": 6,
+      "title": "Z 字形变换",
+      "titleSlug": "zigzag-conversion",
+      "difficulty": "MEDIUM",
+      "category": "数组 / 字符串",
+      "tags": [
+        "字符串"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0006.Z字形变换",
+      "solutionFile": "leetcode/0006.Z字形变换/Z字形变换.js",
+      "testFile": "leetcode/0006.Z字形变换/Z字形变换.test.js"
+    },
+    {
+      "id": 28,
+      "title": "找出字符串中第一个匹配项的下标",
+      "titleSlug": "find-the-index-of-the-first-occurrence-in-a-string",
+      "difficulty": "EASY",
+      "category": "数组 / 字符串",
+      "tags": [
+        "双指针",
+        "字符串",
+        "字符串匹配",
+        "KMP 算法",
+        "Boyer–Moore 算法",
+        "扩展 KMP"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0028.实现strStr()",
+      "solutionFile": "leetcode/0028.实现strStr()/实现strStr().js",
+      "testFile": "leetcode/0028.实现strStr()/实现strStr().test.js"
+    },
+    {
+      "id": 68,
+      "title": "文本左右对齐",
+      "titleSlug": "text-justification",
+      "difficulty": "HARD",
+      "category": "数组 / 字符串",
+      "tags": [
+        "数组",
+        "字符串",
+        "模拟"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0068.文本左右对齐",
+      "solutionFile": "leetcode/0068.文本左右对齐/文本左右对齐.js",
+      "testFile": "leetcode/0068.文本左右对齐/文本左右对齐.test.js"
+    },
+    {
+      "id": 125,
+      "title": "验证回文串",
+      "titleSlug": "valid-palindrome",
+      "difficulty": "EASY",
+      "category": "双指针",
+      "tags": [
+        "双指针",
+        "字符串"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0125.验证回文串",
+      "solutionFile": "leetcode/0125.验证回文串/验证回文串.js",
+      "testFile": "leetcode/0125.验证回文串/验证回文串.test.js"
+    },
+    {
+      "id": 392,
+      "title": "判断子序列",
+      "titleSlug": "is-subsequence",
+      "difficulty": "EASY",
+      "category": "双指针",
+      "tags": [
+        "双指针",
+        "字符串",
+        "动态规划"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0392.判断子序列",
+      "solutionFile": "leetcode/0392.判断子序列/判断子序列.js",
+      "testFile": "leetcode/0392.判断子序列/判断子序列.test.js"
+    },
+    {
+      "id": 167,
+      "title": "两数之和 II - 输入有序数组",
+      "titleSlug": "two-sum-ii-input-array-is-sorted",
+      "difficulty": "MEDIUM",
+      "category": "双指针",
+      "tags": [
+        "数组",
+        "双指针",
+        "二分查找"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0167.两数之和II-输入有序数组",
+      "solutionFile": "leetcode/0167.两数之和II-输入有序数组/两数之和II-输入有序数组.js",
+      "testFile": "leetcode/0167.两数之和II-输入有序数组/两数之和II-输入有序数组.test.js"
+    },
+    {
+      "id": 11,
+      "title": "盛最多水的容器",
+      "titleSlug": "container-with-most-water",
+      "difficulty": "MEDIUM",
+      "category": "双指针",
+      "tags": [
+        "贪心",
+        "数组",
+        "双指针"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0011.盛最多水的容器",
+      "solutionFile": "leetcode/0011.盛最多水的容器/盛最多水的容器.js",
+      "testFile": "leetcode/0011.盛最多水的容器/盛最多水的容器.test.js"
+    },
+    {
+      "id": 15,
+      "title": "三数之和",
+      "titleSlug": "3sum",
+      "difficulty": "MEDIUM",
+      "category": "双指针",
+      "tags": [
+        "数组",
+        "双指针",
+        "排序"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0015.三数之和",
+      "solutionFile": "leetcode/0015.三数之和/三数之和.js",
+      "testFile": "leetcode/0015.三数之和/三数之和.test.js"
+    },
+    {
+      "id": 209,
+      "title": "长度最小的子数组",
+      "titleSlug": "minimum-size-subarray-sum",
+      "difficulty": "MEDIUM",
+      "category": "滑动窗口",
+      "tags": [
+        "数组",
+        "二分查找",
+        "前缀和",
+        "滑动窗口"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0209.长度最小的子数组",
+      "solutionFile": "leetcode/0209.长度最小的子数组/长度最小的子数组.js",
+      "testFile": "leetcode/0209.长度最小的子数组/长度最小的子数组.test.js"
+    },
+    {
+      "id": 3,
+      "title": "无重复字符的最长子串",
+      "titleSlug": "longest-substring-without-repeating-characters",
+      "difficulty": "MEDIUM",
+      "category": "滑动窗口",
+      "tags": [
+        "哈希表",
+        "字符串",
+        "滑动窗口"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0003.无重复字符的最长子串",
+      "solutionFile": "leetcode/0003.无重复字符的最长子串/无重复字符的最长子串.js",
+      "testFile": "leetcode/0003.无重复字符的最长子串/无重复字符的最长子串.test.js"
+    },
+    {
+      "id": 30,
+      "title": "串联所有单词的子串",
+      "titleSlug": "substring-with-concatenation-of-all-words",
+      "difficulty": "HARD",
+      "category": "滑动窗口",
+      "tags": [
+        "哈希表",
+        "字符串",
+        "滑动窗口"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0030.串联所有单词的子串",
+      "solutionFile": "leetcode/0030.串联所有单词的子串/串联所有单词的子串.js",
+      "testFile": "leetcode/0030.串联所有单词的子串/串联所有单词的子串.test.js"
+    },
+    {
+      "id": 76,
+      "title": "最小覆盖子串",
+      "titleSlug": "minimum-window-substring",
+      "difficulty": "HARD",
+      "category": "滑动窗口",
+      "tags": [
+        "哈希表",
+        "字符串",
+        "滑动窗口"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0076.最小覆盖子串",
+      "solutionFile": "leetcode/0076.最小覆盖子串/最小覆盖子串.js",
+      "testFile": "leetcode/0076.最小覆盖子串/最小覆盖子串.test.js"
+    },
+    {
+      "id": 36,
+      "title": "有效的数独",
+      "titleSlug": "valid-sudoku",
+      "difficulty": "MEDIUM",
+      "category": "矩阵",
+      "tags": [
+        "数组",
+        "哈希表",
+        "矩阵"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0036.有效的数独",
+      "solutionFile": "leetcode/0036.有效的数独/有效的数独.js",
+      "testFile": "leetcode/0036.有效的数独/有效的数独.test.js"
+    },
+    {
+      "id": 54,
+      "title": "螺旋矩阵",
+      "titleSlug": "spiral-matrix",
+      "difficulty": "MEDIUM",
+      "category": "矩阵",
+      "tags": [
+        "数组",
+        "矩阵",
+        "模拟"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0054.螺旋矩阵",
+      "solutionFile": "leetcode/0054.螺旋矩阵/螺旋矩阵.js",
+      "testFile": "leetcode/0054.螺旋矩阵/螺旋矩阵.test.js"
+    },
+    {
+      "id": 48,
+      "title": "旋转图像",
+      "titleSlug": "rotate-image",
+      "difficulty": "MEDIUM",
+      "category": "矩阵",
+      "tags": [
+        "数组",
+        "数学",
+        "矩阵"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0048.旋转图像",
+      "solutionFile": "leetcode/0048.旋转图像/旋转图像.js",
+      "testFile": "leetcode/0048.旋转图像/旋转图像.test.js"
+    },
+    {
+      "id": 73,
+      "title": "矩阵置零",
+      "titleSlug": "set-matrix-zeroes",
+      "difficulty": "MEDIUM",
+      "category": "矩阵",
+      "tags": [
+        "数组",
+        "哈希表",
+        "矩阵"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0073.矩阵置零",
+      "solutionFile": "leetcode/0073.矩阵置零/矩阵置零.js",
+      "testFile": "leetcode/0073.矩阵置零/矩阵置零.test.js"
+    },
+    {
+      "id": 289,
+      "title": "生命游戏",
+      "titleSlug": "game-of-life",
+      "difficulty": "MEDIUM",
+      "category": "矩阵",
+      "tags": [
+        "数组",
+        "矩阵",
+        "模拟"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0289.生命游戏",
+      "solutionFile": "leetcode/0289.生命游戏/生命游戏.js",
+      "testFile": "leetcode/0289.生命游戏/生命游戏.test.js"
+    },
+    {
+      "id": 383,
+      "title": "赎金信",
+      "titleSlug": "ransom-note",
+      "difficulty": "EASY",
+      "category": "哈希表",
+      "tags": [
+        "哈希表",
+        "字符串",
+        "计数"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0383.赎金信",
+      "solutionFile": "leetcode/0383.赎金信/赎金信.js",
+      "testFile": "leetcode/0383.赎金信/赎金信.test.js"
+    },
+    {
+      "id": 205,
+      "title": "同构字符串",
+      "titleSlug": "isomorphic-strings",
+      "difficulty": "EASY",
+      "category": "哈希表",
+      "tags": [
+        "哈希表",
+        "字符串"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0205.同构字符串",
+      "solutionFile": "leetcode/0205.同构字符串/同构字符串.js",
+      "testFile": "leetcode/0205.同构字符串/同构字符串.test.js"
+    },
+    {
+      "id": 290,
+      "title": "单词规律",
+      "titleSlug": "word-pattern",
+      "difficulty": "EASY",
+      "category": "哈希表",
+      "tags": [
+        "哈希表",
+        "字符串"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0290.单词规律",
+      "solutionFile": "leetcode/0290.单词规律/单词规律.js",
+      "testFile": "leetcode/0290.单词规律/单词规律.test.js"
+    },
+    {
+      "id": 242,
+      "title": "有效的字母异位词",
+      "titleSlug": "valid-anagram",
+      "difficulty": "EASY",
+      "category": "哈希表",
+      "tags": [
+        "哈希表",
+        "字符串",
+        "排序"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0242.有效的字母异位词",
+      "solutionFile": "leetcode/0242.有效的字母异位词/有效的字母异位词.js",
+      "testFile": "leetcode/0242.有效的字母异位词/有效的字母异位词.test.js"
+    },
+    {
+      "id": 49,
+      "title": "字母异位词分组",
+      "titleSlug": "group-anagrams",
+      "difficulty": "MEDIUM",
+      "category": "哈希表",
+      "tags": [
+        "数组",
+        "哈希表",
+        "字符串",
+        "排序"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0049.字母异位词分组",
+      "solutionFile": "leetcode/0049.字母异位词分组/字母异位词分组.js",
+      "testFile": "leetcode/0049.字母异位词分组/字母异位词分组.test.js"
+    },
+    {
+      "id": 1,
+      "title": "两数之和",
+      "titleSlug": "two-sum",
+      "difficulty": "EASY",
+      "category": "哈希表",
+      "tags": [
+        "数组",
+        "哈希表"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0001.两数之和",
+      "solutionFile": "leetcode/0001.两数之和/两数之和.js",
+      "testFile": "leetcode/0001.两数之和/两数之和.test.js"
+    },
+    {
+      "id": 202,
+      "title": "快乐数",
+      "titleSlug": "happy-number",
+      "difficulty": "EASY",
+      "category": "哈希表",
+      "tags": [
+        "哈希表",
+        "数学",
+        "双指针",
+        "Floyd 判圈算法"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0202.快乐数",
+      "solutionFile": "leetcode/0202.快乐数/快乐数.js",
+      "testFile": "leetcode/0202.快乐数/快乐数.test.js"
+    },
+    {
+      "id": 219,
+      "title": "存在重复元素 II",
+      "titleSlug": "contains-duplicate-ii",
+      "difficulty": "EASY",
+      "category": "哈希表",
+      "tags": [
+        "数组",
+        "哈希表",
+        "滑动窗口"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0219.存在重复元素II",
+      "solutionFile": "leetcode/0219.存在重复元素II/存在重复元素II.js",
+      "testFile": "leetcode/0219.存在重复元素II/存在重复元素II.test.js"
+    },
+    {
+      "id": 128,
+      "title": "最长连续序列",
+      "titleSlug": "longest-consecutive-sequence",
+      "difficulty": "MEDIUM",
+      "category": "哈希表",
+      "tags": [
+        "并查集",
+        "数组",
+        "哈希表"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0128.最长连续序列",
+      "solutionFile": "leetcode/0128.最长连续序列/最长连续序列.js",
+      "testFile": "leetcode/0128.最长连续序列/最长连续序列.test.js"
+    },
+    {
+      "id": 228,
+      "title": "汇总区间",
+      "titleSlug": "summary-ranges",
+      "difficulty": "EASY",
+      "category": "区间",
+      "tags": [
+        "数组"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0228.汇总区间",
+      "solutionFile": "leetcode/0228.汇总区间/汇总区间.js",
+      "testFile": "leetcode/0228.汇总区间/汇总区间.test.js"
+    },
+    {
+      "id": 56,
+      "title": "合并区间",
+      "titleSlug": "merge-intervals",
+      "difficulty": "MEDIUM",
+      "category": "区间",
+      "tags": [
+        "数组",
+        "排序",
+        "快速排序"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0056.合并区间",
+      "solutionFile": "leetcode/0056.合并区间/合并区间.js",
+      "testFile": "leetcode/0056.合并区间/合并区间.test.js"
+    },
+    {
+      "id": 57,
+      "title": "插入区间",
+      "titleSlug": "insert-interval",
+      "difficulty": "MEDIUM",
+      "category": "区间",
+      "tags": [
+        "数组"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0057.插入区间",
+      "solutionFile": "leetcode/0057.插入区间/插入区间.js",
+      "testFile": "leetcode/0057.插入区间/插入区间.test.js"
+    },
+    {
+      "id": 452,
+      "title": "用最少数量的箭引爆气球",
+      "titleSlug": "minimum-number-of-arrows-to-burst-balloons",
+      "difficulty": "MEDIUM",
+      "category": "区间",
+      "tags": [
+        "贪心",
+        "数组",
+        "排序"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0452.用最少数量的箭引爆气球",
+      "solutionFile": "leetcode/0452.用最少数量的箭引爆气球/用最少数量的箭引爆气球.js",
+      "testFile": "leetcode/0452.用最少数量的箭引爆气球/用最少数量的箭引爆气球.test.js"
+    },
+    {
+      "id": 20,
+      "title": "有效的括号",
+      "titleSlug": "valid-parentheses",
+      "difficulty": "EASY",
+      "category": "栈",
+      "tags": [
+        "栈",
+        "字符串",
+        "括号序列"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0020.有效的括号",
+      "solutionFile": "leetcode/0020.有效的括号/有效的括号.js",
+      "testFile": "leetcode/0020.有效的括号/有效的括号.test.js"
+    },
+    {
+      "id": 71,
+      "title": "简化路径",
+      "titleSlug": "simplify-path",
+      "difficulty": "MEDIUM",
+      "category": "栈",
+      "tags": [
+        "栈",
+        "字符串"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0071.简化路径",
+      "solutionFile": "leetcode/0071.简化路径/简化路径.js",
+      "testFile": "leetcode/0071.简化路径/简化路径.test.js"
+    },
+    {
+      "id": 155,
+      "title": "最小栈",
+      "titleSlug": "min-stack",
+      "difficulty": "MEDIUM",
+      "category": "栈",
+      "tags": [
+        "栈",
+        "设计"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0155.最小栈",
+      "solutionFile": "leetcode/0155.最小栈/最小栈.js",
+      "testFile": "leetcode/0155.最小栈/最小栈.test.js"
+    },
+    {
+      "id": 150,
+      "title": "逆波兰表达式求值",
+      "titleSlug": "evaluate-reverse-polish-notation",
+      "difficulty": "MEDIUM",
+      "category": "栈",
+      "tags": [
+        "栈",
+        "数组",
+        "数学"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0150.逆波兰表达式求值",
+      "solutionFile": "leetcode/0150.逆波兰表达式求值/逆波兰表达式求值.js",
+      "testFile": "leetcode/0150.逆波兰表达式求值/逆波兰表达式求值.test.js"
+    },
+    {
+      "id": 224,
+      "title": "基本计算器",
+      "titleSlug": "basic-calculator",
+      "difficulty": "HARD",
+      "category": "栈",
+      "tags": [
+        "栈",
+        "递归",
+        "数学",
+        "字符串"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0224.基本计算器",
+      "solutionFile": "leetcode/0224.基本计算器/基本计算器.js",
+      "testFile": "leetcode/0224.基本计算器/基本计算器.test.js"
+    },
+    {
+      "id": 141,
+      "title": "环形链表",
+      "titleSlug": "linked-list-cycle",
+      "difficulty": "EASY",
+      "category": "链表",
+      "tags": [
+        "哈希表",
+        "链表",
+        "双指针",
+        "Floyd 判圈算法"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0141.环形链表",
+      "solutionFile": "leetcode/0141.环形链表/环形链表.js",
+      "testFile": "leetcode/0141.环形链表/环形链表.test.js"
+    },
+    {
+      "id": 2,
+      "title": "两数相加",
+      "titleSlug": "add-two-numbers",
+      "difficulty": "MEDIUM",
+      "category": "链表",
+      "tags": [
+        "递归",
+        "链表",
+        "数学"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0002.两数相加",
+      "solutionFile": "leetcode/0002.两数相加/两数相加.js",
+      "testFile": "leetcode/0002.两数相加/两数相加.test.js"
+    },
+    {
+      "id": 21,
+      "title": "合并两个有序链表",
+      "titleSlug": "merge-two-sorted-lists",
+      "difficulty": "EASY",
+      "category": "链表",
+      "tags": [
+        "递归",
+        "链表"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0021.合并两个有序链表",
+      "solutionFile": "leetcode/0021.合并两个有序链表/合并两个有序列表.js",
+      "testFile": "leetcode/0021.合并两个有序链表/合并两个有序列表.test.js"
+    },
+    {
+      "id": 138,
+      "title": "随机链表的复制",
+      "titleSlug": "copy-list-with-random-pointer",
+      "difficulty": "MEDIUM",
+      "category": "链表",
+      "tags": [
+        "哈希表",
+        "链表"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0138.随机链表的复制",
+      "solutionFile": "leetcode/0138.随机链表的复制/随机链表的复制.js",
+      "testFile": "leetcode/0138.随机链表的复制/随机链表的复制.test.js"
+    },
+    {
+      "id": 92,
+      "title": "反转链表 II",
+      "titleSlug": "reverse-linked-list-ii",
+      "difficulty": "MEDIUM",
+      "category": "链表",
+      "tags": [
+        "链表"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0092.反转链表II",
+      "solutionFile": "leetcode/0092.反转链表II/反转链表II.js",
+      "testFile": "leetcode/0092.反转链表II/反转链表II.test.js"
+    },
+    {
+      "id": 25,
+      "title": "K 个一组翻转链表",
+      "titleSlug": "reverse-nodes-in-k-group",
+      "difficulty": "HARD",
+      "category": "链表",
+      "tags": [
+        "递归",
+        "链表"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0025.K个一组翻转链表",
+      "solutionFile": "leetcode/0025.K个一组翻转链表/K个一组翻转链表.js",
+      "testFile": "leetcode/0025.K个一组翻转链表/K个一组翻转链表.test.js"
+    },
+    {
+      "id": 19,
+      "title": "删除链表的倒数第 N 个结点",
+      "titleSlug": "remove-nth-node-from-end-of-list",
+      "difficulty": "MEDIUM",
+      "category": "链表",
+      "tags": [
+        "链表",
+        "双指针"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0019.删除链表的倒数第N个结点",
+      "solutionFile": "leetcode/0019.删除链表的倒数第N个结点/删除链表的倒数第N个结点.js",
+      "testFile": "leetcode/0019.删除链表的倒数第N个结点/删除链表的倒数第N个结点.test.js"
+    },
+    {
+      "id": 82,
+      "title": "删除排序链表中的重复元素 II",
+      "titleSlug": "remove-duplicates-from-sorted-list-ii",
+      "difficulty": "MEDIUM",
+      "category": "链表",
+      "tags": [
+        "链表",
+        "双指针"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0082.删除排序链表中的重复元素II",
+      "solutionFile": "leetcode/0082.删除排序链表中的重复元素II/删除排序链表中的重复元素II.js",
+      "testFile": "leetcode/0082.删除排序链表中的重复元素II/删除排序链表中的重复元素II.test.js"
+    },
+    {
+      "id": 61,
+      "title": "旋转链表",
+      "titleSlug": "rotate-list",
+      "difficulty": "MEDIUM",
+      "category": "链表",
+      "tags": [
+        "链表",
+        "双指针"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0061.旋转链表",
+      "solutionFile": "leetcode/0061.旋转链表/旋转链表.js",
+      "testFile": "leetcode/0061.旋转链表/旋转链表.test.js"
+    },
+    {
+      "id": 86,
+      "title": "分隔链表",
+      "titleSlug": "partition-list",
+      "difficulty": "MEDIUM",
+      "category": "链表",
+      "tags": [
+        "链表",
+        "双指针"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0086.分隔链表",
+      "solutionFile": "leetcode/0086.分隔链表/分隔链表.js",
+      "testFile": "leetcode/0086.分隔链表/分隔链表.test.js"
+    },
+    {
+      "id": 146,
+      "title": "LRU 缓存",
+      "titleSlug": "lru-cache",
+      "difficulty": "MEDIUM",
+      "category": "链表",
+      "tags": [
+        "设计",
+        "哈希表",
+        "链表",
+        "双向链表"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0146.LRU缓存",
+      "solutionFile": "leetcode/0146.LRU缓存/LRU缓存.js",
+      "testFile": "leetcode/0146.LRU缓存/LRU缓存.test.js"
+    },
+    {
+      "id": 104,
+      "title": "二叉树的最大深度",
+      "titleSlug": "maximum-depth-of-binary-tree",
+      "difficulty": "EASY",
+      "category": "二叉树",
+      "tags": [
+        "树",
+        "深度优先搜索",
+        "广度优先搜索",
+        "二叉树"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0104.二叉树的最大深度",
+      "solutionFile": "leetcode/0104.二叉树的最大深度/二叉树的最大深度.js",
+      "testFile": "leetcode/0104.二叉树的最大深度/二叉树的最大深度.test.js"
+    },
+    {
+      "id": 100,
+      "title": "相同的树",
+      "titleSlug": "same-tree",
+      "difficulty": "EASY",
+      "category": "二叉树",
+      "tags": [
+        "树",
+        "深度优先搜索",
+        "广度优先搜索",
+        "二叉树"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0100.相同的树",
+      "solutionFile": "leetcode/0100.相同的树/相同的树.js",
+      "testFile": "leetcode/0100.相同的树/相同的树.test.js"
+    },
+    {
+      "id": 226,
+      "title": "翻转二叉树",
+      "titleSlug": "invert-binary-tree",
+      "difficulty": "EASY",
+      "category": "二叉树",
+      "tags": [
+        "树",
+        "深度优先搜索",
+        "广度优先搜索",
+        "二叉树"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0226.翻转二叉树",
+      "solutionFile": "leetcode/0226.翻转二叉树/翻转二叉树.js",
+      "testFile": "leetcode/0226.翻转二叉树/翻转二叉树.test.js"
+    },
+    {
+      "id": 101,
+      "title": "对称二叉树",
+      "titleSlug": "symmetric-tree",
+      "difficulty": "EASY",
+      "category": "二叉树",
+      "tags": [
+        "树",
+        "深度优先搜索",
+        "广度优先搜索",
+        "二叉树"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0101.对称二叉树",
+      "solutionFile": "leetcode/0101.对称二叉树/对称二叉树.js",
+      "testFile": "leetcode/0101.对称二叉树/对称二叉树.test.js"
+    },
+    {
+      "id": 105,
+      "title": "从前序与中序遍历序列构造二叉树",
+      "titleSlug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+      "difficulty": "MEDIUM",
+      "category": "二叉树",
+      "tags": [
+        "树",
+        "数组",
+        "哈希表",
+        "分治",
+        "二叉树"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0105.从前序与中序遍历序列构造二叉树",
+      "solutionFile": "leetcode/0105.从前序与中序遍历序列构造二叉树/从前序与中序遍历序列构造二叉树.js",
+      "testFile": "leetcode/0105.从前序与中序遍历序列构造二叉树/从前序与中序遍历序列构造二叉树.test.js"
+    },
+    {
+      "id": 106,
+      "title": "从中序与后序遍历序列构造二叉树",
+      "titleSlug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+      "difficulty": "MEDIUM",
+      "category": "二叉树",
+      "tags": [
+        "树",
+        "数组",
+        "哈希表",
+        "分治",
+        "二叉树"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0106.从中序与后序遍历序列构造二叉树",
+      "solutionFile": "leetcode/0106.从中序与后序遍历序列构造二叉树/从中序与后序遍历序列构造二叉树.js",
+      "testFile": "leetcode/0106.从中序与后序遍历序列构造二叉树/从中序与后序遍历序列构造二叉树.test.js"
+    },
+    {
+      "id": 117,
+      "title": "填充每个节点的下一个右侧节点指针 II",
+      "titleSlug": "populating-next-right-pointers-in-each-node-ii",
+      "difficulty": "MEDIUM",
+      "category": "二叉树",
+      "tags": [
+        "树",
+        "深度优先搜索",
+        "广度优先搜索",
+        "链表",
+        "二叉树"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0117.填充每个节点的下一个右侧节点指针II",
+      "solutionFile": "leetcode/0117.填充每个节点的下一个右侧节点指针II/填充每个节点的下一个右侧节点指针II.js",
+      "testFile": "leetcode/0117.填充每个节点的下一个右侧节点指针II/填充每个节点的下一个右侧节点指针II.test.js"
+    },
+    {
+      "id": 114,
+      "title": "二叉树展开为链表",
+      "titleSlug": "flatten-binary-tree-to-linked-list",
+      "difficulty": "MEDIUM",
+      "category": "二叉树",
+      "tags": [
+        "栈",
+        "树",
+        "深度优先搜索",
+        "链表",
+        "二叉树"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0114.二叉树展开为链表",
+      "solutionFile": "leetcode/0114.二叉树展开为链表/二叉树展开为链表.js",
+      "testFile": "leetcode/0114.二叉树展开为链表/二叉树展开为链表.test.js"
+    },
+    {
+      "id": 112,
+      "title": "路径总和",
+      "titleSlug": "path-sum",
+      "difficulty": "EASY",
+      "category": "二叉树",
+      "tags": [
+        "树",
+        "深度优先搜索",
+        "广度优先搜索",
+        "二叉树"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0112.路径总和",
+      "solutionFile": "leetcode/0112.路径总和/路径总和.js",
+      "testFile": "leetcode/0112.路径总和/路径总和.test.js"
+    },
+    {
+      "id": 129,
+      "title": "求根节点到叶节点数字之和",
+      "titleSlug": "sum-root-to-leaf-numbers",
+      "difficulty": "MEDIUM",
+      "category": "二叉树",
+      "tags": [
+        "树",
+        "深度优先搜索",
+        "二叉树"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0129.求根节点到叶节点数字之和",
+      "solutionFile": "leetcode/0129.求根节点到叶节点数字之和/求根节点到叶节点数字之和.js",
+      "testFile": "leetcode/0129.求根节点到叶节点数字之和/求根节点到叶节点数字之和.test.js"
+    },
+    {
+      "id": 124,
+      "title": "二叉树中的最大路径和",
+      "titleSlug": "binary-tree-maximum-path-sum",
+      "difficulty": "HARD",
+      "category": "二叉树",
+      "tags": [
+        "树",
+        "深度优先搜索",
+        "动态规划",
+        "二叉树",
+        "树形 DP"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0124.二叉树中的最大路径和",
+      "solutionFile": "leetcode/0124.二叉树中的最大路径和/二叉树中的最大路径和.js",
+      "testFile": "leetcode/0124.二叉树中的最大路径和/二叉树中的最大路径和.test.js"
+    },
+    {
+      "id": 173,
+      "title": "二叉搜索树迭代器",
+      "titleSlug": "binary-search-tree-iterator",
+      "difficulty": "MEDIUM",
+      "category": "二叉树",
+      "tags": [
+        "栈",
+        "树",
+        "设计",
+        "二叉搜索树",
+        "二叉树",
+        "迭代器"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0173.二叉搜索树迭代器",
+      "solutionFile": "leetcode/0173.二叉搜索树迭代器/二叉搜索树迭代器.js",
+      "testFile": "leetcode/0173.二叉搜索树迭代器/二叉搜索树迭代器.test.js"
+    },
+    {
+      "id": 222,
+      "title": "完全二叉树的节点个数",
+      "titleSlug": "count-complete-tree-nodes",
+      "difficulty": "MEDIUM",
+      "category": "二叉树",
+      "tags": [
+        "位运算",
+        "树",
+        "二分查找",
+        "二叉树"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0222.完全二叉树的节点个数",
+      "solutionFile": "leetcode/0222.完全二叉树的节点个数/完全二叉树的节点个数.js",
+      "testFile": "leetcode/0222.完全二叉树的节点个数/完全二叉树的节点个数.test.js"
+    },
+    {
+      "id": 236,
+      "title": "二叉树的最近公共祖先",
+      "titleSlug": "lowest-common-ancestor-of-a-binary-tree",
+      "difficulty": "MEDIUM",
+      "category": "二叉树",
+      "tags": [
+        "树",
+        "深度优先搜索",
+        "二叉树",
+        "最近公共祖先",
+        "Binary Lifting"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0236.二叉树的最近公共祖先",
+      "solutionFile": "leetcode/0236.二叉树的最近公共祖先/二叉树的最近公共祖先.js",
+      "testFile": "leetcode/0236.二叉树的最近公共祖先/二叉树的最近公共祖先.test.js"
+    },
+    {
+      "id": 199,
+      "title": "二叉树的右视图",
+      "titleSlug": "binary-tree-right-side-view",
+      "difficulty": "MEDIUM",
+      "category": "二叉树层次遍历",
+      "tags": [
+        "树",
+        "深度优先搜索",
+        "广度优先搜索",
+        "二叉树"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0199.二叉树的右视图",
+      "solutionFile": "leetcode/0199.二叉树的右视图/二叉树的右视图.js",
+      "testFile": "leetcode/0199.二叉树的右视图/二叉树的右视图.test.js"
+    },
+    {
+      "id": 637,
+      "title": "二叉树的层平均值",
+      "titleSlug": "average-of-levels-in-binary-tree",
+      "difficulty": "EASY",
+      "category": "二叉树层次遍历",
+      "tags": [
+        "树",
+        "深度优先搜索",
+        "广度优先搜索",
+        "二叉树"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0637.二叉树的层平均值",
+      "solutionFile": "leetcode/0637.二叉树的层平均值/二叉树的层平均值.js",
+      "testFile": "leetcode/0637.二叉树的层平均值/二叉树的层平均值.test.js"
+    },
+    {
+      "id": 102,
+      "title": "二叉树的层序遍历",
+      "titleSlug": "binary-tree-level-order-traversal",
+      "difficulty": "MEDIUM",
+      "category": "二叉树层次遍历",
+      "tags": [
+        "树",
+        "广度优先搜索",
+        "二叉树"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0102.二叉树的层序遍历",
+      "solutionFile": "leetcode/0102.二叉树的层序遍历/二叉树的层序遍历.js",
+      "testFile": "leetcode/0102.二叉树的层序遍历/二叉树的层序遍历.test.js"
+    },
+    {
+      "id": 103,
+      "title": "二叉树的锯齿形层序遍历",
+      "titleSlug": "binary-tree-zigzag-level-order-traversal",
+      "difficulty": "MEDIUM",
+      "category": "二叉树层次遍历",
+      "tags": [
+        "树",
+        "广度优先搜索",
+        "二叉树"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0103.二叉树的锯齿形层序遍历",
+      "solutionFile": "leetcode/0103.二叉树的锯齿形层序遍历/二叉树的锯齿形层序遍历.js",
+      "testFile": "leetcode/0103.二叉树的锯齿形层序遍历/二叉树的锯齿形层序遍历.test.js"
+    },
+    {
+      "id": 530,
+      "title": "二叉搜索树的最小绝对差",
+      "titleSlug": "minimum-absolute-difference-in-bst",
+      "difficulty": "EASY",
+      "category": "二叉搜索树",
+      "tags": [
+        "树",
+        "深度优先搜索",
+        "广度优先搜索",
+        "二叉搜索树",
+        "二叉树"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0530.二叉搜索树的最小绝对差",
+      "solutionFile": "leetcode/0530.二叉搜索树的最小绝对差/二叉搜索树的最小绝对差.js",
+      "testFile": "leetcode/0530.二叉搜索树的最小绝对差/二叉搜索树的最小绝对差.test.js"
+    },
+    {
+      "id": 230,
+      "title": "二叉搜索树中第 K 小的元素",
+      "titleSlug": "kth-smallest-element-in-a-bst",
+      "difficulty": "MEDIUM",
+      "category": "二叉搜索树",
+      "tags": [
+        "树",
+        "深度优先搜索",
+        "二叉搜索树",
+        "二叉树"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0230.二叉搜索树中第K小的元素",
+      "solutionFile": "leetcode/0230.二叉搜索树中第K小的元素/二叉搜索树中第K小的元素.js",
+      "testFile": "leetcode/0230.二叉搜索树中第K小的元素/二叉搜索树中第K小的元素.test.js"
+    },
+    {
+      "id": 98,
+      "title": "验证二叉搜索树",
+      "titleSlug": "validate-binary-search-tree",
+      "difficulty": "MEDIUM",
+      "category": "二叉搜索树",
+      "tags": [
+        "树",
+        "深度优先搜索",
+        "二叉搜索树",
+        "二叉树"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0098.验证二叉搜索树",
+      "solutionFile": "leetcode/0098.验证二叉搜索树/验证二叉搜索树.js",
+      "testFile": "leetcode/0098.验证二叉搜索树/验证二叉搜索树.test.js"
+    },
+    {
+      "id": 200,
+      "title": "岛屿数量",
+      "titleSlug": "number-of-islands",
+      "difficulty": "MEDIUM",
+      "category": "图",
+      "tags": [
+        "深度优先搜索",
+        "广度优先搜索",
+        "并查集",
+        "数组",
+        "矩阵"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0200.岛屿数量",
+      "solutionFile": "leetcode/0200.岛屿数量/岛屿数量.js",
+      "testFile": "leetcode/0200.岛屿数量/岛屿数量.test.js"
+    },
+    {
+      "id": 130,
+      "title": "被围绕的区域",
+      "titleSlug": "surrounded-regions",
+      "difficulty": "MEDIUM",
+      "category": "图",
+      "tags": [
+        "深度优先搜索",
+        "广度优先搜索",
+        "并查集",
+        "数组",
+        "矩阵"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0130.被围绕的区域",
+      "solutionFile": "leetcode/0130.被围绕的区域/被围绕的区域.js",
+      "testFile": "leetcode/0130.被围绕的区域/被围绕的区域.test.js"
+    },
+    {
+      "id": 133,
+      "title": "克隆图",
+      "titleSlug": "clone-graph",
+      "difficulty": "MEDIUM",
+      "category": "图",
+      "tags": [
+        "深度优先搜索",
+        "广度优先搜索",
+        "图",
+        "哈希表"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0133.克隆图",
+      "solutionFile": "leetcode/0133.克隆图/克隆图.js",
+      "testFile": "leetcode/0133.克隆图/克隆图.test.js"
+    },
+    {
+      "id": 399,
+      "title": "除法求值",
+      "titleSlug": "evaluate-division",
+      "difficulty": "MEDIUM",
+      "category": "图",
+      "tags": [
+        "深度优先搜索",
+        "广度优先搜索",
+        "并查集",
+        "图",
+        "数组",
+        "字符串",
+        "最短路",
+        "Floyd 算法",
+        "Bellman–Ford 算法"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0399.除法求值",
+      "solutionFile": "leetcode/0399.除法求值/除法求值.js",
+      "testFile": "leetcode/0399.除法求值/除法求值.test.js"
+    },
+    {
+      "id": 207,
+      "title": "课程表",
+      "titleSlug": "course-schedule",
+      "difficulty": "MEDIUM",
+      "category": "图",
+      "tags": [
+        "深度优先搜索",
+        "广度优先搜索",
+        "图",
+        "拓扑排序",
+        "有向无环图"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0207.课程表",
+      "solutionFile": "leetcode/0207.课程表/课程表.js",
+      "testFile": "leetcode/0207.课程表/课程表.test.js"
+    },
+    {
+      "id": 210,
+      "title": "课程表 II",
+      "titleSlug": "course-schedule-ii",
+      "difficulty": "MEDIUM",
+      "category": "图",
+      "tags": [
+        "深度优先搜索",
+        "广度优先搜索",
+        "图",
+        "拓扑排序"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0210.课程表II",
+      "solutionFile": "leetcode/0210.课程表II/课程表II.js",
+      "testFile": "leetcode/0210.课程表II/课程表II.test.js"
+    },
+    {
+      "id": 909,
+      "title": "蛇梯棋",
+      "titleSlug": "snakes-and-ladders",
+      "difficulty": "MEDIUM",
+      "category": "图的广度优先搜索",
+      "tags": [
+        "广度优先搜索",
+        "数组",
+        "矩阵"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0909.蛇梯棋",
+      "solutionFile": "leetcode/0909.蛇梯棋/蛇梯棋.js",
+      "testFile": "leetcode/0909.蛇梯棋/蛇梯棋.test.js"
+    },
+    {
+      "id": 433,
+      "title": "最小基因变化",
+      "titleSlug": "minimum-genetic-mutation",
+      "difficulty": "MEDIUM",
+      "category": "图的广度优先搜索",
+      "tags": [
+        "广度优先搜索",
+        "哈希表",
+        "字符串",
+        "双向搜索"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0433.最小基因变化",
+      "solutionFile": "leetcode/0433.最小基因变化/最小基因变化.js",
+      "testFile": "leetcode/0433.最小基因变化/最小基因变化.test.js"
+    },
+    {
+      "id": 127,
+      "title": "单词接龙",
+      "titleSlug": "word-ladder",
+      "difficulty": "HARD",
+      "category": "图的广度优先搜索",
+      "tags": [
+        "广度优先搜索",
+        "哈希表",
+        "字符串",
+        "双向搜索"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0127.单词接龙",
+      "solutionFile": "leetcode/0127.单词接龙/单词接龙.js",
+      "testFile": "leetcode/0127.单词接龙/单词接龙.test.js"
+    },
+    {
+      "id": 208,
+      "title": "实现 Trie (前缀树)",
+      "titleSlug": "implement-trie-prefix-tree",
+      "difficulty": "MEDIUM",
+      "category": "字典树",
+      "tags": [
+        "设计",
+        "字典树",
+        "哈希表",
+        "字符串"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0208.实现Trie(前缀树)",
+      "solutionFile": "leetcode/0208.实现Trie(前缀树)/实现Trie(前缀树).js",
+      "testFile": "leetcode/0208.实现Trie(前缀树)/实现Trie(前缀树).test.js"
+    },
+    {
+      "id": 211,
+      "title": "添加与搜索单词 - 数据结构设计",
+      "titleSlug": "design-add-and-search-words-data-structure",
+      "difficulty": "MEDIUM",
+      "category": "字典树",
+      "tags": [
+        "深度优先搜索",
+        "设计",
+        "字典树",
+        "字符串"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0211.添加与搜索单词-数据结构设计",
+      "solutionFile": "leetcode/0211.添加与搜索单词-数据结构设计/添加与搜索单词-数据结构设计.js",
+      "testFile": "leetcode/0211.添加与搜索单词-数据结构设计/添加与搜索单词-数据结构设计.test.js"
+    },
+    {
+      "id": 212,
+      "title": "单词搜索 II",
+      "titleSlug": "word-search-ii",
+      "difficulty": "HARD",
+      "category": "字典树",
+      "tags": [
+        "字典树",
+        "数组",
+        "字符串",
+        "回溯",
+        "矩阵"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0212.单词搜索II",
+      "solutionFile": "leetcode/0212.单词搜索II/单词搜索II.js",
+      "testFile": "leetcode/0212.单词搜索II/单词搜索II.test.js"
+    },
+    {
+      "id": 17,
+      "title": "电话号码的字母组合",
+      "titleSlug": "letter-combinations-of-a-phone-number",
+      "difficulty": "MEDIUM",
+      "category": "回溯",
+      "tags": [
+        "哈希表",
+        "字符串",
+        "回溯"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0017.电话号码的字母组合",
+      "solutionFile": "leetcode/0017.电话号码的字母组合/电话号码的字母组合.js",
+      "testFile": "leetcode/0017.电话号码的字母组合/电话号码的字母组合.test.js"
+    },
+    {
+      "id": 77,
+      "title": "组合",
+      "titleSlug": "combinations",
+      "difficulty": "MEDIUM",
+      "category": "回溯",
+      "tags": [
+        "回溯"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0077.组合",
+      "solutionFile": "leetcode/0077.组合/组合.js",
+      "testFile": "leetcode/0077.组合/组合.test.js"
+    },
+    {
+      "id": 46,
+      "title": "全排列",
+      "titleSlug": "permutations",
+      "difficulty": "MEDIUM",
+      "category": "回溯",
+      "tags": [
+        "数组",
+        "回溯"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0046.全排列",
+      "solutionFile": "leetcode/0046.全排列/全排列.js",
+      "testFile": "leetcode/0046.全排列/全排列.test.js"
+    },
+    {
+      "id": 39,
+      "title": "组合总和",
+      "titleSlug": "combination-sum",
+      "difficulty": "MEDIUM",
+      "category": "回溯",
+      "tags": [
+        "数组",
+        "回溯"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0039.组合总和",
+      "solutionFile": "leetcode/0039.组合总和/组合总和.js",
+      "testFile": "leetcode/0039.组合总和/组合总和.test.js"
+    },
+    {
+      "id": 52,
+      "title": "N 皇后 II",
+      "titleSlug": "n-queens-ii",
+      "difficulty": "HARD",
+      "category": "回溯",
+      "tags": [
+        "回溯",
+        "X 算法"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0052.N皇后II",
+      "solutionFile": "leetcode/0052.N皇后II/N皇后II.js",
+      "testFile": "leetcode/0052.N皇后II/N皇后II.test.js"
+    },
+    {
+      "id": 22,
+      "title": "括号生成",
+      "titleSlug": "generate-parentheses",
+      "difficulty": "MEDIUM",
+      "category": "回溯",
+      "tags": [
+        "字符串",
+        "动态规划",
+        "回溯",
+        "括号序列"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0022.括号生成",
+      "solutionFile": "leetcode/0022.括号生成/括号生成.js",
+      "testFile": "leetcode/0022.括号生成/括号生成.test.js"
+    },
+    {
+      "id": 79,
+      "title": "单词搜索",
+      "titleSlug": "word-search",
+      "difficulty": "MEDIUM",
+      "category": "回溯",
+      "tags": [
+        "深度优先搜索",
+        "数组",
+        "字符串",
+        "回溯",
+        "矩阵"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0079.单词搜索",
+      "solutionFile": "leetcode/0079.单词搜索/单词搜索.js",
+      "testFile": "leetcode/0079.单词搜索/单词搜索.test.js"
+    },
+    {
+      "id": 108,
+      "title": "将有序数组转换为二叉搜索树",
+      "titleSlug": "convert-sorted-array-to-binary-search-tree",
+      "difficulty": "EASY",
+      "category": "分治",
+      "tags": [
+        "树",
+        "二叉搜索树",
+        "数组",
+        "分治",
+        "二叉树"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0108.将有序数组转换为二叉搜索树",
+      "solutionFile": "leetcode/0108.将有序数组转换为二叉搜索树/将有序数组转换为二叉搜索树.js",
+      "testFile": "leetcode/0108.将有序数组转换为二叉搜索树/将有序数组转换为二叉搜索树.test.js"
+    },
+    {
+      "id": 148,
+      "title": "排序链表",
+      "titleSlug": "sort-list",
+      "difficulty": "MEDIUM",
+      "category": "分治",
+      "tags": [
+        "链表",
+        "双指针",
+        "分治",
+        "排序",
+        "归并排序"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0148.排序链表",
+      "solutionFile": "leetcode/0148.排序链表/排序链表.js",
+      "testFile": "leetcode/0148.排序链表/排序链表.test.js"
+    },
+    {
+      "id": 427,
+      "title": "建立四叉树",
+      "titleSlug": "construct-quad-tree",
+      "difficulty": "MEDIUM",
+      "category": "分治",
+      "tags": [
+        "树",
+        "数组",
+        "分治",
+        "矩阵"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0427.建立四叉树",
+      "solutionFile": "leetcode/0427.建立四叉树/建立四叉树.js",
+      "testFile": "leetcode/0427.建立四叉树/建立四叉树.test.js"
+    },
+    {
+      "id": 23,
+      "title": "合并 K 个升序链表",
+      "titleSlug": "merge-k-sorted-lists",
+      "difficulty": "HARD",
+      "category": "分治",
+      "tags": [
+        "链表",
+        "分治",
+        "堆（优先队列）",
+        "归并排序",
+        "锦标赛排序"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0023.合并K个排序链表",
+      "solutionFile": "leetcode/0023.合并K个排序链表/合并K个排序链表.js",
+      "testFile": "leetcode/0023.合并K个排序链表/合并K个排序链表.test.js"
+    },
+    {
+      "id": 53,
+      "title": "最大子数组和",
+      "titleSlug": "maximum-subarray",
+      "difficulty": "MEDIUM",
+      "category": "Kadane 算法",
+      "tags": [
+        "数组",
+        "分治",
+        "动态规划"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0053.最大子数组和",
+      "solutionFile": "leetcode/0053.最大子数组和/最大子数组和.js",
+      "testFile": "leetcode/0053.最大子数组和/最大子数组和.test.js"
+    },
+    {
+      "id": 918,
+      "title": "环形子数组的最大和",
+      "titleSlug": "maximum-sum-circular-subarray",
+      "difficulty": "MEDIUM",
+      "category": "Kadane 算法",
+      "tags": [
+        "队列",
+        "数组",
+        "分治",
+        "动态规划",
+        "单调队列"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0918.环形子数组的最大和",
+      "solutionFile": "leetcode/0918.环形子数组的最大和/环形子数组的最大和.js",
+      "testFile": "leetcode/0918.环形子数组的最大和/环形子数组的最大和.test.js"
+    },
+    {
+      "id": 35,
+      "title": "搜索插入位置",
+      "titleSlug": "search-insert-position",
+      "difficulty": "EASY",
+      "category": "二分查找",
+      "tags": [
+        "数组",
+        "二分查找"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0035.搜索插入位置",
+      "solutionFile": "leetcode/0035.搜索插入位置/搜索插入位置.js",
+      "testFile": "leetcode/0035.搜索插入位置/搜索插入位置.test.js"
+    },
+    {
+      "id": 74,
+      "title": "搜索二维矩阵",
+      "titleSlug": "search-a-2d-matrix",
+      "difficulty": "MEDIUM",
+      "category": "二分查找",
+      "tags": [
+        "数组",
+        "二分查找",
+        "矩阵"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0074.搜索二维矩阵",
+      "solutionFile": "leetcode/0074.搜索二维矩阵/搜索二维矩阵.js",
+      "testFile": "leetcode/0074.搜索二维矩阵/搜索二维矩阵.test.js"
+    },
+    {
+      "id": 162,
+      "title": "寻找峰值",
+      "titleSlug": "find-peak-element",
+      "difficulty": "MEDIUM",
+      "category": "二分查找",
+      "tags": [
+        "数组",
+        "二分查找"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0162.寻找峰值",
+      "solutionFile": "leetcode/0162.寻找峰值/寻找峰值.js",
+      "testFile": "leetcode/0162.寻找峰值/寻找峰值.test.js"
+    },
+    {
+      "id": 33,
+      "title": "搜索旋转排序数组",
+      "titleSlug": "search-in-rotated-sorted-array",
+      "difficulty": "MEDIUM",
+      "category": "二分查找",
+      "tags": [
+        "数组",
+        "二分查找"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0033.搜索旋转排序数组",
+      "solutionFile": "leetcode/0033.搜索旋转排序数组/搜索旋转排序数组.js",
+      "testFile": "leetcode/0033.搜索旋转排序数组/搜索旋转排序数组.test.js"
+    },
+    {
+      "id": 34,
+      "title": "在排序数组中查找元素的第一个和最后一个位置",
+      "titleSlug": "find-first-and-last-position-of-element-in-sorted-array",
+      "difficulty": "MEDIUM",
+      "category": "二分查找",
+      "tags": [
+        "数组",
+        "二分查找"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0034.在排序数组中查找元素的第一个和最后一个位置",
+      "solutionFile": "leetcode/0034.在排序数组中查找元素的第一个和最后一个位置/在排序数组中查找元素的第一个和最后一个位置.js",
+      "testFile": "leetcode/0034.在排序数组中查找元素的第一个和最后一个位置/在排序数组中查找元素的第一个和最后一个位置.test.js"
+    },
+    {
+      "id": 153,
+      "title": "寻找旋转排序数组中的最小值",
+      "titleSlug": "find-minimum-in-rotated-sorted-array",
+      "difficulty": "MEDIUM",
+      "category": "二分查找",
+      "tags": [
+        "数组",
+        "二分查找"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0153.寻找旋转排序数组中的最小值",
+      "solutionFile": "leetcode/0153.寻找旋转排序数组中的最小值/寻找旋转排序数组中的最小值.js",
+      "testFile": "leetcode/0153.寻找旋转排序数组中的最小值/寻找旋转排序数组中的最小值.test.js"
+    },
+    {
+      "id": 4,
+      "title": "寻找两个正序数组的中位数",
+      "titleSlug": "median-of-two-sorted-arrays",
+      "difficulty": "HARD",
+      "category": "二分查找",
+      "tags": [
+        "数组",
+        "二分查找",
+        "分治"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0004.寻找两个正序数组的中位数",
+      "solutionFile": "leetcode/0004.寻找两个正序数组的中位数/寻找两个正序数组的中位数.js",
+      "testFile": "leetcode/0004.寻找两个正序数组的中位数/寻找两个正序数组的中位数.test.js"
+    },
+    {
+      "id": 215,
+      "title": "数组中的第K个最大元素",
+      "titleSlug": "kth-largest-element-in-an-array",
+      "difficulty": "MEDIUM",
+      "category": "堆",
+      "tags": [
+        "数组",
+        "分治",
+        "快速选择",
+        "排序",
+        "堆（优先队列）"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0215.数组中的第K个最大元素",
+      "solutionFile": "leetcode/0215.数组中的第K个最大元素/数组中的第K个最大元素.js",
+      "testFile": "leetcode/0215.数组中的第K个最大元素/数组中的第K个最大元素.test.js"
+    },
+    {
+      "id": 502,
+      "title": "IPO",
+      "titleSlug": "ipo",
+      "difficulty": "HARD",
+      "category": "堆",
+      "tags": [
+        "贪心",
+        "数组",
+        "排序",
+        "堆（优先队列）"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0502.IPO",
+      "solutionFile": "leetcode/0502.IPO/IPO.js",
+      "testFile": "leetcode/0502.IPO/IPO.test.js"
+    },
+    {
+      "id": 373,
+      "title": "查找和最小的 K 对数字",
+      "titleSlug": "find-k-pairs-with-smallest-sums",
+      "difficulty": "MEDIUM",
+      "category": "堆",
+      "tags": [
+        "数组",
+        "堆（优先队列）"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0373.查找和最小的K对数字",
+      "solutionFile": "leetcode/0373.查找和最小的K对数字/查找和最小的K对数字.js",
+      "testFile": "leetcode/0373.查找和最小的K对数字/查找和最小的K对数字.test.js"
+    },
+    {
+      "id": 295,
+      "title": "数据流的中位数",
+      "titleSlug": "find-median-from-data-stream",
+      "difficulty": "HARD",
+      "category": "堆",
+      "tags": [
+        "设计",
+        "双指针",
+        "数据流",
+        "排序",
+        "堆（优先队列）"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0295.数据流的中位数",
+      "solutionFile": "leetcode/0295.数据流的中位数/数据流的中位数.js",
+      "testFile": "leetcode/0295.数据流的中位数/数据流的中位数.test.js"
+    },
+    {
+      "id": 67,
+      "title": "二进制求和",
+      "titleSlug": "add-binary",
+      "difficulty": "EASY",
+      "category": "位运算",
+      "tags": [
+        "位运算",
+        "数学",
+        "字符串",
+        "模拟"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0067.二进制求和",
+      "solutionFile": "leetcode/0067.二进制求和/二进制求和.js",
+      "testFile": "leetcode/0067.二进制求和/二进制求和.test.js"
+    },
+    {
+      "id": 190,
+      "title": "颠倒二进制位",
+      "titleSlug": "reverse-bits",
+      "difficulty": "EASY",
+      "category": "位运算",
+      "tags": [
+        "位运算",
+        "分治"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0190.颠倒二进制位",
+      "solutionFile": "leetcode/0190.颠倒二进制位/颠倒二进制位.js",
+      "testFile": "leetcode/0190.颠倒二进制位/颠倒二进制位.test.js"
+    },
+    {
+      "id": 191,
+      "title": "位1的个数",
+      "titleSlug": "number-of-1-bits",
+      "difficulty": "EASY",
+      "category": "位运算",
+      "tags": [
+        "位运算",
+        "分治"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0191.位1的个数",
+      "solutionFile": "leetcode/0191.位1的个数/位1的个数.js",
+      "testFile": "leetcode/0191.位1的个数/位1的个数.test.js"
+    },
+    {
+      "id": 136,
+      "title": "只出现一次的数字",
+      "titleSlug": "single-number",
+      "difficulty": "EASY",
+      "category": "位运算",
+      "tags": [
+        "位运算",
+        "数组"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0136.只出现一次的数字",
+      "solutionFile": "leetcode/0136.只出现一次的数字/只出现一次的数字.js",
+      "testFile": "leetcode/0136.只出现一次的数字/只出现一次的数字.test.js"
+    },
+    {
+      "id": 137,
+      "title": "只出现一次的数字 II",
+      "titleSlug": "single-number-ii",
+      "difficulty": "MEDIUM",
+      "category": "位运算",
+      "tags": [
+        "位运算",
+        "数组"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0137.只出现一次的数字II",
+      "solutionFile": "leetcode/0137.只出现一次的数字II/只出现一次的数字II.js",
+      "testFile": "leetcode/0137.只出现一次的数字II/只出现一次的数字II.test.js"
+    },
+    {
+      "id": 201,
+      "title": "数字范围按位与",
+      "titleSlug": "bitwise-and-of-numbers-range",
+      "difficulty": "MEDIUM",
+      "category": "位运算",
+      "tags": [
+        "位运算"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0201.数字范围按位与",
+      "solutionFile": "leetcode/0201.数字范围按位与/数字范围按位与.js",
+      "testFile": "leetcode/0201.数字范围按位与/数字范围按位与.test.js"
+    },
+    {
+      "id": 9,
+      "title": "回文数",
+      "titleSlug": "palindrome-number",
+      "difficulty": "EASY",
+      "category": "数学",
+      "tags": [
+        "数学"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0009.回文数",
+      "solutionFile": "leetcode/0009.回文数/回文数.js",
+      "testFile": "leetcode/0009.回文数/回文数.test.js"
+    },
+    {
+      "id": 66,
+      "title": "加一",
+      "titleSlug": "plus-one",
+      "difficulty": "EASY",
+      "category": "数学",
+      "tags": [
+        "数组",
+        "数学"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0066.加一",
+      "solutionFile": "leetcode/0066.加一/加一.js",
+      "testFile": "leetcode/0066.加一/加一.test.js"
+    },
+    {
+      "id": 172,
+      "title": "阶乘后的零",
+      "titleSlug": "factorial-trailing-zeroes",
+      "difficulty": "MEDIUM",
+      "category": "数学",
+      "tags": [
+        "数学"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0172.阶乘后的零",
+      "solutionFile": "leetcode/0172.阶乘后的零/阶乘后的零.js",
+      "testFile": "leetcode/0172.阶乘后的零/阶乘后的零.test.js"
+    },
+    {
+      "id": 69,
+      "title": "x 的平方根 ",
+      "titleSlug": "sqrtx",
+      "difficulty": "EASY",
+      "category": "数学",
+      "tags": [
+        "数学",
+        "二分查找",
+        "牛顿迭代法"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0069.x的平方根",
+      "solutionFile": "leetcode/0069.x的平方根/x的平方根.js",
+      "testFile": "leetcode/0069.x的平方根/x的平方根.test.js"
+    },
+    {
+      "id": 50,
+      "title": "Pow(x, n)",
+      "titleSlug": "powx-n",
+      "difficulty": "MEDIUM",
+      "category": "数学",
+      "tags": [
+        "递归",
+        "数学"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0050.Pow(x,n)",
+      "solutionFile": "leetcode/0050.Pow(x,n)/Pow(x,n).js",
+      "testFile": "leetcode/0050.Pow(x,n)/Pow(x,n).test.js"
+    },
+    {
+      "id": 149,
+      "title": "直线上最多的点数",
+      "titleSlug": "max-points-on-a-line",
+      "difficulty": "HARD",
+      "category": "数学",
+      "tags": [
+        "几何",
+        "数组",
+        "哈希表",
+        "数学",
+        "最大公约数",
+        "欧几里得算法"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0149.直线上最多的点数",
+      "solutionFile": "leetcode/0149.直线上最多的点数/直线上最多的点数.js",
+      "testFile": "leetcode/0149.直线上最多的点数/直线上最多的点数.test.js"
+    },
+    {
+      "id": 70,
+      "title": "爬楼梯",
+      "titleSlug": "climbing-stairs",
+      "difficulty": "EASY",
+      "category": "一维动态规划",
+      "tags": [
+        "记忆化",
+        "数学",
+        "动态规划"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0070.爬楼梯",
+      "solutionFile": "leetcode/0070.爬楼梯/爬楼梯.js",
+      "testFile": "leetcode/0070.爬楼梯/爬楼梯.test.js"
+    },
+    {
+      "id": 198,
+      "title": "打家劫舍",
+      "titleSlug": "house-robber",
+      "difficulty": "MEDIUM",
+      "category": "一维动态规划",
+      "tags": [
+        "数组",
+        "动态规划"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0198.打家劫舍",
+      "solutionFile": "leetcode/0198.打家劫舍/打家劫舍.js",
+      "testFile": "leetcode/0198.打家劫舍/打家劫舍.test.js"
+    },
+    {
+      "id": 139,
+      "title": "单词拆分",
+      "titleSlug": "word-break",
+      "difficulty": "MEDIUM",
+      "category": "一维动态规划",
+      "tags": [
+        "字典树",
+        "记忆化",
+        "数组",
+        "哈希表",
+        "字符串",
+        "动态规划",
+        "Brute-Force Search"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0139.单词拆分",
+      "solutionFile": "leetcode/0139.单词拆分/单词拆分.js",
+      "testFile": "leetcode/0139.单词拆分/单词拆分.test.js"
+    },
+    {
+      "id": 322,
+      "title": "零钱兑换",
+      "titleSlug": "coin-change",
+      "difficulty": "MEDIUM",
+      "category": "一维动态规划",
+      "tags": [
+        "广度优先搜索",
+        "数组",
+        "动态规划",
+        "背包问题",
+        "完全背包"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0322.零钱兑换",
+      "solutionFile": "leetcode/0322.零钱兑换/零钱兑换.js",
+      "testFile": "leetcode/0322.零钱兑换/零钱兑换.test.js"
+    },
+    {
+      "id": 300,
+      "title": "最长递增子序列",
+      "titleSlug": "longest-increasing-subsequence",
+      "difficulty": "MEDIUM",
+      "category": "一维动态规划",
+      "tags": [
+        "数组",
+        "二分查找",
+        "动态规划",
+        "最长上升子序列"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0300.最长递增子序列",
+      "solutionFile": "leetcode/0300.最长递增子序列/最长递增子序列.js",
+      "testFile": "leetcode/0300.最长递增子序列/最长递增子序列.test.js"
+    },
+    {
+      "id": 120,
+      "title": "三角形最小路径和",
+      "titleSlug": "triangle",
+      "difficulty": "MEDIUM",
+      "category": "多维动态规划",
+      "tags": [
+        "数组",
+        "动态规划"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0120.三角形最小路径和",
+      "solutionFile": "leetcode/0120.三角形最小路径和/三角形最小路径和.js",
+      "testFile": "leetcode/0120.三角形最小路径和/三角形最小路径和.test.js"
+    },
+    {
+      "id": 64,
+      "title": "最小路径和",
+      "titleSlug": "minimum-path-sum",
+      "difficulty": "MEDIUM",
+      "category": "多维动态规划",
+      "tags": [
+        "数组",
+        "动态规划",
+        "矩阵"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0064.最小路径和",
+      "solutionFile": "leetcode/0064.最小路径和/最小路径和.js",
+      "testFile": "leetcode/0064.最小路径和/最小路径和.test.js"
+    },
+    {
+      "id": 63,
+      "title": "不同路径 II",
+      "titleSlug": "unique-paths-ii",
+      "difficulty": "MEDIUM",
+      "category": "多维动态规划",
+      "tags": [
+        "数组",
+        "动态规划",
+        "矩阵"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0063.不同路径II",
+      "solutionFile": "leetcode/0063.不同路径II/不同路径II.js",
+      "testFile": "leetcode/0063.不同路径II/不同路径II.test.js"
+    },
+    {
+      "id": 5,
+      "title": "最长回文子串",
+      "titleSlug": "longest-palindromic-substring",
+      "difficulty": "MEDIUM",
+      "category": "多维动态规划",
+      "tags": [
+        "双指针",
+        "字符串",
+        "动态规划",
+        "Manacher 算法"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0005.最长回文子串",
+      "solutionFile": "leetcode/0005.最长回文子串/最长回文子串.js",
+      "testFile": "leetcode/0005.最长回文子串/最长回文子串.test.js"
+    },
+    {
+      "id": 97,
+      "title": "交错字符串",
+      "titleSlug": "interleaving-string",
+      "difficulty": "MEDIUM",
+      "category": "多维动态规划",
+      "tags": [
+        "字符串",
+        "动态规划"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0097.交错字符串",
+      "solutionFile": "leetcode/0097.交错字符串/交错字符串.js",
+      "testFile": "leetcode/0097.交错字符串/交错字符串.test.js"
+    },
+    {
+      "id": 72,
+      "title": "编辑距离",
+      "titleSlug": "edit-distance",
+      "difficulty": "MEDIUM",
+      "category": "多维动态规划",
+      "tags": [
+        "字符串",
+        "动态规划"
+      ],
+      "status": "已有代码",
+      "directory": "leetcode/0072.编辑距离",
+      "solutionFile": "leetcode/0072.编辑距离/编辑距离.js",
+      "testFile": "leetcode/0072.编辑距离/编辑距离.test.js"
+    },
+    {
+      "id": 123,
+      "title": "买卖股票的最佳时机 III",
+      "titleSlug": "best-time-to-buy-and-sell-stock-iii",
+      "difficulty": "HARD",
+      "category": "多维动态规划",
+      "tags": [
+        "数组",
+        "动态规划"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0123.买卖股票的最佳时机III",
+      "solutionFile": "leetcode/0123.买卖股票的最佳时机III/买卖股票的最佳时机III.js",
+      "testFile": "leetcode/0123.买卖股票的最佳时机III/买卖股票的最佳时机III.test.js"
+    },
+    {
+      "id": 188,
+      "title": "买卖股票的最佳时机 IV",
+      "titleSlug": "best-time-to-buy-and-sell-stock-iv",
+      "difficulty": "HARD",
+      "category": "多维动态规划",
+      "tags": [
+        "数组",
+        "动态规划"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0188.买卖股票的最佳时机IV",
+      "solutionFile": "leetcode/0188.买卖股票的最佳时机IV/买卖股票的最佳时机IV.js",
+      "testFile": "leetcode/0188.买卖股票的最佳时机IV/买卖股票的最佳时机IV.test.js"
+    },
+    {
+      "id": 221,
+      "title": "最大正方形",
+      "titleSlug": "maximal-square",
+      "difficulty": "MEDIUM",
+      "category": "多维动态规划",
+      "tags": [
+        "数组",
+        "动态规划",
+        "矩阵"
+      ],
+      "status": "未开始",
+      "directory": "leetcode/0221.最大正方形",
+      "solutionFile": "leetcode/0221.最大正方形/最大正方形.js",
+      "testFile": "leetcode/0221.最大正方形/最大正方形.test.js"
+    }
+  ]
+}

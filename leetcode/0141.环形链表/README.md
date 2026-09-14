@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 链表 · 简单 · 已有代码
+> [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/) · 标签：哈希表 / 链表 / 双指针 / Floyd 判圈算法
+<!-- top150-meta:end -->
+
 <!-- hot100-meta:start -->
 
 > Hot 100 · 链表 · 简单 · 未开始
@@ -224,3 +229,18 @@ npm run test:problem -- 141
 - D+3：2026-08-15，画出快慢指针在环中追赶的过程
 - D+7：2026-08-19，独立写出 O(1) 空间的快慢指针解法
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

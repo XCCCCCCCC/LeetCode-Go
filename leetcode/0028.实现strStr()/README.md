@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 数组 / 字符串 · 简单 · 已有代码
+> [28. 找出字符串中第一个匹配项的下标](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/) · 标签：双指针 / 字符串 / 字符串匹配 / KMP 算法 / Boyer–Moore 算法 / 扩展 KMP
+<!-- top150-meta:end -->
+
 # [实现strStr()](https://leetcode.cn/problems/implement-strstr/)
 
 实现 strStr() 函数。
@@ -42,3 +47,18 @@
 - D+3：
 - D+7：
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

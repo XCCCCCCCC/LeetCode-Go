@@ -11,6 +11,15 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-var isValidBST = function(root) {
-    
+var isValidBST = function (root) {
+  function dfs(node, lower, upper) {
+    if (node === null) {
+      return true
+    }
+    if (lower >= node.val || upper <= node.val) {
+      return false
+    }
+    return dfs(node.left, lower, node) && dfs(node.right, node.val, upper)
+  }
+  return dfs(root, -Infinity, Infinity)
 };

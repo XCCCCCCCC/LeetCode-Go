@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 链表 · 中等 · 已有代码
+> [146. LRU 缓存](https://leetcode.cn/problems/lru-cache/) · 标签：设计 / 哈希表 / 链表 / 双向链表
+<!-- top150-meta:end -->
+
 <!-- hot100-meta:start -->
 > Hot 100 · 链表 · 中等 · 未开始
 > [146. LRU 缓存](https://leetcode.cn/problems/lru-cache/) · 标签：设计 / 哈希表 / 链表 / 双向链表
@@ -63,3 +68,18 @@ npm run test:problem -- 146
 - D+3：
 - D+7：
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

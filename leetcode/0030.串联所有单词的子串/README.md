@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 滑动窗口 · 困难 · 已有代码
+> [30. 串联所有单词的子串](https://leetcode.cn/problems/substring-with-concatenation-of-all-words/) · 标签：哈希表 / 字符串 / 滑动窗口
+<!-- top150-meta:end -->
+
 # [串联所有单词的子串](https://leetcode.cn/problems/substring-with-concatenation-of-all-words/)
 
 给定一个字符串 s 和一些 长度相同 的单词 words 。找出 s 中恰好可以由 words 中所有单词串联形成的子串的起始位置。
@@ -45,3 +50,18 @@
 - D+3：
 - D+7：
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

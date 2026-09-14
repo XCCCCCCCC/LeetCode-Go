@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 数组 / 字符串 · 简单 · 已有代码
+> [13. 罗马数字转整数](https://leetcode.cn/problems/roman-to-integer/) · 标签：哈希表 / 数学 / 字符串
+<!-- top150-meta:end -->
+
 # [罗马数字转整数](https://leetcode.cn/problems/roman-to-integer/)
 
 罗马数字包含以下七种字符: I， V， X， L，C，D 和 M。
@@ -74,3 +79,18 @@ M             1000
 - D+3：
 - D+7：
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

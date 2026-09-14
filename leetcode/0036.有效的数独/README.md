@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 矩阵 · 中等 · 已有代码
+> [36. 有效的数独](https://leetcode.cn/problems/valid-sudoku/) · 标签：数组 / 哈希表 / 矩阵
+<!-- top150-meta:end -->
+
 # [有效的数独](https://leetcode.cn/problems/valid-sudoku/)
 
 请你判断一个  9 x 9 的数独是否有效。只需要 根据以下规则 ，验证已经填入的数字是否有效即可。
@@ -34,3 +39,18 @@
 - D+3：
 - D+7：
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

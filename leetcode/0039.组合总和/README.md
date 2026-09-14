@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 回溯 · 中等 · 已有代码
+> [39. 组合总和](https://leetcode.cn/problems/combination-sum/) · 标签：数组 / 回溯
+<!-- top150-meta:end -->
+
 <!-- hot100-meta:start -->
 > Hot 100 · 回溯 · 中等 · 已有代码与测试
 > [39. 组合总和](https://leetcode.cn/problems/combination-sum/) · 标签：数组 / 回溯
@@ -396,3 +401,18 @@ npm run test:problem -- 39
 - D+3：2026-08-17，手动跟踪 `[2,3,6,7]`、`target=7` 的 `[2,2,3]` 分支
 - D+7：2026-08-21，对比 39 的 `i`、78 的 `i+1`、46 的 `used`
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

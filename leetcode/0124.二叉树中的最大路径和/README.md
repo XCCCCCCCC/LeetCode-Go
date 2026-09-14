@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 二叉树 · 困难 · 已有代码
+> [124. 二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum/) · 标签：树 / 深度优先搜索 / 动态规划 / 二叉树 / 树形 DP
+<!-- top150-meta:end -->
+
 <!-- hot100-meta:start -->
 > Hot 100 · 二叉树 · 困难 · 未开始
 > [124. 二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum/) · 标签：树 / 深度优先搜索 / 动态规划 / 二叉树 / 树形 DP
@@ -67,3 +72,18 @@ npm run test:problem -- 124
 - D+3：
 - D+7：
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

@@ -12,6 +12,16 @@
  * @param {number} k
  * @return {number}
  */
-var kthSmallest = function(root, k) {
-    
+var kthSmallest = function (root, k) {
+  let result = []
+  function dfs(node) {
+    if (node === null) {
+      return
+    }
+    dfs(node.left)
+    result.push(node.val)
+    dfs(node.right)
+  }
+  dfs(root)
+  return result[k - 1]
 };

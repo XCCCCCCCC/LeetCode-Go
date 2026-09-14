@@ -1,0 +1,9 @@
+// TODO(interview150): 完成解法后删除本行。
+/**
+ * @param {string} s
+ * @param {string} t
+ * @return {boolean}
+ */
+var isSubsequence = function(s, t) {
+    
+};

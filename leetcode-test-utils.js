@@ -355,7 +355,7 @@ function compareOfficialResult(problemId, meta, example, actual, prepared) {
 
 function defineOfficialTests({ id, title, solutionFile, entryName, meta, examples }) {
   const source = fs.readFileSync(solutionFile, 'utf8')
-  const isTodo = source.includes('TODO(hot100)') && process.env.LEETCODE_FORCE_TEST !== '1'
+  const isTodo = /TODO\((?:hot100|interview150)\)/.test(source) && process.env.LEETCODE_FORCE_TEST !== '1'
   const loaded = loadSolution(solutionFile, [entryName])
   const solution = loaded[entryName]
 

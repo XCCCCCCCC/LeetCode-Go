@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 二分查找 · 简单 · 已有代码
+> [35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position/) · 标签：数组 / 二分查找
+<!-- top150-meta:end -->
+
 <!-- hot100-meta:start -->
 > Hot 100 · 二分查找 · 简单 · 已有代码与测试
 > [35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position/) · 标签：数组 / 二分查找
@@ -157,3 +162,18 @@ npm run test:problem -- 35
 - D+3：2026-08-20，手动画出 target 小于最小值和大于最大值的区间变化
 - D+7：2026-08-24，开始 34 的左边界与右边界二分
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

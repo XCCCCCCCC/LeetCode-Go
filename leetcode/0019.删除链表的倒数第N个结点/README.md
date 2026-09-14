@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 链表 · 中等 · 已有代码
+> [19. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/) · 标签：链表 / 双指针
+<!-- top150-meta:end -->
+
 <!-- hot100-meta:start -->
 > Hot 100 · 链表 · 中等 · 已有代码与测试
 > [19. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/) · 标签：链表 / 双指针
@@ -291,3 +296,18 @@ npm run test:problem -- 19
 - D+3：2026-08-16，使用哑节点重写两次遍历方案
 - D+7：2026-08-20，使用哑节点闭卷写出一次遍历的快慢指针方案
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

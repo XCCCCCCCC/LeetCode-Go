@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 回溯 · 中等 · 已有代码
+> [22. 括号生成](https://leetcode.cn/problems/generate-parentheses/) · 标签：字符串 / 动态规划 / 回溯 / 括号序列
+<!-- top150-meta:end -->
+
 <!-- hot100-meta:start -->
 > Hot 100 · 回溯 · 中等 · 已有代码与测试
 > [22. 括号生成](https://leetcode.cn/problems/generate-parentheses/) · 标签：字符串 / 动态规划 / 回溯 / 括号序列
@@ -380,3 +385,18 @@ npm run test:problem -- 22
 - D+3：2026-08-17，手动画出 `n=2` 只生成 `(())`、`()()` 的过程
 - D+7：2026-08-21，闭卷写出两个 `if` 分支版本
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

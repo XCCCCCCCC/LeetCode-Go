@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · 数组 / 字符串 · 困难 · 已有代码
+> [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/) · 标签：栈 / 数组 / 双指针 / 动态规划 / 单调栈
+<!-- top150-meta:end -->
+
 <!-- hot100-meta:start -->
 > Hot 100 · 双指针 · 困难 · 已有代码与测试
 > [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/) · 标签：栈 / 数组 / 双指针 / 动态规划 / 单调栈
@@ -77,3 +82,18 @@ npm run test:problem -- 42
 - D+3：
 - D+7：
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->

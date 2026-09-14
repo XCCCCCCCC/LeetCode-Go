@@ -1,3 +1,8 @@
+<!-- top150-meta:start -->
+> Top Interview 150 · Kadane 算法 · 中等 · 已有代码
+> [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/) · 标签：数组 / 分治 / 动态规划
+<!-- top150-meta:end -->
+
 <!-- hot100-meta:start -->
 
 > Hot 100 · 普通数组 · 中等 · 未开始
@@ -117,3 +122,18 @@ npm run test:problem -- 53
 - D+3：2026-08-08
 - D+7：2026-08-12，闭卷写出 Kadane 状态转移并解释为什么不能初始化为 0
 <!-- hot100-training:end -->
+
+<!-- top150-training:start -->
+## 面试 150 训练复盘
+
+- 训练日期：
+- 结果：未开始 / 独立通过 / 提示后通过 / 题解后复现 / 未完成
+- 用时：
+- 提交次数：
+- 核心模型：
+- 核心不变量：
+- 时间复杂度：
+- 空间复杂度：
+- 错误标签：
+- 最小反例：
+<!-- top150-training:end -->
